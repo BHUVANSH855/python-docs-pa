@@ -1,8 +1,5 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.16\n"
@@ -34,7 +31,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:30
 msgid "Some examples::"
-msgstr ""
+msgstr "ਕੁਝ ਉਦਾਹਰਨਾਂ::"
 
 #: ../../tutorial/introduction.rst:32
 msgid "# this is the first comment\n"
@@ -45,19 +42,19 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:41
 msgid "Using Python as a Calculator"
-msgstr ""
+msgstr "ਕੈਲਕੂਲੇਟਰ ਵਜੋਂ ਪਾਇਥਨ ਦੀ ਵਰਤੋਂ"
 
 #: ../../tutorial/introduction.rst:43
 msgid "Let's try some simple Python commands.  Start the interpreter and wait for the primary prompt, ``>>>``.  (It shouldn't take long.)"
-msgstr ""
+msgstr "ਆਓ ਕੁਝ ਸਧਾਰਣ ਪਾਇਥਨ ਕਮਾਂਡਾਂ ਅਜ਼ਮਾਈਏ। ਇੰਟਰਪ੍ਰੀਟਰ ਸ਼ੁਰੂ ਕਰੋ ਅਤੇ ਮੁੱਖ ਪ੍ਰੌਮਪਟ ``>>>`` ਦੀ ਉਡੀਕ ਕਰੋ। (ਇਸ ਵਿੱਚ ਜ਼ਿਆਦਾ ਸਮਾਂ ਨਹੀਂ ਲੱਗਣਾ ਚਾਹੀਦਾ।)"
 
 #: ../../tutorial/introduction.rst:50
 msgid "Numbers"
-msgstr ""
+msgstr "ਸੰਖਿਆਵਾਂ"
 
 #: ../../tutorial/introduction.rst:52
 msgid "The interpreter acts as a simple calculator: you can type an expression into it and it will write the value.  Expression syntax is straightforward: the operators ``+``, ``-``, ``*`` and ``/`` can be used to perform arithmetic; parentheses (``()``) can be used for grouping. For example::"
-msgstr ""
+msgstr "ਇੰਟਰਪ੍ਰੀਟਰ ਇੱਕ ਸਧਾਰਣ ਕੈਲਕੂਲੇਟਰ ਵਾਂਗ ਕੰਮ ਕਰਦਾ ਹੈ: ਤੁਸੀਂ ਇਸ ਵਿੱਚ ਕੋਈ ਅਭਿਵਿਅੰਜਨਾ (expression) ਲਿਖ ਸਕਦੇ ਹੋ ਅਤੇ ਇਹ ਉਸਦਾ ਮੁੱਲ ਦਿਖਾਏਗਾ। ਅਭਿਵਿਅੰਜਨਾ ਦਾ ਸਿੰਟੈਕਸ ਸਿੱਧਾ ਹੈ: ``+``, ``-``, ``*`` ਅਤੇ ``/`` ਓਪਰੇਟਰ ਗਣਿਤੀ ਕਾਰਵਾਈਆਂ ਲਈ ਵਰਤੇ ਜਾ ਸਕਦੇ ਹਨ; ਕੋਠੇ ``()`` ਸਮੂਹਬੰਦੀ ਲਈ ਵਰਤੇ ਜਾ ਸਕਦੇ ਹਨ। ਉਦਾਹਰਨ ਲਈ::"
 
 #: ../../tutorial/introduction.rst:58
 msgid ">>> 2 + 2\n"
@@ -157,7 +154,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:141
 msgid "Text"
-msgstr ""
+msgstr "ਪਾਠ"
 
 #: ../../tutorial/introduction.rst:143
 msgid "Python can manipulate text (represented by type :class:`str`, so-called \"strings\") as well as numbers.  This includes characters \"``!``\", words \"``rabbit``\", names \"``Paris``\", sentences \"``Got your back.``\", etc. \"``Yay! :)``\". They can be enclosed in single quotes (``'...'``) or double quotes (``\"...\"``) with the same result [#]_."
@@ -476,7 +473,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:386
 msgid "Lists"
-msgstr ""
+msgstr "ਸੂਚੀਆਂ"
 
 #: ../../tutorial/introduction.rst:388
 msgid "Python knows a number of *compound* data types, used to group together other values.  The most versatile is the *list*, which can be written as a list of comma-separated values (items) between square brackets.  Lists might contain items of different types, but usually the items all have the same type. ::"
@@ -611,7 +608,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:495
 msgid "First Steps Towards Programming"
-msgstr ""
+msgstr "ਪਰੋਗ੍ਰਾਮਿੰਗ ਵੱਲ ਪਹਿਲੇ ਕਦਮ"
 
 #: ../../tutorial/introduction.rst:497
 msgid "Of course, we can use Python for more complicated tasks than adding two and two together.  For instance, we can write an initial sub-sequence of the `Fibonacci series <https://en.wikipedia.org/wiki/Fibonacci_sequence>`_ as follows::"
