@@ -76,7 +76,7 @@ msgstr "ਪੂਰਨ ਅੰਕ (ਜਿਵੇਂ ``2``, ``4``, ``20``) ਦੀ ਕ
 
 #: ../../tutorial/introduction.rst:71
 msgid "Division (``/``) always returns a float.  To do :term:`floor division` and get an integer result you can use the ``//`` operator; to calculate the remainder you can use ``%``::"
-msgstr ""
+msgstr "Division (``/``) ਹਮੇਸ਼ਾਂ ਇੱਕ float ਵਾਪਸ ਕਰਦਾ ਹੈ। :term:`floor division` ਕਰਨ ਅਤੇ ਪੂਰਨ ਅੰਕ ਨਤੀਜਾ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਤੁਸੀਂ ``//`` operator ਵਰਤ ਸਕਦੇ ਹੋ; ਬਾਕੀ (remainder) ਕੱਢਣ ਲਈ ``%`` ਵਰਤ ਸਕਦੇ ਹੋ::"
 
 #: ../../tutorial/introduction.rst:75
 msgid ">>> 17 / 3  # classic division returns a float\n"
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:85
 msgid "With Python, it is possible to use the ``**`` operator to calculate powers [#]_::"
-msgstr ""
+msgstr "ਪਾਇਥਨ ਵਿੱਚ ਘਾਤਾਂ (powers) ਦੀ ਗਣਨਾ ਕਰਨ ਲਈ ``**`` operator ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ [#]_::"
 
 #: ../../tutorial/introduction.rst:87
 msgid ">>> 5 ** 2  # 5 squared\n"
@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:92
 msgid "The equal sign (``=``) is used to assign a value to a variable. Afterwards, no result is displayed before the next interactive prompt::"
-msgstr ""
+msgstr "ਬਰਾਬਰ ਦਾ ਚਿੰਨ੍ਹ (``=``) ਕਿਸੇ variable ਨੂੰ ਮੁੱਲ ਦੇਣ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। ਇਸ ਤੋਂ ਬਾਅਦ ਅਗਲੇ interactive prompt ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਦਿਖਾਇਆ ਜਾਂਦਾ::"
 
 #: ../../tutorial/introduction.rst:95
 msgid ">>> width = 20\n"
@@ -114,7 +114,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:100
 msgid "If a variable is not \"defined\" (assigned a value), trying to use it will give you an error::"
-msgstr ""
+msgstr "ਜੇਕਰ ਕੋਈ variable \"defined\" ਨਹੀਂ ਹੈ (ਅਰਥਾਤ ਉਸਨੂੰ ਕੋਈ ਮੁੱਲ ਨਹੀਂ ਦਿੱਤਾ ਗਿਆ), ਤਾਂ ਉਸਦੀ ਵਰਤੋਂ ਕਰਨ 'ਤੇ ਗਲਤੀ ਮਿਲੇਗੀ::"
 
 #: ../../tutorial/introduction.rst:103
 msgid ">>> n  # try to access an undefined variable\n"
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:108
 msgid "There is full support for floating point; operators with mixed type operands convert the integer operand to floating point::"
-msgstr ""
+msgstr "Floating point ਸੰਖਿਆਵਾਂ ਲਈ ਪੂਰਾ ਸਮਰਥਨ ਉਪਲਬਧ ਹੈ; ਮਿਲੀ-ਜੁਲੀ ਕਿਸਮਾਂ ਵਾਲੇ operands ਦੇ ਨਾਲ operators ਪੂਰਨ ਅੰਕ operand ਨੂੰ floating point ਵਿੱਚ ਬਦਲ ਦਿੰਦੇ ਹਨ::"
 
 #: ../../tutorial/introduction.rst:111
 msgid ">>> 4 * 3.75 - 1\n"
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:114
 msgid "In interactive mode, the last printed expression is assigned to the variable ``_``.  This means that when you are using Python as a desk calculator, it is somewhat easier to continue calculations, for example::"
-msgstr ""
+msgstr "Interactive mode ਵਿੱਚ, ਆਖਰੀ ਛਪੀ ਹੋਈ expression ਨੂੰ variable ``_`` ਵਿੱਚ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ। ਇਸਦਾ ਮਤਲਬ ਹੈ ਕਿ ਜਦੋਂ ਤੁਸੀਂ ਪਾਇਥਨ ਨੂੰ ਇੱਕ desk calculator ਵਜੋਂ ਵਰਤ ਰਹੇ ਹੁੰਦੇ ਹੋ, ਤਾਂ ਗਣਨਾਵਾਂ ਜਾਰੀ ਰੱਖਣਾ ਕੁਝ ਆਸਾਨ ਹੋ ਜਾਂਦਾ ਹੈ, ਉਦਾਹਰਨ ਲਈ::"
 
 #: ../../tutorial/introduction.rst:118
 msgid ">>> tax = 12.5 / 100\n"
