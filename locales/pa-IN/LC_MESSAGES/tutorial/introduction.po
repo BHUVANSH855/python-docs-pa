@@ -479,7 +479,7 @@ msgstr "ਸੂਚੀਆਂ"
 
 #: ../../tutorial/introduction.rst:388
 msgid "Python knows a number of *compound* data types, used to group together other values.  The most versatile is the *list*, which can be written as a list of comma-separated values (items) between square brackets.  Lists might contain items of different types, but usually the items all have the same type. ::"
-msgstr ""
+msgstr "ਪਾਇਥਨ ਕਈ *compound* ਡਾਟਾ ਕਿਸਮਾਂ ਨੂੰ ਜਾਣਦਾ ਹੈ, ਜੋ ਹੋਰ ਮੁੱਲਾਂ ਨੂੰ ਇਕੱਠੇ ਸਮੂਹਬੱਧ ਕਰਨ ਲਈ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ। ਸਭ ਤੋਂ ਲਚਕੀਲੀ *list* ਹੈ, ਜਿਸ ਨੂੰ ਵਰਗ ਕੋਠਿਆਂ ਦੇ ਅੰਦਰ ਕਾਮਿਆਂ ਨਾਲ ਵੱਖ ਕੀਤੀਆਂ ਮੁੱਲਾਂ (items) ਦੀ ਸੂਚੀ ਵਜੋਂ ਲਿਖਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਸੂਚੀਆਂ ਵਿੱਚ ਵੱਖ-ਵੱਖ ਕਿਸਮਾਂ ਦੇ items ਹੋ ਸਕਦੇ ਹਨ, ਪਰ ਆਮ ਤੌਰ 'ਤੇ ਸਾਰੇ items ਇੱਕੋ ਕਿਸਮ ਦੇ ਹੁੰਦੇ ਹਨ। ::"
 
 #: ../../tutorial/introduction.rst:393
 msgid ">>> squares = [1, 4, 9, 16, 25]\n"
@@ -489,7 +489,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:397
 msgid "Like strings (and all other built-in :term:`sequence` types), lists can be indexed and sliced::"
-msgstr ""
+msgstr "ਸਟਰਿੰਗਾਂ (ਅਤੇ ਹੋਰ ਸਾਰੇ built-in :term:`sequence` ਕਿਸਮਾਂ) ਦੀ ਤਰ੍ਹਾਂ, ਸੂਚੀਆਂ ਨੂੰ ਵੀ index ਅਤੇ slice ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ::"
 
 #: ../../tutorial/introduction.rst:400
 msgid ">>> squares[0]  # indexing returns the item\n"
@@ -502,7 +502,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:407
 msgid "Lists also support operations like concatenation::"
-msgstr ""
+msgstr "ਸੂਚੀਆਂ concatenation ਵਰਗੀਆਂ ਕਾਰਵਾਈਆਂ ਦਾ ਵੀ ਸਮਰਥਨ ਕਰਦੀਆਂ ਹਨ::"
 
 #: ../../tutorial/introduction.rst:409
 msgid ">>> squares + [36, 49, 64, 81, 100]\n"
