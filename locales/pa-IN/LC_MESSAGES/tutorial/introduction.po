@@ -267,7 +267,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:235
 msgid "This only works with two literals though, not with variables or expressions::"
-msgstr ""
+msgstr "ਹਾਲਾਂਕਿ ਇਹ ਸਿਰਫ਼ literals ਨਾਲ ਕੰਮ ਕਰਦਾ ਹੈ, variables ਜਾਂ expressions ਨਾਲ ਨਹੀਂ::"
 
 #: ../../tutorial/introduction.rst:237
 msgid ">>> prefix = 'Py'\n"
@@ -285,7 +285,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:249
 msgid "If you want to concatenate variables or a variable and a literal, use ``+``::"
-msgstr ""
+msgstr "ਜੇ ਤੁਸੀਂ variables ਜਾਂ ਕਿਸੇ variable ਅਤੇ literal ਨੂੰ ਜੋੜਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ``+`` ਵਰਤੋ::"
 
 #: ../../tutorial/introduction.rst:251
 msgid ">>> prefix + 'thon'\n"
@@ -294,7 +294,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:254
 msgid "Strings can be *indexed* (subscripted), with the first character having index 0. There is no separate character type; a character is simply a string of size one::"
-msgstr ""
+msgstr "Strings ਨੂੰ *indexed* (subscripted) ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਜਿੱਥੇ ਪਹਿਲੇ ਅੱਖਰ ਦਾ index 0 ਹੁੰਦਾ ਹੈ। ਕੋਈ ਵੱਖਰੀ character type ਨਹੀਂ ਹੁੰਦੀ; ਇੱਕ character ਅਸਲ ਵਿੱਚ ਲੰਬਾਈ ਇੱਕ ਵਾਲੀ string ਹੀ ਹੁੰਦੀ ਹੈ::"
 
 #: ../../tutorial/introduction.rst:258
 msgid ">>> word = 'Python'\n"
@@ -306,7 +306,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:264
 msgid "Indices may also be negative numbers, to start counting from the right::"
-msgstr ""
+msgstr "ਸੱਜੇ ਪਾਸੇ ਤੋਂ ਗਿਣਤੀ ਸ਼ੁਰੂ ਕਰਨ ਲਈ indices ਨਕਾਰਾਤਮਕ (negative) ਵੀ ਹੋ ਸਕਦੇ ਹਨ::"
 
 #: ../../tutorial/introduction.rst:266
 msgid ">>> word[-1]  # last character\n"
@@ -319,11 +319,11 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:273
 msgid "Note that since -0 is the same as 0, negative indices start from -1."
-msgstr ""
+msgstr "ਧਿਆਨ ਦਿਓ ਕਿ -0 ਅਤੇ 0 ਇੱਕੋ ਹੀ ਹਨ, ਇਸ ਲਈ negative indices ਦੀ ਸ਼ੁਰੂਆਤ -1 ਤੋਂ ਹੁੰਦੀ ਹੈ।"
 
 #: ../../tutorial/introduction.rst:275
 msgid "In addition to indexing, *slicing* is also supported.  While indexing is used to obtain individual characters, *slicing* allows you to obtain a substring::"
-msgstr ""
+msgstr "Indexing ਤੋਂ ਇਲਾਵਾ, *slicing* ਦਾ ਵੀ ਸਮਰਥਨ ਹੈ। ਜਿੱਥੇ indexing ਵੱਖ-ਵੱਖ characters ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਹੈ, ਉੱਥੇ *slicing* ਤੁਹਾਨੂੰ substring ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦੀ ਹੈ::"
 
 #: ../../tutorial/introduction.rst:278
 msgid ">>> word[0:2]  # characters from position 0 (included) to 2 (excluded)\n"
