@@ -511,7 +511,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:412
 msgid "Unlike strings, which are :term:`immutable`, lists are a :term:`mutable` type, i.e. it is possible to change their content::"
-msgstr ""
+msgstr "ਸਟਰਿੰਗਾਂ ਦੇ ਉਲਟ, ਜੋ :term:`immutable` ਹੁੰਦੀਆਂ ਹਨ, ਸੂਚੀਆਂ ਇੱਕ :term:`mutable` ਕਿਸਮ ਹਨ, ਅਰਥਾਤ ਉਨ੍ਹਾਂ ਦੀ ਸਮੱਗਰੀ ਨੂੰ ਬਦਲਿਆ ਜਾ ਸਕਦਾ ਹੈ::"
 
 #: ../../tutorial/introduction.rst:415
 msgid ">>> cubes = [1, 8, 27, 65, 125]  # something's wrong here\n"
@@ -524,7 +524,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:422
 msgid "You can also add new items at the end of the list, by using the :meth:`list.append` *method* (we will see more about methods later)::"
-msgstr ""
+msgstr "ਤੁਸੀਂ :meth:`list.append` *method* ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸੂਚੀ ਦੇ ਅੰਤ ਵਿੱਚ ਨਵੇਂ items ਵੀ ਜੋੜ ਸਕਦੇ ਹੋ (ਅਸੀਂ methods ਬਾਰੇ ਅੱਗੇ ਹੋਰ ਵੇਖਾਂਗੇ)::"
 
 #: ../../tutorial/introduction.rst:425
 msgid ">>> cubes.append(216)  # add the cube of 6\n"
@@ -535,7 +535,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:430
 msgid "Simple assignment in Python never copies data. When you assign a list to a variable, the variable refers to the *existing list*. Any changes you make to the list through one variable will be seen through all other variables that refer to it.::"
-msgstr ""
+msgstr "ਪਾਇਥਨ ਵਿੱਚ ਸਧਾਰਣ assignment ਕਦੇ ਵੀ ਡਾਟਾ ਦੀ ਕਾਪੀ ਨਹੀਂ ਬਣਾਉਂਦਾ। ਜਦੋਂ ਤੁਸੀਂ ਕਿਸੇ ਸੂਚੀ ਨੂੰ ਇੱਕ variable ਨਾਲ ਜੋੜਦੇ ਹੋ, ਤਾਂ variable ਮੌਜੂਦਾ *list* ਨੂੰ ਹੀ ਦਰਸਾਉਂਦਾ ਹੈ। ਇੱਕ variable ਰਾਹੀਂ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਉਹਨਾਂ ਸਾਰੇ variables ਵਿੱਚ ਦਿਖਾਈ ਦੇਣਗੀਆਂ ਜੋ ਉਸੇ ਸੂਚੀ ਨੂੰ ਦਰਸਾਉਂਦੇ ਹਨ::"
 
 #: ../../tutorial/introduction.rst:435
 msgid ">>> rgb = [\"Red\", \"Green\", \"Blue\"]\n"
