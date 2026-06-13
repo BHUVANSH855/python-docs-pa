@@ -1,22 +1,76 @@
-Translation of the Python Documentation — pa-IN
-===============================================
+# Translation of the Python Documentation — pa-IN
 
 Punjabi (India) translation of the Python documentation.
 
-Status
-------
+This project aims to translate Python's official documentation into
+Punjabi (Gurmukhi) and make Python learning resources more accessible
+to Punjabi-speaking developers, students, and educators.
 
-Work in progress.
+## Status
 
-Goals
------
+🚧 Work in Progress
 
-- Translate Python documentation into Punjabi (Gurmukhi)
-- Maintain terminology consistency
-- Follow Python documentation translation guidelines
-- Build a contributor community around Punjabi translations
+## Current Progress
 
-License
--------
+Tutorial Section
+
+* introduction.po — Complete
+* controlflow.po — Complete
+
+Infrastructure
+
+* STYLE_GUIDE.md — Complete
+* GLOSSARY.md — Complete
+* CONTRIBUTING.md — Complete
+* GitHub Actions validation workflow — Complete
+
+## Goals
+
+* Translate Python documentation into Punjabi (Gurmukhi)
+* Maintain terminology consistency through a shared glossary
+* Follow Python documentation translation guidelines
+* Ensure translation quality through automated validation
+* Build a contributor community around Punjabi translations
+* Contribute to the Python documentation translation ecosystem
+
+## Repository Structure
+
+::
+
+```
+python-docs-pa-in/
+├── README.rst
+├── STYLE_GUIDE.md
+├── GLOSSARY.md
+├── CONTRIBUTING.md
+├── .github/workflows/
+└── locales/pa-IN/LC_MESSAGES/
+```
+
+## Translation Workflow
+
+1. Translate .po files.
+
+2. Validate using::
+
+   ```
+   msgfmt --check file.po
+   ```
+
+3. Review terminology against `GLOSSARY.md`.
+
+4. Ensure markup and code blocks remain intact.
+
+5. Commit and submit changes.
+
+## References
+
+* Python Documentation Translation Guide:
+  https://devguide.python.org/documentation/translations/
+
+* Python Documentation Project:
+  https://docs.python.org/
+
+## License
 
 Documentation translations are contributed under the CC0 license.
