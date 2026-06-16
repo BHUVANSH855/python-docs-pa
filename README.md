@@ -6,78 +6,110 @@ This project aims to translate Python's official documentation into Punjabi (Gur
 
 ## Status
 
-🎉 Tutorial Translation Complete
+🎉 Python Tutorial Translation Complete
+
+🎉 Core Library Reference Translation Milestone Reached
 
 The complete Python Tutorial section has been translated into Punjabi (Gurmukhi), validated using GNU gettext tools, and tagged as a project milestone.
 
-**Latest milestone:** `tutorial-complete`
+Additionally, two major Library Reference files have been fully translated and validated:
+
+* `library/functions.po`
+* `library/stdtypes.po`
+
+Together they represent more than 2,100 translated Library Reference messages.
+
+**Latest tutorial milestone:** `tutorial-complete`
+
+**Latest library milestone:** `library/stdtypes.po` completed
 
 ## Current Progress
 
 ### Completed Tutorial Files
 
 | File              | Status     | Messages |
-| ----------------- | ---------- | -------- |
-| appetite.po       | ✅ Complete | 17       |
-| interpreter.po    | ✅ Complete | 33       |
-| introduction.po   | ✅ Complete | 120      |
-| controlflow.po    | ✅ Complete | 226      |
-| datastructures.po | ✅ Complete | 139      |
-| inputoutput.po    | ✅ Complete | 112      |
-| modules.po        | ✅ Complete | 116      |
-| errors.po         | ✅ Complete | 96       |
-| classes.po        | ✅ Complete | 154      |
-| stdlib.po         | ✅ Complete | 67       |
-| stdlib2.po        | ✅ Complete | 65       |
+| ----------------- | ---------- | -------: |
+| appetite.po       | ✅ Complete |       17 |
+| interpreter.po    | ✅ Complete |       33 |
+| introduction.po   | ✅ Complete |      120 |
+| controlflow.po    | ✅ Complete |      226 |
+| datastructures.po | ✅ Complete |      139 |
+| inputoutput.po    | ✅ Complete |      112 |
+| modules.po        | ✅ Complete |      116 |
+| errors.po         | ✅ Complete |       96 |
+| classes.po        | ✅ Complete |      154 |
+| stdlib.po         | ✅ Complete |       67 |
+| stdlib2.po        | ✅ Complete |       65 |
 
-### Tutorial Statistics
+### Completed Library Files
 
-| Metric                    | Value |
-| ------------------------- | ----- |
-| Tutorial Files            | 11    |
-| Completed Files           | 11    |
-| Untranslated Files        | 0     |
-| Completion Rate           | 100%  |
-| Total Messages Translated | 1,145 |
+| File         | Status     | Messages |
+| ------------ | ---------- | -------: |
+| functions.po | ✅ Complete |      535 |
+| stdtypes.po  | ✅ Complete |     1592 |
 
-### Validation Status
+### Project Statistics
 
-All tutorial translation files successfully pass validation.
+| Metric                       | Value |
+| ---------------------------- | ----: |
+| Tutorial Files Completed     |    11 |
+| Tutorial Messages Translated | 1,145 |
+| Library Files Completed      |     2 |
+| Library Messages Translated  | 2,127 |
+| Total Messages Translated    | 3,272 |
+
+## Validation Status
+
+All completed translation files successfully pass validation.
 
 ```bash
 msgfmt --check tutorial/FILENAME.po
+msgfmt --check library/FILENAME.po
 ```
 
 Validation summary:
 
 * ✅ No validation errors
-* ✅ No untranslated messages
-* ✅ All tutorial files complete
+* ✅ No untranslated messages in completed files
+* ✅ Tutorial translation complete
+* ✅ `library/functions.po` fully translated
+* ✅ `library/stdtypes.po` fully translated
+* ✅ Repository-wide validation passing
 * ✅ GitHub Actions validation passing
 
-### Recent Milestones
+## Recent Milestones
 
 * ✅ Completed `tutorial/classes.po`
 * ✅ Completed `tutorial/stdlib.po`
 * ✅ Completed `tutorial/stdlib2.po`
 * ✅ Finished full Python Tutorial translation
 * ✅ Created `tutorial-complete` release tag
+* ✅ Completed `library/functions.po` (535 messages)
+* ✅ Completed `library/stdtypes.po` (1592 messages)
+* ✅ Surpassed 3,000 translated documentation messages
+* ✅ Validated completed files using GNU gettext tools
+* ✅ Pushed translation milestones to GitHub
 * ✅ Repository synchronized with updated Python documentation structure
 
-### Infrastructure
+## Infrastructure
 
 * ✅ STYLE_GUIDE.md
 * ✅ GLOSSARY.md
 * ✅ CONTRIBUTING.md
 * ✅ GitHub Actions validation workflow
-* ✅ Repository structure aligned with Python documentation translation recommendations
 * ✅ Translation terminology consistency review
+* ✅ Repository structure aligned with Python documentation translation recommendations
 
 ## Next Phase
 
-Future work may include:
+Current focus areas:
 
-* Library Reference
+### Library Reference
+
+* Additional files in `library/`
+
+### Future Areas
+
 * Language Reference
 * HOWTO Guides
 * FAQ
@@ -98,13 +130,18 @@ Future work may include:
 
 ```text
 python-docs-pa-in/
-├── README.md
+├── .gitignore
+├── bugs.po
 ├── CONTRIBUTING.md
 ├── GLOSSARY.md
+├── PROJECT_REPORT.md
+├── README.md
 ├── STYLE_GUIDE.md
+│
 ├── .github/
 │   └── workflows/
 │       └── validate.yml
+│
 ├── tutorial/
 │   ├── appetite.po
 │   ├── classes.po
@@ -117,7 +154,11 @@ python-docs-pa-in/
 │   ├── modules.po
 │   ├── stdlib.po
 │   └── stdlib2.po
+│
 ├── library/
+│   ├── functions.po
+│   └── stdtypes.po
+│
 ├── reference/
 ├── using/
 └── whatsnew/
@@ -129,7 +170,7 @@ python-docs-pa-in/
 2. Validate translations:
 
 ```bash
-msgfmt --check tutorial/FILENAME.po
+msgfmt --check FILE.po
 ```
 
 3. Review terminology against `GLOSSARY.md`.
