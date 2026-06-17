@@ -6,40 +6,55 @@ This project aims to translate Python's official documentation into Punjabi (Gur
 
 ## Status
 
-🎉 Python Tutorial Translation Complete
+🎉 All currently tracked translation files are complete and validated.
 
-🎉 Core Library Reference Translation Milestone Reached
+The repository currently contains fully translated and validated files across:
 
-The complete Python Tutorial section has been translated into Punjabi (Gurmukhi), validated using GNU gettext tools, and tagged as a project milestone.
+* Tutorial Documentation
+* Core Library Reference
+* bugs.po
 
-Additionally, two major Library Reference files have been fully translated and validated:
+All translation files pass GNU gettext validation checks and are tracked in GitHub.
 
+Completed major translation milestones:
+
+* `bugs.po`
 * `library/functions.po`
 * `library/stdtypes.po`
+* Complete Tutorial Documentation Set
 
-Together they represent more than 2,100 translated Library Reference messages.
+**Latest milestone:** All current repository translation files completed and validated
 
-**Latest tutorial milestone:** `tutorial-complete`
-
-**Latest library milestone:** `library/stdtypes.po` completed
+**Latest milestone:** All current `.po` files translated and validated
 
 ## Current Progress
 
 ### Completed Tutorial Files
 
-| File              | Status     | Messages |
-| ----------------- | ---------- | -------: |
-| appetite.po       | ✅ Complete |       17 |
-| interpreter.po    | ✅ Complete |       33 |
-| introduction.po   | ✅ Complete |      120 |
-| controlflow.po    | ✅ Complete |      226 |
-| datastructures.po | ✅ Complete |      139 |
-| inputoutput.po    | ✅ Complete |      112 |
-| modules.po        | ✅ Complete |      116 |
-| errors.po         | ✅ Complete |       96 |
-| classes.po        | ✅ Complete |      154 |
-| stdlib.po         | ✅ Complete |       67 |
-| stdlib2.po        | ✅ Complete |       65 |
+| File | Status | Messages |
+|--------|--------|---------:|
+| appendix.po | ✅ Complete | 28 |
+| appetite.po | ✅ Complete | 17 |
+| classes.po | ✅ Complete | 154 |
+| controlflow.po | ✅ Complete | 226 |
+| datastructures.po | ✅ Complete | 139 |
+| errors.po | ✅ Complete | 96 |
+| floatingpoint.po | ✅ Complete | 76 |
+| inputoutput.po | ✅ Complete | 112 |
+| interactive.po | ✅ Complete | 7 |
+| interpreter.po | ✅ Complete | 33 |
+| introduction.po | ✅ Complete | 120 |
+| modules.po | ✅ Complete | 116 |
+| stdlib.po | ✅ Complete | 67 |
+| stdlib2.po | ✅ Complete | 65 |
+| venv.po | ✅ Complete | 42 |
+| whatnow.po | ✅ Complete | 18 |
+
+### Completed Root Files
+
+| File | Status | Messages |
+|--------|--------|---------:|
+| bugs.po | ✅ Complete | 31 |
 
 ### Completed Library Files
 
@@ -50,19 +65,22 @@ Together they represent more than 2,100 translated Library Reference messages.
 
 ### Project Statistics
 
-| Metric                       | Value |
-| ---------------------------- | ----: |
-| Tutorial Files Completed     |    11 |
-| Tutorial Messages Translated | 1,145 |
-| Library Files Completed      |     2 |
-| Library Messages Translated  | 2,127 |
-| Total Messages Translated    | 3,272 |
+| Metric | Value |
+|----------|------:|
+| Tutorial Files Completed | 16 |
+| Tutorial Messages Translated | 1,416 |
+| Root Files Completed | 1 |
+| Root Messages Translated | 31 |
+| Library Files Completed | 2 |
+| Library Messages Translated | 2,127 |
+| Total Messages Translated | 3,574 |
 
 ## Validation Status
 
 All completed translation files successfully pass validation.
 
 ```bash
+msgfmt --check bugs.po
 msgfmt --check tutorial/FILENAME.po
 msgfmt --check library/FILENAME.po
 ```
@@ -70,26 +88,28 @@ msgfmt --check library/FILENAME.po
 Validation summary:
 
 * ✅ No validation errors
-* ✅ No untranslated messages in completed files
-* ✅ Tutorial translation complete
-* ✅ `library/functions.po` fully translated
-* ✅ `library/stdtypes.po` fully translated
+* ✅ No untranslated messages
+* ✅ No fuzzy messages
+* ✅ Tutorial files validated
+* ✅ Library files validated
+* ✅ bugs.po validated
 * ✅ Repository-wide validation passing
 * ✅ GitHub Actions validation passing
 
 ## Recent Milestones
 
-* ✅ Completed `tutorial/classes.po`
-* ✅ Completed `tutorial/stdlib.po`
-* ✅ Completed `tutorial/stdlib2.po`
-* ✅ Finished full Python Tutorial translation
-* ✅ Created `tutorial-complete` release tag
-* ✅ Completed `library/functions.po` (535 messages)
-* ✅ Completed `library/stdtypes.po` (1592 messages)
-* ✅ Surpassed 3,000 translated documentation messages
-* ✅ Validated completed files using GNU gettext tools
-* ✅ Pushed translation milestones to GitHub
-* ✅ Repository synchronized with updated Python documentation structure
+* ✅ Completed `tutorial/appendix.po`
+* ✅ Completed `tutorial/floatingpoint.po`
+* ✅ Completed `tutorial/interactive.po`
+* ✅ Completed `tutorial/venv.po`
+* ✅ Completed `tutorial/whatnow.po`
+* ✅ Completed `bugs.po`
+* ✅ Completed `library/functions.po`
+* ✅ Completed `library/stdtypes.po`
+* ✅ Completed all current translation files in repository
+* ✅ Exceeded 3,500 translated messages
+* ✅ Repository-wide validation passing
+* ✅ All translations committed and pushed to GitHub
 
 ## Infrastructure
 
@@ -102,20 +122,16 @@ Validation summary:
 
 ## Next Phase
 
-Current focus areas:
+Current priorities:
 
-### Library Reference
-
-* Additional files in `library/`
-
-### Future Areas
-
-* Language Reference
-* HOWTO Guides
-* FAQ
-* Using Python Documentation
-* What's New Documentation
-* Glossary refinement and terminology review
+1. Finalize Transifex synchronization workflow
+2. Confirm language identifier (`pa` vs `pa-IN`)
+3. Coordinate with Python Documentation Translation Team
+4. Open devguide translation listing PR
+5. Expand translation coverage into:
+   * Reference Documentation
+   * Using Python Documentation
+   * What's New Documentation
 
 ## Goals
 
@@ -143,17 +159,22 @@ python-docs-pa-in/
 │       └── validate.yml
 │
 ├── tutorial/
+│   ├── appendix.po
 │   ├── appetite.po
 │   ├── classes.po
 │   ├── controlflow.po
 │   ├── datastructures.po
 │   ├── errors.po
+│   ├── floatingpoint.po
 │   ├── inputoutput.po
+│   ├── interactive.po
 │   ├── interpreter.po
 │   ├── introduction.po
 │   ├── modules.po
 │   ├── stdlib.po
-│   └── stdlib2.po
+│   ├── stdlib2.po
+│   ├── venv.po
+│   └── whatnow.po
 │
 ├── library/
 │   ├── functions.po
