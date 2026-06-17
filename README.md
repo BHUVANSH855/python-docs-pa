@@ -14,7 +14,7 @@ The repository currently contains fully translated and validated files across:
 * Core Library Reference
 * bugs.po
 
-All translation files pass GNU gettext validation checks and are tracked in GitHub.
+All translation files pass GNU gettext validation checks, are tracked in GitHub, and pass repository-wide validation.
 
 Completed major translation milestones:
 
@@ -23,9 +23,19 @@ Completed major translation milestones:
 * `library/stdtypes.po`
 * Complete Tutorial Documentation Set
 
+**Latest commit:** a389206
+
 **Latest milestone:** All current repository translation files completed and validated
 
-**Latest milestone:** All current `.po` files translated and validated
+### Translation Milestones
+
+| Milestone | Status |
+|------------|---------|
+| Tutorial Documentation | ✅ Complete |
+| bugs.po | ✅ Complete |
+| library/functions.po | ✅ Complete |
+| library/stdtypes.po | ✅ Complete |
+| Repository Validation | ✅ Passing |
 
 ## Current Progress
 
@@ -109,7 +119,7 @@ Validation summary:
 * ✅ Completed all current translation files in repository
 * ✅ Exceeded 3,500 translated messages
 * ✅ Repository-wide validation passing
-* ✅ All translations committed and pushed to GitHub
+* ✅ All translations committed, validated, and pushed to GitHub
 
 ## Infrastructure
 
@@ -127,13 +137,15 @@ Current priorities:
 1. Finalize Transifex synchronization workflow
 2. Confirm language identifier (`pa` vs `pa-IN`)
 3. Coordinate with Python Documentation Translation Team
-4. Open devguide translation listing PR
+4. Open Python Devguide translation listing PR
 5. Expand translation coverage into:
    * Reference Documentation
    * Using Python Documentation
    * What's New Documentation
 
 ## Goals
+
+Project goals are aligned with the Python Documentation Translation initiative and focus on expanding Punjabi-language access to Python learning resources while maintaining translation quality and terminology consistency.
 
 * Translate Python documentation into Punjabi (Gurmukhi)
 * Maintain terminology consistency through a shared glossary
@@ -209,6 +221,10 @@ https://devguide.python.org/documentation/translations/
 Python Documentation Project:
 
 https://docs.python.org/
+
+Python Documentation Translation Platform:
+
+https://app.transifex.com/python-doc/python-newest/
 
 ## License
 

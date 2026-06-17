@@ -10,12 +10,14 @@ All contributors should follow these rules to ensure consistency, technical accu
 
 Current verified milestones:
 
-* ✅ Python Tutorial fully translated (11/11 files)
+* ✅ Complete Tutorial documentation translated (16/16 files)
+* ✅ `bugs.po` fully translated
 * ✅ `library/functions.po` fully translated
 * ✅ `library/stdtypes.po` fully translated
 * ✅ Repository-wide validation passing
 * ✅ GitHub Actions validation workflow active
 * ✅ Shared glossary established
+* ✅ More than 3,500 documentation messages translated
 
 Contributors should review previously completed translations before introducing new terminology or translation patterns.
 
@@ -567,11 +569,13 @@ Examples:
 
 ```text
 Translate tutorial/classes.po to Punjabi
-Translate tutorial/stdlib.po to Punjabi
+Translate tutorial/floatingpoint.po to Punjabi
+Translate tutorial/venv.po to Punjabi
 Translate library/functions.po to Punjabi
 Translate library/stdtypes.po to Punjabi
 Update glossary terminology
 Update README statistics
+Update project documentation
 ```
 
 ---
@@ -585,9 +589,9 @@ Examples:
 ```text
 tutorial-phase-1
 tutorial-complete
+v1.0-tutorial-complete
 library-functions-complete
 library-stdtypes-complete
-v1.0
 ```
 
 Tags should represent completed, validated work.

@@ -160,9 +160,15 @@ Contributors should use these translations consistently across all documentation
 | hexadecimal | ਹੈਕਸਾਡੈਸੀਮਲ |
 | octal       | ਆਕਟਲ        |
 | binary      | ਬਾਈਨਰੀ      |
-| precision   | ਸ਼ੁੱਧਤਾ     |
-| rounding    | ਗੋਲਾਈਕਰਨ    |
-| conversion  | ਰੂਪਾਂਤਰਨ    |
+| precision          | ਸ਼ੁੱਧਤਾ          |
+| rounding           | ਗੋਲਾਈਕਰਨ         |
+| conversion         | ਰੂਪਾਂਤਰਨ         |
+| approximation      | ਅਨੁਮਾਨ           |
+| floating-point     | ਫਲੋਟਿੰਗ-ਪੌਇੰਟ    |
+| binary fraction    | ਬਾਈਨਰੀ ਭਿੰਨ      |
+| decimal fraction   | ਦਸ਼ਮਲਵ ਭਿੰਨ       |
+| representation     | ਪ੍ਰਤਿਨਿਧਿਤਾ      |
+| representation error | ਪ੍ਰਤਿਨਿਧਿਤਾ ਗਲਤੀ |
 
 ---
 
@@ -221,6 +227,10 @@ Contributors should use these translations consistently across all documentation
 | validation check     | ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਂਚ   |
 | milestone            | ਮੀਲ ਪੱਥਰ          |
 | release tag          | ਰਿਲੀਜ਼ ਟੈਗ        |
+| validation workflow  | ਪ੍ਰਮਾਣਿਕਤਾ ਵਰਕਫਲੋ |
+| translation workflow | ਅਨੁਵਾਦ ਵਰਕਫਲੋ     |
+| translated file      | ਅਨੁਵਾਦਿਤ ਫਾਈਲ     |
+| completed file       | ਪੂਰੀ ਕੀਤੀ ਫਾਈਲ    |
 
 ---
 
@@ -295,7 +305,7 @@ case
 
 * Use glossary-approved terminology everywhere.
 * Do not invent alternative translations for existing terms.
-* Reuse terminology from completed files (`tutorial/`, `functions.po`, `stdtypes.po`).
+* Reuse terminology from completed files (`bugs.po`, `tutorial/`, `library/functions.po`, `library/stdtypes.po`).
 * Function names, module names, class names, exception names, and code identifiers must remain unchanged.
 * When uncertain, prefer the translation already used in previously completed files.
 
@@ -305,9 +315,11 @@ case
 
 | File                 | Messages |
 | -------------------- | -------: |
-| Tutorial (11 files)  |    1,145 |
+| Tutorial (16 files)  |    1,416 |
+| bugs.po              |       31 |
 | library/functions.po |      535 |
 | library/stdtypes.po  |    1,592 |
-| Total Verified       |    3,272 |
+| Total Verified       |    3,574 |
 
 This glossary should be updated whenever a new major translation milestone introduces terminology that becomes part of the project's standard vocabulary.
+
