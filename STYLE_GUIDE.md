@@ -1,6 +1,6 @@
 # Punjabi (pa) Python Docs Style Guide
 
-This guide defines translation conventions for the Punjabi (India) translation of the Python documentation.
+This guide defines translation conventions for the Punjabi (Gurmukhi) translation of the Python documentation.
 
 All contributors should follow these rules to ensure consistency, technical accuracy, and long-term maintainability across the project.
 
@@ -10,14 +10,18 @@ All contributors should follow these rules to ensure consistency, technical accu
 
 Current verified milestones:
 
-* ✅ Complete Tutorial documentation translated (16/16 files)
+* ✅ Complete Tutorial documentation translated (17/17 files)
 * ✅ `bugs.po` fully translated
+* ✅ `glossary.po` fully translated
 * ✅ `library/functions.po` fully translated
 * ✅ `library/stdtypes.po` fully translated
+* ✅ `library/functools.po` fully translated
+* ✅ `library/exceptions.po` fully translated
 * ✅ Repository-wide validation passing
 * ✅ GitHub Actions validation workflow active
-* ✅ Shared glossary established
-* ✅ More than 3,500 documentation messages translated
+* ✅ Transifex upload completed
+* ✅ Language tag standardized to `pa`
+* ✅ More than 4,000 documentation messages translated
 
 Contributors should review previously completed translations before introducing new terminology or translation patterns.
 
@@ -475,6 +479,8 @@ This workflow was successfully used for:
 ```text
 library/functions.po
 library/stdtypes.po
+library/functools.po
+library/exceptions.po
 ```
 
 and is recommended for future large files.
@@ -561,6 +567,22 @@ A completed file should have:
 
 ---
 
+# Transifex Synchronization
+
+Translations may be maintained through the official Python Documentation
+Transifex project.
+
+Before uploading translations:
+
+* Validate all files with msgfmt
+* Ensure glossary terminology is consistent
+* Verify RST markup remains unchanged
+* Review all machine-assisted translations manually
+
+Only validated translations should be uploaded.
+
+---
+
 # Commit Message Conventions
 
 Use descriptive commit messages.
@@ -573,6 +595,9 @@ Translate tutorial/floatingpoint.po to Punjabi
 Translate tutorial/venv.po to Punjabi
 Translate library/functions.po to Punjabi
 Translate library/stdtypes.po to Punjabi
+Translate library/functools.po to Punjabi
+Translate library/exceptions.po to Punjabi
+Translate glossary.po to Punjabi
 Update glossary terminology
 Update README statistics
 Update project documentation
@@ -592,6 +617,8 @@ tutorial-complete
 v1.0-tutorial-complete
 library-functions-complete
 library-stdtypes-complete
+library-functools-complete
+library-exceptions-complete
 ```
 
 Tags should represent completed, validated work.

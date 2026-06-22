@@ -1,6 +1,6 @@
 # Punjabi (pa) Python Docs Glossary
 
-This glossary defines preferred Punjabi translations for Python documentation terminology used throughout the Punjabi (India) translation project.
+This glossary defines preferred Punjabi translations for Python documentation terminology used throughout the Punjabi (Gurmukhi) translation project.
 
 Contributors should use these translations consistently across all documentation files.
 
@@ -301,11 +301,18 @@ case
 
 ---
 
+# Language Tag
+
+The project uses the IETF language tag:
+
+```text
+pa
+
 # Consistency Rules
 
 * Use glossary-approved terminology everywhere.
 * Do not invent alternative translations for existing terms.
-* Reuse terminology from completed files (`bugs.po`, `tutorial/`, `library/functions.po`, `library/stdtypes.po`).
+* Reuse terminology from completed files (`bugs.po`, `glossary.po`, `tutorial/`, `library/functions.po`, `library/stdtypes.po`, `library/functools.po`, and `library/exceptions.po`).
 * Function names, module names, class names, exception names, and code identifiers must remain unchanged.
 * When uncertain, prefer the translation already used in previously completed files.
 
@@ -313,13 +320,16 @@ case
 
 # Current Verified Translation Milestones
 
-| File                 | Messages |
-| -------------------- | -------: |
-| Tutorial (16 files)  |    1,416 |
-| bugs.po              |       31 |
-| library/functions.po |      535 |
-| library/stdtypes.po  |    1,592 |
-| Total Verified       |    3,574 |
+| File | Messages |
+|------|---------:|
+| Tutorial (17 files) | 1,436 |
+| bugs.po | 31 |
+| glossary.po | 30 |
+| library/functions.po | 535 |
+| library/stdtypes.po | 1,592 |
+| library/functools.po | 324 |
+| library/exceptions.po | 207 |
+| Total Verified | 4,155 |
 
 This glossary should be updated whenever a new major translation milestone introduces terminology that becomes part of the project's standard vocabulary.
 

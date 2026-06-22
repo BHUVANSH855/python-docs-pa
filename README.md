@@ -1,6 +1,6 @@
 # Translation of the Python Documentation — pa
 
-Punjabi (India) translation of the Python documentation.
+Punjabi (Gurmukhi) translation of the Python documentation.
 
 This project aims to translate Python's official documentation into Punjabi (Gurmukhi) and make Python learning resources more accessible to Punjabi-speaking developers, students, and educators.
 
@@ -13,19 +13,23 @@ The repository currently contains fully translated and validated files across:
 * Tutorial Documentation
 * Core Library Reference
 * bugs.po
+* glossary.po
 
 All translation files pass GNU gettext validation checks, are tracked in GitHub, and pass repository-wide validation.
 
 Completed major translation milestones:
 
 * `bugs.po`
+* `glossary.po`
 * `library/functions.po`
 * `library/stdtypes.po`
+* `library/functools.po`
+* `library/exceptions.po`
 * Complete Tutorial Documentation Set
 
-**Latest commit:** a389206
+**Repository status:** Active development
 
-**Latest milestone:** All current repository translation files completed and validated
+**Latest milestone:** Language tag standardized to `pa` and translations uploaded to Transifex
 
 ### Translation Milestones
 
@@ -35,7 +39,10 @@ Completed major translation milestones:
 | bugs.po | ✅ Complete |
 | library/functions.po | ✅ Complete |
 | library/stdtypes.po | ✅ Complete |
+| library/functools.po | ✅ Complete |
+| library/exceptions.po | ✅ Complete |
 | Repository Validation | ✅ Passing |
+| Transifex Upload | ✅ Complete |
 
 ## Current Progress
 
@@ -65,13 +72,16 @@ Completed major translation milestones:
 | File | Status | Messages |
 |--------|--------|---------:|
 | bugs.po | ✅ Complete | 31 |
+| glossary.po | ✅ Complete | 30 |
 
 ### Completed Library Files
 
-| File         | Status     | Messages |
-| ------------ | ---------- | -------: |
-| functions.po | ✅ Complete |      535 |
-| stdtypes.po  | ✅ Complete |     1592 |
+| File | Status | Messages |
+|------|--------|---------:|
+| functions.po | ✅ Complete | 535 |
+| stdtypes.po | ✅ Complete | 1592 |
+| functools.po | ✅ Complete | 324 |
+| exceptions.po | ✅ Complete | 207 |
 
 ### Project Statistics
 
@@ -79,11 +89,11 @@ Completed major translation milestones:
 |----------|------:|
 | Tutorial Files Completed | 16 |
 | Tutorial Messages Translated | 1,416 |
-| Root Files Completed | 1 |
-| Root Messages Translated | 31 |
-| Library Files Completed | 2 |
-| Library Messages Translated | 2,127 |
-| Total Messages Translated | 3,574 |
+| Root Files Completed | 2 |
+| Root Messages Translated | 61 |
+| Library Files Completed | 4 |
+| Library Messages Translated | 2,658 |
+| Total Messages Translated | 4,135 |
 
 ## Validation Status
 
@@ -103,21 +113,22 @@ Validation summary:
 * ✅ Tutorial files validated
 * ✅ Library files validated
 * ✅ bugs.po validated
+* ✅ glossary.po validated
+* ✅ Transifex upload complete
 * ✅ Repository-wide validation passing
 * ✅ GitHub Actions validation passing
 
 ## Recent Milestones
 
-* ✅ Completed `tutorial/appendix.po`
-* ✅ Completed `tutorial/floatingpoint.po`
-* ✅ Completed `tutorial/interactive.po`
-* ✅ Completed `tutorial/venv.po`
-* ✅ Completed `tutorial/whatnow.po`
-* ✅ Completed `bugs.po`
-* ✅ Completed `library/functions.po`
-* ✅ Completed `library/stdtypes.po`
-* ✅ Completed all current translation files in repository
-* ✅ Exceeded 3,500 translated messages
+* ✅ Completed tutorial documentation set
+* ✅ Completed bugs.po
+* ✅ Completed library/functions.po
+* ✅ Completed library/stdtypes.po
+* ✅ Completed library/functools.po
+* ✅ Completed library/exceptions.po
+* ✅ Standardized language tag to `pa`
+* ✅ Uploaded completed translations to Transifex
+* ✅ Repository renamed to `python-docs-pa`
 * ✅ Repository-wide validation passing
 * ✅ All translations committed, validated, and pushed to GitHub
 
@@ -126,22 +137,33 @@ Validation summary:
 * ✅ STYLE_GUIDE.md
 * ✅ GLOSSARY.md
 * ✅ CONTRIBUTING.md
+* ✅ PROJECT_REPORT.md
 * ✅ GitHub Actions validation workflow
+* ✅ Transifex synchronization workflow
 * ✅ Translation terminology consistency review
-* ✅ Repository structure aligned with Python documentation translation recommendations
+
+## Transifex
+
+Punjabi translations are available on the official Python Documentation Transifex project.
+
+Language tag: `pa`
+
+Coordinator: @BHUVANSH855
+
+Current repository translations have been uploaded to Transifex.
 
 ## Next Phase
 
 Current priorities:
 
-1. Finalize Transifex synchronization workflow
-2. Standardize repository metadata to use `pa`
-3. Coordinate with Python Documentation Translation Team
-4. Open Python Devguide translation listing PR
-5. Expand translation coverage into:
+1. Review repository structure against docsbuild-scripts requirements
+2. Open Python Devguide translation listing PR
+3. Configure automated Transifex synchronization
+4. Expand translation coverage into:
    * Reference Documentation
    * Using Python Documentation
    * What's New Documentation
+5. Grow the Punjabi translation community
 
 ## Goals
 
@@ -160,6 +182,7 @@ Project goals are aligned with the Python Documentation Translation initiative a
 python-docs-pa/
 ├── .gitignore
 ├── bugs.po
+├── glossary.po
 ├── CONTRIBUTING.md
 ├── GLOSSARY.md
 ├── PROJECT_REPORT.md
@@ -168,7 +191,8 @@ python-docs-pa/
 │
 ├── .github/
 │   └── workflows/
-│       └── validate.yml
+│       ├── validate.yml
+│       └── transifex-pull.yml
 │
 ├── tutorial/
 │   ├── appendix.po
@@ -178,6 +202,7 @@ python-docs-pa/
 │   ├── datastructures.po
 │   ├── errors.po
 │   ├── floatingpoint.po
+│   ├── index.po
 │   ├── inputoutput.po
 │   ├── interactive.po
 │   ├── interpreter.po
@@ -189,7 +214,9 @@ python-docs-pa/
 │   └── whatnow.po
 │
 ├── library/
+│   ├── exceptions.po
 │   ├── functions.po
+│   ├── functools.po
 │   └── stdtypes.po
 │
 ├── reference/

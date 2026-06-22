@@ -1,6 +1,6 @@
 # Contributing to Python Docs Punjabi (pa)
 
-Thank you for contributing to the Punjabi (India) translation of Python documentation.
+Thank you for contributing to the Punjabi (Gurmukhi) translation of the Python documentation.
 
 This project follows the Python Documentation Translation Guidelines and aims to provide high-quality Punjabi (Gurmukhi) translations for Python learners, educators, and developers.
 
@@ -8,23 +8,34 @@ This project follows the Python Documentation Translation Guidelines and aims to
 
 ### Completed
 
-✅ Complete Tutorial documentation translated and validated (16 files)
+✅ Complete Tutorial documentation translated and validated (17 files)
 
 ✅ `bugs.po` fully translated and validated
+
+✅ `glossary.po` fully translated and validated
 
 ✅ `library/functions.po` fully translated and validated
 
 ✅ `library/stdtypes.po` fully translated and validated
 
-✅ More than 3,500 documentation messages translated
+✅ `library/functools.po` fully translated and validated
+
+✅ `library/exceptions.po` fully translated and validated
+
+✅ Language tag standardized to `pa`
+
+✅ All completed translations uploaded to Transifex
+
+✅ 4,155 documentation messages translated
 
 ### Current Focus
 
 Current priorities:
 
-* Transifex synchronization workflow
+* Automated Transifex synchronization
 * Python documentation translation coordination
-* Devguide translation listing
+* Python Devguide translation listing
+* Repository structure verification
 * Reference documentation
 * Using Python documentation
 * What's New documentation
@@ -35,6 +46,7 @@ Current priorities:
 python-docs-pa/
 ├── .gitignore
 ├── bugs.po
+├── glossary.po
 ├── CONTRIBUTING.md
 ├── GLOSSARY.md
 ├── PROJECT_REPORT.md
@@ -43,7 +55,8 @@ python-docs-pa/
 │
 ├── .github/
 │   └── workflows/
-│       └── validate.yml
+│       ├── validate.yml
+│       └── transifex-pull.yml
 │
 ├── tutorial/
 │   ├── appendix.po
@@ -53,6 +66,7 @@ python-docs-pa/
 │   ├── datastructures.po
 │   ├── errors.po
 │   ├── floatingpoint.po
+│   ├── index.po
 │   ├── inputoutput.po
 │   ├── interactive.po
 │   ├── interpreter.po
@@ -64,7 +78,9 @@ python-docs-pa/
 │   └── whatnow.po
 │
 ├── library/
+│   ├── exceptions.po
 │   ├── functions.po
+│   ├── functools.po
 │   └── stdtypes.po
 │
 ├── reference/
@@ -74,7 +90,7 @@ python-docs-pa/
 
 ## Workflow
 
-1. Fork the repository.
+1. Fork the repository (external contributors).
 2. Create a feature branch.
 3. Select an untranslated `.po` file.
 4. Translate or review entries.
@@ -248,7 +264,7 @@ Contributors should:
 * Maintain terminology consistency.
 * Keep formatting identical to the source.
 * Preserve all Sphinx and reStructuredText markup.
-* Follow existing translation patterns established in completed project files (`bugs.po`, `tutorial/`, `library/functions.po`, and `library/stdtypes.po`).
+* Follow existing translation patterns established in completed project files (`bugs.po`, `glossary.po`, `tutorial/`, `library/functions.po`, `library/stdtypes.po`, `library/functools.po`, and `library/exceptions.po`).
 
 ## Getting Help
 
@@ -261,4 +277,4 @@ For translation discussions, suggestions, and coordination, use GitHub Issues an
 
 ## License
 
-Documentation translations are contributed under the same licensing framework used by the Python Documentation Translation Project.
+Documentation translations are contributed under the CC0 license, consistent with Python Documentation Translation project guidelines.
