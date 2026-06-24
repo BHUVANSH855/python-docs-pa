@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-17 16:52+0000\n"
+"POT-Creation-Date: 2026-06-23 16:23+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -144,7 +144,7 @@ msgid ""
 msgstr ""
 
 msgid "``^``"
-msgstr ""
+msgstr "``^``"
 
 msgid ""
 "(Caret.)  Matches the start of the string, and in :const:`MULTILINE` mode "
@@ -152,7 +152,7 @@ msgid ""
 msgstr ""
 
 msgid "``$``"
-msgstr ""
+msgstr "``$``"
 
 msgid ""
 "Matches the end of the string or just before the newline at the end of the "
@@ -359,7 +359,7 @@ msgid ""
 msgstr ""
 
 msgid "``|``"
-msgstr ""
+msgstr "``|``"
 
 msgid ""
 "``A|B``, where *A* and *B* can be arbitrary REs, creates a regular "
@@ -561,7 +561,7 @@ msgid "A comment; the contents of the parentheses are simply ignored."
 msgstr ""
 
 msgid "``(?=...)``"
-msgstr ""
+msgstr "``(?=...)``"
 
 msgid ""
 "Matches if ``...`` matches next, but doesn't consume any of the string.  "
@@ -570,7 +570,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?!...)``"
-msgstr ""
+msgstr "``(?!...)``"
 
 msgid ""
 "Matches if ``...`` doesn't match next.  This is a :dfn:`negative lookahead "
@@ -650,13 +650,13 @@ msgid ""
 msgstr ""
 
 msgid "``\\A``"
-msgstr ""
+msgstr "``\\A``"
 
 msgid "Matches only at the start of the string."
 msgstr ""
 
 msgid "``\\b``"
-msgstr ""
+msgstr "``\\b``"
 
 msgid ""
 "Matches the empty string, but only at the beginning or end of a word. A word "
@@ -680,7 +680,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\B``"
-msgstr ""
+msgstr "``\\B``"
 
 msgid ""
 "Matches the empty string, but only when it is *not* at the beginning or end "
@@ -696,7 +696,7 @@ msgid "``\\B`` now matches empty input string."
 msgstr ""
 
 msgid "``\\d``"
-msgstr ""
+msgstr "``\\d``"
 
 msgid "For Unicode (str) patterns:"
 msgstr ""
@@ -719,7 +719,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\D``"
-msgstr ""
+msgstr "``\\D``"
 
 msgid ""
 "Matches any character which is not a decimal digit. This is the opposite of "
@@ -730,7 +730,7 @@ msgid "Matches ``[^0-9]`` if the :py:const:`~re.ASCII` flag is used."
 msgstr ""
 
 msgid "``\\s``"
-msgstr ""
+msgstr "``\\s``"
 
 msgid ""
 "Matches Unicode whitespace characters (as defined by :py:meth:`str."
@@ -749,7 +749,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\S``"
-msgstr ""
+msgstr "``\\S``"
 
 msgid ""
 "Matches any character which is not a whitespace character. This is the "
@@ -761,7 +761,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\w``"
-msgstr ""
+msgstr "``\\w``"
 
 msgid ""
 "Matches Unicode word characters; this includes all Unicode alphanumeric "
@@ -780,7 +780,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\W``"
-msgstr ""
+msgstr "``\\W``"
 
 msgid ""
 "Matches any character which is not a word character. This is the opposite of "
@@ -797,16 +797,17 @@ msgid ""
 msgstr ""
 
 msgid "``\\z``"
-msgstr ""
+msgstr "``\\z``"
 
 msgid "Matches only at the end of the string."
-msgstr ""
+msgstr "ਸਿਰਫ਼ ਸਟਰਿੰਗ ਦੇ ਅੰਤ ਵਿੱਚ ਮੈਚ ਕਰਦਾ ਹੈ।"
 
 msgid "``\\Z``"
-msgstr ""
+msgstr "``\\Z``"
 
 msgid "The same as ``\\z``.  For compatibility with old Python versions."
 msgstr ""
+"``\\z`` ਦੇ ਸਮਾਨ ਹੈ। ਪੁਰਾਣੇ Python ਸੰਸਕਰਣਾਂ ਨਾਲ ਅਨੁਕੂਲਤਾ (compatibility) ਲਈ ਉਪਲਬਧ ਹੈ।"
 
 msgid ""
 "Most of the :ref:`escape sequences <escape-sequences>` supported by Python "
