@@ -7,7 +7,6 @@
 # Transifex Bot <>, 2026
 # Bhuvansh Kataria, 2026
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
