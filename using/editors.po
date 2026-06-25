@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Bhuvansh Kataria, 2026
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-21 15:47+0000\n"
+"POT-Creation-Date: 2026-06-23 16:23+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
+"Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
 "teams/5390/pa/)\n"
 "MIME-Version: 1.0\n"
@@ -19,16 +23,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Editors and IDEs"
-msgstr ""
+msgstr "ਸੰਪਾਦਕ ਅਤੇ IDE"
 
 msgid ""
 "There are a number of IDEs that support Python programming language. Many "
 "editors and IDEs provide syntax highlighting, debugging tools, and :pep:`8` "
 "checks."
 msgstr ""
+"ਪਾਇਥਨ ਪ੍ਰੋਗਰਾਮਿੰਗ ਭਾਸ਼ਾ ਦਾ ਸਮਰਥਨ ਕਰਨ ਵਾਲੇ ਕਈ IDE ਉਪਲਬਧ ਹਨ। ਬਹੁਤ ਸਾਰੇ ਸੰਪਾਦਕ ਅਤੇ IDE "
+"ਸਿੰਟੈਕਸ ਹਾਈਲਾਈਟਿੰਗ, ਡੀਬੱਗਿੰਗ ਸੰਦ ਅਤੇ :pep:`8` ਜਾਂਚਾਂ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ।"
 
 msgid "IDLE --- Python editor and shell"
-msgstr ""
+msgstr "IDLE --- ਪਾਇਥਨ ਸੰਪਾਦਕ ਅਤੇ ਸ਼ੈੱਲ"
 
 msgid ""
 "IDLE is Python’s Integrated Development and Learning Environment and is "
@@ -37,9 +43,13 @@ msgid ""
 "<installing_idle_on_linux>`. For more information see the :ref:`IDLE docs "
 "<idle>`."
 msgstr ""
+"IDLE ਪਾਇਥਨ ਦਾ ਇੱਕ ਇਕ੍ਰਿਤ ਵਿਕਾਸ ਅਤੇ ਸਿੱਖਣ ਵਾਤਾਵਰਣ (Integrated Development and "
+"Learning Environment) ਹੈ ਅਤੇ ਆਮ ਤੌਰ 'ਤੇ ਪਾਇਥਨ ਇੰਸਟਾਲੇਸ਼ਨ ਦੇ ਨਾਲ ਹੀ ਮਿਲਦਾ ਹੈ। ਜੇ ਤੁਸੀਂ "
+"Linux ਵਰਤ ਰਹੇ ਹੋ ਅਤੇ ਤੁਹਾਡੇ ਕੋਲ IDLE ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ ਤਾਂ :ref:`Installing IDLE on Linux "
+"<installing_idle_on_linux>` ਵੇਖੋ। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ :ref:`IDLE docs <idle>` ਵੇਖੋ।"
 
 msgid "Other Editors and IDEs"
-msgstr ""
+msgstr "ਹੋਰ ਸੰਪਾਦਕ ਅਤੇ IDE"
 
 msgid ""
 "Python's community wiki has information submitted by the community on "
@@ -48,3 +58,7 @@ msgid ""
 "python.org/moin/IntegratedDevelopmentEnvironments>`_ for a comprehensive "
 "list."
 msgstr ""
+"ਪਾਇਥਨ ਦੀ ਕਮਿਊਨਿਟੀ ਵਿਕੀ ਵਿੱਚ ਸੰਪਾਦਕਾਂ ਅਤੇ IDE ਬਾਰੇ ਕਮਿਊਨਿਟੀ ਦੁਆਰਾ ਭੇਜੀ ਗਈ ਜਾਣਕਾਰੀ "
+"ਉਪਲਬਧ ਹੈ। ਪੂਰੀ ਸੂਚੀ ਲਈ `Python Editors <https://wiki.python.org/moin/"
+"PythonEditors>`_ ਅਤੇ `Integrated Development Environments <https://wiki."
+"python.org/moin/IntegratedDevelopmentEnvironments>`_ ਵੇਖੋ।"
