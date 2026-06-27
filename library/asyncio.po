@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Bhuvansh Kataria, 2026
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-21 15:47+0000\n"
+"POT-Creation-Date: 2026-06-25 16:18+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
+"Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
 "teams/5390/pa/)\n"
 "MIME-Version: 1.0\n"
@@ -109,7 +113,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr ""
+msgstr "ਉਪਲਬਧਤਾ"
 
 msgid ""
 "This module does not work or is not available on WebAssembly. See :ref:`wasm-"
@@ -145,14 +149,19 @@ msgid ""
 "Raises an :ref:`auditing event <auditing>` ``cpython.run_stdin`` with no "
 "arguments."
 msgstr ""
+"ਬਿਨਾਂ ਕਿਸੇ ਆਰਗਿਊਮੈਂਟ ਦੇ ਇੱਕ :ref:`auditing event <auditing>` ``cpython.run_stdin`` "
+"ਉਤਪੰਨ ਕਰਦਾ ਹੈ।"
 
 msgid "(also 3.11.10, 3.10.15, 3.9.20, and 3.8.20) Emits audit events."
 msgstr ""
+"(3.11.10, 3.10.15, 3.9.20 ਅਤੇ 3.8.20 ਵਿੱਚ ਵੀ) auditing events ਉਤਪੰਨ ਕਰਦਾ ਹੈ।"
 
 msgid ""
 "Uses PyREPL if possible, in which case :envvar:`PYTHONSTARTUP` is also "
 "executed. Emits audit events."
 msgstr ""
+"ਜੇ ਸੰਭਵ ਹੋਵੇ ਤਾਂ PyREPL ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ, ਇਸ ਸਥਿਤੀ ਵਿੱਚ :envvar:`PYTHONSTARTUP` ਵੀ "
+"ਚਲਾਇਆ ਜਾਂਦਾ ਹੈ। Auditing events ਉਤਪੰਨ ਕਰਦਾ ਹੈ।"
 
 msgid "Reference"
 msgstr ""

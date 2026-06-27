@@ -1137,7 +1137,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr ""
+msgstr "ਉਪਲਬਧਤਾ"
 
 msgid "Path to the ``.fwork`` file for the extension module."
 msgstr ""

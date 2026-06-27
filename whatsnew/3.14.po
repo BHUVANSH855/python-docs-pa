@@ -1078,7 +1078,7 @@ msgid ""
 msgstr ""
 
 msgid "Command line and environment"
-msgstr ""
+msgstr "ਕਮਾਂਡ ਲਾਈਨ ਅਤੇ ਵਾਤਾਵਰਨ"
 
 msgid ""
 "The import time flag can now track modules that are already loaded "

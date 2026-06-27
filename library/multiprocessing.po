@@ -29,7 +29,7 @@ msgid "**Source code:** :source:`Lib/multiprocessing/`"
 msgstr ""
 
 msgid "Availability"
-msgstr ""
+msgstr "ਉਪਲਬਧਤਾ"
 
 msgid ""
 "This module is not supported on :ref:`mobile platforms <mobile-"
