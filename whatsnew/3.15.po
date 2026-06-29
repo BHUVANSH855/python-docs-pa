@@ -2799,7 +2799,7 @@ msgid ":mod:`csv`"
 msgstr ""
 
 msgid ":mod:`ctypes`"
-msgstr ""
+msgstr ":mod:`ctypes`"
 
 msgid ":mod:`!ctypes.macholib`"
 msgstr ""
