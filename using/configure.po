@@ -154,7 +154,7 @@ msgid "2.5.0"
 msgstr "2.5.0"
 
 msgid ":mod:`decimal` [1]_"
-msgstr ":mod:`decimal`[1]_"
+msgstr ":mod:`decimal` [1]_"
 
 msgid ""
 "`libreadline <https://tiswww.case.edu/php/chet/readline/rltop.html>`_ or "
@@ -170,7 +170,7 @@ msgid "`libuuid <https://linux.die.net/man/3/libuuid>`_"
 msgstr "`libuuid <https://linux.die.net/man/3/libuuid>`_"
 
 msgid "``_uuid`` [3]_"
-msgstr "``_uuid``[3]_"
+msgstr "``_uuid`` [3]_"
 
 msgid "`ncurses <https://gnu.org/software/ncurses/ncurses.html>`_ [4]_"
 msgstr "`ncurses <https://gnu.org/software/ncurses/ncurses.html>`_ [4]_"
@@ -188,7 +188,7 @@ msgid "(1.1.1 minimum)"
 msgstr "(ਘੱਟੋ-ਘੱਟ 1.1.1)"
 
 msgid ":mod:`ssl`, :mod:`hashlib` [5]_"
-msgstr ":mod:`ssl`,:mod:`hashlib`[5]_"
+msgstr ":mod:`ssl`, :mod:`hashlib` [5]_"
 
 msgid "`SQLite <https://sqlite.org/>`_"
 msgstr "`SQLite <https://sqlite.org/>`_"
