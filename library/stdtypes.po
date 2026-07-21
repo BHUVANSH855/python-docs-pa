@@ -1575,7 +1575,7 @@ msgid "``s[i]``"
 msgstr "``s[i]``"
 
 msgid "*i*\\ th item of *s*, origin 0"
-msgstr "*s* ਦੀ *i*ਵੀਂ ਆਈਟਮ, ਸ਼ੁਰੂਆਤੀ ਸੂਚਕ 0"
+msgstr "*s* ਦੀ *i*\\ ਵੀਂ ਆਈਟਮ, ਸ਼ੁਰੂਆਤੀ ਸੂਚਕ 0"
 
 msgid "(3)(8)"
 msgstr "(3)(8)"
