@@ -1906,7 +1906,7 @@ msgid "``del s[i]``"
 msgstr "``del s[i]``"
 
 msgid "removes item *i* of *s*"
-msgstr "*s* ਦਾ *i*ਵਾਂ ਤੱਤ ਹਟਾ ਦਿੰਦਾ ਹੈ।"
+msgstr "*s* ਦਾ *i*\\ ਵਾਂ ਤੱਤ ਹਟਾ ਦਿੰਦਾ ਹੈ।"
 
 msgid "``s[i:j] = t``"
 msgstr "``s[i:j] = t``"
