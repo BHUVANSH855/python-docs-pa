@@ -4,8 +4,12 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   validate:
+    name: Validate Translation Files
     runs-on: ubuntu-latest
 
     steps:
@@ -19,4 +23,6 @@ jobs:
 
       - name: Validate PO files
         run: |
-          find . -name "*.po" -exec msgfmt --check {} \;
+          find . -type f -name "*.po" -print0 | while IFS= read -r -d '' file; do
+            msgfmt --check "$file"
+          done
