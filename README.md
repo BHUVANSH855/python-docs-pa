@@ -214,7 +214,7 @@ The Punjabi (`pa`) translation is maintained through the official Python Documen
 | Language | Punjabi (`pa`) |
 | Branch | `3.15` |
 | Repository | `python-docs-pa` |
-| Coordinators | @BHUVANSH855, @mohityadav8, @jangrayash1505 |
+| Coordinators | [@BHUVANSH855](https://github.com/BHUVANSH855), [@mohityadav8](https://github.com/mohityadav8), [@Yashraj-Jangra](https://github.com/Yashraj-Jangra) |
 
 Translations are contributed collaboratively through the official Python Documentation Transifex project and synchronized to this repository using automated GitHub Actions workflows.
 
