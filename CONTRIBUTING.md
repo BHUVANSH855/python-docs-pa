@@ -32,6 +32,28 @@ Whether you are fixing a typo, translating a new document, reviewing terminology
 
 The Punjabi (`pa`) translation project is actively maintained and follows the official Python Documentation Translation workflow.
 
+## Project Team
+
+The Punjabi (`pa`) translation project is maintained collaboratively by a team of coordinators and contributors through the official Python Documentation Translation project on Transifex.
+
+### Coordinators
+
+The project is currently coordinated by:
+
+- Bhuvansh Kataria (@BHUVANSH855)
+- Mohit Yadav (@mohityadav8)
+- Yashraj Jangra (@jangrayash1505)
+
+The coordinators are responsible for:
+
+- Managing the translation project.
+- Maintaining translation quality.
+- Coordinating contributors and reviewers.
+- Ensuring consistency across translated documentation.
+- Overseeing validation and synchronization workflows.
+
+---
+
 ### Current Highlights
 
 - ✅ Officially listed in the Python Developer Guide Translation Coordinators (PR #1843)
@@ -64,21 +86,21 @@ The Punjabi (`pa`) translation project is actively maintained and follows the of
 | Metric | Value |
 |--------|------:|
 | Verified Translated Strings | **7,668** |
-| Tutorial Files | 17 |
-| Using Python Files | 9 |
-| Completed Core Library Files | 5 |
-| Completed HOWTO Files | 2 |
-| Root Translation Files | 2 |
+| Tutorial Files Completed | 17 |
+| Using Python Files Completed | 9 |
+| Core Library Files Completed | 5 |
+| HOWTO Files Completed | 2 |
+| Root Translation Files Completed | 2 |
 
 ### Current Priorities
 
 Current development focuses on:
 
-- Expanding translations across additional Standard Library modules.
-- Continuing HOWTO, FAQ, Reference, C API, and What's New documentation.
-- Maintaining terminology consistency through community review.
+- Reviewing existing translations for terminology consistency and technical accuracy.
+- Expanding translations across additional Standard Library, HOWTO, FAQ, Reference, C API, and What's New documentation.
+- Maintaining consistency with `GLOSSARY.md` and `STYLE_GUIDE.md`.
 - Keeping translations synchronized with upstream CPython documentation.
-- Preparing the project for future integration with Python's documentation build infrastructure.
+- Growing the Punjabi translation community and onboarding new contributors and reviewers.
 
 ---
 
@@ -146,11 +168,11 @@ The Punjabi (`pa`) translation project follows the standard Python Documentation
 ```text
 Translate in Transifex
           ↓
-Community Review
+Follow GLOSSARY.md
           ↓
-Terminology Verification (GLOSSARY.md)
+Follow STYLE_GUIDE.md
           ↓
-Translation Style Review (STYLE_GUIDE.md)
+Peer Review
           ↓
 Automated Synchronization to GitHub
           ↓
@@ -176,6 +198,7 @@ Contributors can help in several ways:
 - Translate untranslated documentation.
 - Review existing translations.
 - Improve terminology consistency.
+- Validate translations locally.
 - Fix formatting or reStructuredText issues.
 - Correct validation errors.
 - Improve documentation quality.
@@ -229,6 +252,10 @@ After creating a new `.po` file:
 # Validation
 
 Every completed translation should pass all validation checks before submission.
+
+> **Validation and translation review are separate processes.**
+>
+> Automated validation verifies translation syntax, markup preservation, and documentation build correctness. Human review focuses on terminology consistency, language quality, technical accuracy, and adherence to the project's glossary and style guide.
 
 ## Validation Pipeline
 
@@ -295,6 +322,23 @@ python -m sphinx -b html -n -W Doc build/html-pa
 ```
 
 All commands should complete successfully before submitting a contribution.
+
+---
+
+## Review Guidelines
+
+Review is a collaborative process intended to improve translation quality rather than simply identify errors. Contributors and reviewers are encouraged to discuss terminology, phrasing, and technical accuracy to achieve consistent, high-quality translations.
+
+Automated validation confirms that a translation is technically valid, but it does not verify translation quality.
+
+During review, contributors and reviewers should check:
+
+- Technical accuracy.
+- Consistency with `GLOSSARY.md`.
+- Compliance with `STYLE_GUIDE.md`.
+- Natural Punjabi wording.
+- Preservation of reStructuredText and Sphinx markup.
+- Correct handling of cross-references, directives, and code examples.
 
 ---
 
@@ -433,6 +477,20 @@ Avoid literal word-for-word translations when a more natural Punjabi expression 
 
 ---
 
+## Reviewer Responsibilities
+
+Reviewers help ensure that translations are technically accurate, linguistically natural, and consistent across the project.
+
+A reviewer should:
+
+- Verify terminology against `GLOSSARY.md`.
+- Check compliance with `STYLE_GUIDE.md`.
+- Preserve original meaning and technical intent.
+- Ensure all Sphinx and reStructuredText markup remains unchanged.
+- Report inconsistencies or suggest improvements through GitHub or Transifex.
+
+---
+
 # Quality Checklist
 
 Before submitting your contribution, ensure that:
@@ -512,7 +570,7 @@ Contributors should:
 - Preserve all reStructuredText roles, directives, hyperlinks, and formatting.
 - Keep code examples identical to the original documentation.
 - Preserve indentation and whitespace where required.
-- Review completed translations before submission.
+- Review completed translations for technical accuracy, terminology consistency, and natural Punjabi wording before submission.
 - Follow translation patterns established in completed project files whenever appropriate.
 
 When uncertain about a translation, prioritize consistency with existing project terminology rather than introducing new wording.

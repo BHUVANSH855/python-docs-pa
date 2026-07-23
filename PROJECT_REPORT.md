@@ -1,17 +1,26 @@
 # 🐍 Python Docs Punjabi (pa) — Project Report
 
 **Project:** python-docs-pa  
-**Coordinator:** Bhuvansh Kataria (@BHUVANSH855)  
+**Coordinators:**
+- Bhuvansh Kataria (@BHUVANSH855)
+- Mohit Yadav (@mohityadav8)
+- Yashraj Jangra (@jangrayash1505)  
 **Repository:** https://github.com/BHUVANSH855/python-docs-pa  
 **Translation Platform:** Python Documentation on Transifex  
 **Language:** Punjabi (pa)  
 **Translation Branch:** `3.15`  
 **Project Status:** Active  
-**Current Status:** Repository infrastructure established, contributor documentation fully modernized, validation pipeline operational, and **7,668 verified translated strings** completed across multiple sections of the official Python documentation.
+**Current Status:** Repository infrastructure established, contributor documentation modernized, validation pipeline operational, collaborative review workflow documented, and **7,668 verified translated strings** completed across multiple sections of the official Python documentation.
 
 ---
 
 # Project Overview
+
+## Project Evolution
+
+The project has evolved from an individual translation initiative into a collaborative community effort supported by multiple coordinators, standardized contributor documentation, automated validation, and an expanding review process.
+
+Recent development has focused on strengthening the project's infrastructure, documentation quality, contributor onboarding, and long-term maintainability alongside continued translation work.
 
 The **python-docs-pa** project aims to translate the official Python documentation into Punjabi (Gurmukhi), making high-quality programming resources more accessible to Punjabi-speaking students, educators, and developers.
 
@@ -99,11 +108,15 @@ Major milestones include:
 
 **Translation Platform:** Python Documentation on Transifex
 
-**Coordinator:**
+**Project Coordinators:**
 
 - Bhuvansh Kataria (@BHUVANSH855)
+- Mohit Yadav (@mohityadav8)
+- Yashraj Jangra (@jangrayash1505)
 
-The repository remains synchronized with the official Python Documentation translation project through the established Transifex workflow.
+The repository remains synchronized with the official Python Documentation Translation project through the established Transifex workflow.
+
+Project coordination is now shared across multiple coordinators to improve project continuity, contributor support, and long-term maintenance.
 
 ---
 
@@ -142,6 +155,37 @@ The Punjabi translation project has continued to expand beyond its initial miles
 
 ---
 
+## Review Process
+
+Translation quality is maintained through two complementary processes:
+
+### Automated Validation
+
+Automated validation ensures that translations are syntactically correct and build successfully.
+
+This includes:
+
+- GNU gettext (`msgfmt`)
+- `sphinx-lint`
+- GitHub Actions
+- CPython HTML documentation builds
+- Nitpicky (`-n`) documentation builds
+
+### Human Review
+
+Human review focuses on translation quality rather than syntax.
+
+Reviewers verify:
+
+- Technical accuracy
+- Terminology consistency
+- Compliance with `GLOSSARY.md`
+- Compliance with `STYLE_GUIDE.md`
+- Natural Punjabi wording
+- Preservation of reStructuredText and Sphinx markup
+
+---
+
 ## Validation Status
 
 All completed translations successfully pass the project's quality assurance pipeline.
@@ -169,28 +213,31 @@ Current validation status:
 Every completed translation follows the same quality workflow:
 
 ```text
-Translate
+Translate in Transifex
         │
         ▼
-Terminology Review
+Follow GLOSSARY.md
         │
         ▼
-msgfmt Validation
+Follow STYLE_GUIDE.md
         │
         ▼
-sphinx-lint Validation
+Peer Review
         │
         ▼
-CPython Documentation Build
+GitHub Actions Synchronization
         │
         ▼
-GitHub Actions Validation
+GNU gettext Validation (`msgfmt`)
         │
         ▼
-Commit & Review
+sphinx-lint
         │
         ▼
-Transifex Synchronization
+CPython HTML Build
+        │
+        ▼
+Nitpicky (`-n`) Documentation Build
 ```
 
 This workflow ensures consistent terminology, valid gettext syntax, successful documentation builds, and high-quality translations before publication.
@@ -198,6 +245,18 @@ This workflow ensures consistent terminology, valid gettext syntax, successful d
 ---
 
 # Repository Development
+
+## Recent Documentation Improvements
+
+The repository documentation has recently been updated to better reflect the project's current development practices.
+
+These improvements include:
+
+- Clearly distinguishing automated validation from human translation review.
+- Documenting the collaborative coordination model.
+- Defining reviewer responsibilities and review guidelines.
+- Standardizing contributor workflows across project documentation.
+- Improving long-term maintainability of project documentation.
 
 The repository has evolved from an initial translation effort into a fully documented and validated Python Documentation Translation project.
 
@@ -232,7 +291,7 @@ Together, these documents provide contributors with a complete reference for par
 
 # Quality Assurance
 
-Translation quality is maintained through a combination of manual review and automated validation.
+Translation quality is maintained through complementary automated validation and human review processes. Automated validation verifies technical correctness, while human review ensures linguistic quality, terminology consistency, and preservation of technical meaning.
 
 ## Manual Quality Checks
 
@@ -426,6 +485,8 @@ At the time of this report, the project has successfully established:
 - Automated Transifex synchronization.
 - Official recognition within the Python Documentation Translation ecosystem.
 - A growing collection of validated Punjabi translations totaling **7,668 verified translated strings**.
+- A collaborative coordination team supporting long-term project sustainability.
+- A documented review workflow complementing the automated validation pipeline.
 
 The repository is now well-positioned for continued expansion, contributor onboarding, long-term maintenance, and future Python release translations as part of the official Python Documentation Translation effort.
 
@@ -435,7 +496,7 @@ The repository is now well-positioned for continued expansion, contributor onboa
 
 | Item | Value |
 |------|-------|
-| Report Version | **3.0** |
+| Report Version | **3.1** |
 | Repository | `python-docs-pa` |
 | Translation Language | Punjabi (`pa`) |
 | Translation Branch | `3.15` |
