@@ -9745,7 +9745,7 @@ msgid ""
 "In third-party libraries, such as `Numpy's slicing and striding <https://"
 "numpy.org/doc/stable/user/basics.indexing.html#slicing-and-striding>`_."
 msgstr ""
-"Third-party libraries ਵਿੱਚ, ਜਿਵੇਂ Numpy ਦੀ slicing ਅਤੇ striding <https://numpy."
+"Third-party libraries ਵਿੱਚ, ਜਿਵੇਂ `Numpy ਦੀ slicing ਅਤੇ striding <https://numpy."
 "org/doc/stable/user/basics.indexing.html#slicing-and-striding>`_।"
 
 msgid ""
