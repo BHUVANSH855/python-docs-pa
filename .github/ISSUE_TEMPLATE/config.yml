@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+
+contact_links:
+  - name: Python Documentation Translation Project
+    url: https://devguide.python.org/documentation/translations/
+    about: Learn about the official Python Documentation Translation project.
+
+  - name: Python Documentation Translation on Transifex
+    url: https://explore.transifex.com/python-doc/python-newest/
+    about: View the official Python Documentation translation platform.
+
+  - name: Project Documentation
+    url: https://github.com/BHUVANSH855/python-docs-pa
+    about: Read the project's documentation before opening an issue.
