@@ -1,107 +1,205 @@
-# Contributing to Python Docs Punjabi (pa)
+# Contributing to Python Documentation — Punjabi (`pa`)
 
-Thank you for contributing to the Punjabi (Gurmukhi) translation of the Python documentation.
+Thank you for your interest in contributing to the Punjabi (Gurmukhi) translation of the Python documentation.
 
-This project follows the Python Documentation Translation Guidelines and aims to provide high-quality Punjabi (Gurmukhi) translations for Python learners, educators, and developers.
+This project is part of the official Python Documentation Translation initiative and follows the translation workflow adopted by the Python Documentation community. Our goal is to make the official Python documentation accessible to Punjabi-speaking developers, students, educators, and the broader open-source community while maintaining the same quality standards as the upstream documentation.
 
-## Current Project Status
+Whether you are fixing a typo, translating a new document, reviewing terminology, or improving translation quality, your contributions are welcome.
 
-### Completed
+---
 
-✅ Complete Tutorial documentation translated and validated (17 files)
+## Contents
 
-✅ `bugs.po` fully translated and validated
+- [Project Status](#project-status)
+- [Before You Start](#before-you-start)
+- [Repository Structure](#repository-structure)
+- [Translation Workflow](#translation-workflow)
+- [Getting Started](#getting-started)
+- [Creating New Translation Files](#creating-a-new-translation-file)
+- [Validation](#validation)
+- [Translation Rules](#translation-rules)
+- [Quality Checklist](#quality-checklist)
+- [Pull Request Guidelines](#pull-request-guidelines)
+- [Commit Message Examples](#commit-message-examples)
+- [Translation Standards](#translation-standards)
+- [Getting Help](#getting-help)
+- [References](#references)
+- [License](#license)
 
-✅ `glossary.po` fully translated and validated
+---
 
-✅ `library/functions.po` fully translated and validated
+# Project Status
 
-✅ `library/stdtypes.po` fully translated and validated
+The Punjabi (`pa`) translation project is actively maintained and follows the official Python Documentation Translation workflow.
 
-✅ `library/functools.po` fully translated and validated
+### Current Highlights
 
-✅ `library/exceptions.po` fully translated and validated
+- ✅ Officially listed in the Python Developer Guide Translation Coordinators (PR #1843)
+- ✅ Active translation branch: `3.15`
+- ✅ Automated synchronization with the official Python Documentation Transifex project
+- ✅ GitHub Actions validation passing
+- ✅ GNU gettext (`msgfmt`) validation passing
+- ✅ `sphinx-lint` validation passing
+- ✅ CPython HTML documentation build passing
+- ✅ Nitpicky (`-n`) documentation build passing
 
-✅ Language tag standardized to `pa`
+### Completed Translation Areas
 
-✅ All completed translations uploaded to Transifex
+| Area | Status |
+|------|--------|
+| Tutorial Documentation (17/17 files) | ✅ Complete |
+| Using Python Documentation (9/9 files) | ✅ Complete |
+| `library/stdtypes.po` | ✅ Complete |
+| `library/functions.po` | ✅ Complete |
+| `library/exceptions.po` | ✅ Complete |
+| `library/functools.po` | ✅ Complete |
+| `library/string.po` | ✅ Complete |
+| `howto/regex.po` | ✅ Complete |
+| `howto/sorting.po` | ✅ Complete |
+| `glossary.po` | ✅ Complete |
+| `bugs.po` | ✅ Complete |
 
-✅ 4,155 documentation messages translated
+### Translation Statistics
 
-### Current Focus
+| Metric | Value |
+|--------|------:|
+| Verified Translated Strings | **7,668** |
+| Tutorial Files | 17 |
+| Using Python Files | 9 |
+| Completed Core Library Files | 5 |
+| Completed HOWTO Files | 2 |
+| Root Translation Files | 2 |
 
-Current priorities:
+### Current Priorities
 
-* Automated Transifex synchronization
-* Python documentation translation coordination
-* Python Devguide translation listing
-* Repository structure verification
-* Reference documentation
-* Using Python documentation
-* What's New documentation
+Current development focuses on:
 
-## Repository Structure
+- Expanding translations across additional Standard Library modules.
+- Continuing HOWTO, FAQ, Reference, C API, and What's New documentation.
+- Maintaining terminology consistency through community review.
+- Keeping translations synchronized with upstream CPython documentation.
+- Preparing the project for future integration with Python's documentation build infrastructure.
+
+---
+
+# Before You Start
+
+Before contributing, please ensure you have:
+
+- A GitHub account.
+- A Transifex account (recommended for translation work).
+- Basic familiarity with Git and GitHub.
+- Basic understanding of Python documentation and reStructuredText (RST).
+- GNU gettext utilities installed (`msgfmt`, `msgattrib`, `msginit`).
+- Python and Sphinx installed if you intend to perform local documentation builds.
+
+Although many translations are performed through Transifex, contributors may also work directly with `.po` files when appropriate.
+
+Before beginning any translation work, please read:
+
+- `README.md`
+- `STYLE_GUIDE.md`
+- `GLOSSARY.md`
+
+These documents describe the project's workflow, terminology, and translation conventions.
+
+---
+
+# Repository Structure
+
+The repository is organized similarly to the upstream CPython documentation.
 
 ```text
 python-docs-pa/
-├── .gitignore
-├── bugs.po
-├── glossary.po
+├── .github/              # GitHub Actions workflows
+├── tutorial/             # Tutorial documentation
+├── using/                # Using Python documentation
+├── library/              # Standard Library documentation
+├── howto/                # HOWTO guides
+├── faq/                  # Frequently Asked Questions
+├── reference/            # Language Reference
+├── c-api/                # Python/C API documentation
+├── extending/            # Extending and Embedding Python
+├── installing/           # Installation documentation
+├── distributing/         # Distribution documentation
+├── deprecations/         # Deprecated features
+├── whatsnew/             # What's New documentation
+│
+├── README.md
 ├── CONTRIBUTING.md
+├── STYLE_GUIDE.md
 ├── GLOSSARY.md
 ├── PROJECT_REPORT.md
-├── README.md
-├── STYLE_GUIDE.md
 │
-├── .github/
-│   └── workflows/
-│       ├── validate.yml
-│       └── transifex-pull.yml
-│
-├── tutorial/
-│   ├── appendix.po
-│   ├── appetite.po
-│   ├── classes.po
-│   ├── controlflow.po
-│   ├── datastructures.po
-│   ├── errors.po
-│   ├── floatingpoint.po
-│   ├── index.po
-│   ├── inputoutput.po
-│   ├── interactive.po
-│   ├── interpreter.po
-│   ├── introduction.po
-│   ├── modules.po
-│   ├── stdlib.po
-│   ├── stdlib2.po
-│   ├── venv.po
-│   └── whatnow.po
-│
-├── library/
-│   ├── exceptions.po
-│   ├── functions.po
-│   ├── functools.po
-│   └── stdtypes.po
-│
-├── reference/
-├── using/
-└── whatsnew/
+├── *.po                  # Root translation files
+└── .gitignore
 ```
 
-## Workflow
+Each directory contains translation files (`.po`) corresponding to the official CPython documentation.
 
-1. Fork the repository (external contributors).
-2. Create a feature branch.
-3. Select an untranslated `.po` file.
-4. Translate or review entries.
-5. Validate the file.
+Whenever possible, contributors should work on one document or one logical translation area at a time to simplify review and maintain consistency.
+
+# Translation Workflow
+
+The Punjabi (`pa`) translation project follows the standard Python Documentation Translation workflow.
+
+```text
+Translate in Transifex
+          ↓
+Community Review
+          ↓
+Terminology Verification (GLOSSARY.md)
+          ↓
+Translation Style Review (STYLE_GUIDE.md)
+          ↓
+Automated Synchronization to GitHub
+          ↓
+GitHub Actions Validation
+          ↓
+GNU gettext Validation (`msgfmt`)
+          ↓
+sphinx-lint
+          ↓
+CPython HTML Build
+          ↓
+Nitpicky (`-n`) Documentation Build
+```
+
+Every completed translation should successfully pass the validation pipeline before being considered ready.
+
+---
+
+# Getting Started
+
+Contributors can help in several ways:
+
+- Translate untranslated documentation.
+- Review existing translations.
+- Improve terminology consistency.
+- Fix formatting or reStructuredText issues.
+- Correct validation errors.
+- Improve documentation quality.
+
+For external contributors, the recommended GitHub workflow is:
+
+1. Fork the repository.
+2. Clone your fork locally.
+3. Create a new branch.
+4. Make your changes.
+5. Validate your work.
 6. Commit your changes.
-7. Push to your fork.
+7. Push the branch.
 8. Open a Pull Request.
 
-## Creating a New Translation File
+If you are translating through Transifex, translations will be synchronized automatically through the repository's GitHub Actions workflow.
 
-Generate a new `.po` file from the latest CPython gettext template:
+---
+
+# Creating a New Translation File
+
+When a new CPython documentation template (`.pot`) becomes available, a corresponding Punjabi translation file can be created using GNU gettext.
+
+Example:
 
 ```bash
 msginit \
@@ -110,7 +208,7 @@ msginit \
   --output-file=PATH_TO_OUTPUT.po
 ```
 
-Example:
+For example:
 
 ```bash
 msginit \
@@ -119,37 +217,104 @@ msginit \
   --output-file=library/functions.po
 ```
 
-## Validation
+After creating a new `.po` file:
 
-### Check for syntax errors
+- Preserve the original metadata.
+- Translate progressively.
+- Validate frequently.
+- Submit only well-tested translations.
+
+---
+
+# Validation
+
+Every completed translation should pass all validation checks before submission.
+
+## Validation Pipeline
+
+```text
+Translation
+      ↓
+msgfmt
+      ↓
+sphinx-lint
+      ↓
+CPython HTML Build
+      ↓
+Nitpicky Build
+```
+
+---
+
+## GNU gettext Validation
+
+Check for syntax errors:
 
 ```bash
 msgfmt --check FILE.po
 ```
 
-### View translation statistics
+Display translation statistics:
 
 ```bash
 msgfmt --statistics FILE.po
 ```
 
-### Show untranslated entries
+List untranslated messages:
 
 ```bash
 msgattrib --untranslated FILE.po
 ```
 
-### Show translated entries
+List translated messages:
 
 ```bash
 msgattrib --translated FILE.po
 ```
 
-## Translation Rules
+---
 
-### Never Translate
+## Documentation Validation
 
-#### Python Keywords
+Run documentation linting:
+
+```bash
+sphinx-lint .
+```
+
+Build the Punjabi documentation:
+
+```bash
+python -m sphinx -b html -D language=pa Doc build/html-pa
+```
+
+Run the strict ("nitpicky") documentation build:
+
+```bash
+python -m sphinx -b html -n -W Doc build/html-pa
+```
+
+All commands should complete successfully before submitting a contribution.
+
+---
+
+# Translation Rules
+
+Maintaining consistency is one of the most important goals of this project.
+
+Always preserve:
+
+- Technical accuracy
+- Existing terminology
+- Formatting
+- Documentation structure
+- reStructuredText markup
+
+---
+
+## Never Translate
+
+### Python Keywords
 
 ```text
 if
@@ -172,13 +337,18 @@ yield
 lambda
 ```
 
-#### Python Identifiers
+---
 
-* Function names
-* Class names
-* Module names
-* Exception names
-* Variable names
+### Python Identifiers
+
+Do **not** translate:
+
+- Function names
+- Class names
+- Module names
+- Exception names
+- Variable names
+- Package names
 
 Examples:
 
@@ -186,18 +356,25 @@ Examples:
 print
 len
 range
-ValueError
-TypeError
 list
 dict
 tuple
 set
+ValueError
+TypeError
+KeyError
+ImportError
 os
 sys
 json
+pathlib
 ```
 
-#### Documentation Markup
+---
+
+### reStructuredText and Sphinx Markup
+
+Never modify or translate documentation roles or directives such as:
 
 ```rst
 :func:
@@ -210,71 +387,178 @@ json
 :ref:
 ```
 
-#### Other Items
+Likewise, preserve:
 
-* URLs
-* Code syntax
-* File names
-* Package names
-* Python version numbers
+- Code blocks
+- Inline code
+- Hyperlinks
+- File names
+- Anchors
+- Cross-references
 
-### Translate
+---
 
-* Titles and headings
-* Explanatory text
-* Notes and warnings
-* Comments inside examples
-* User-facing descriptions
-* Table content
-* Documentation narratives
+### Other Items
 
-## Quality Checklist
+Do not translate:
 
-Before submitting a Pull Request:
+- URLs
+- Python version numbers
+- Command-line options
+- File extensions
+- Package names
+- Environment variables
 
-* [ ] All intended entries translated
-* [ ] msgfmt validation passes
-* [ ] No broken RST markup
-* [ ] No modified code examples
-* [ ] Terminology follows GLOSSARY.md
-* [ ] Style follows STYLE_GUIDE.md
-* [ ] Translation reviewed for natural Punjabi wording
-* [ ] GitHub Actions validation passes
+---
 
-## Commit Message Examples
+## Translate
+
+Translate:
+
+- Titles
+- Section headings
+- Paragraphs
+- Explanatory text
+- Notes
+- Warnings
+- Tips
+- Comments inside code examples
+- Table content
+- User-facing descriptions
+- Documentation narratives
+
+Translate naturally while preserving the original meaning.
+
+Avoid literal word-for-word translations when a more natural Punjabi expression communicates the same concept accurately.
+
+---
+
+# Quality Checklist
+
+Before submitting your contribution, ensure that:
+
+- [ ] All intended entries have been translated or reviewed.
+- [ ] GNU gettext (`msgfmt`) validation passes.
+- [ ] No reStructuredText markup has been modified accidentally.
+- [ ] Code examples remain unchanged.
+- [ ] Terminology follows `GLOSSARY.md`.
+- [ ] Translation style follows `STYLE_GUIDE.md`.
+- [ ] Translation has been reviewed for natural Punjabi wording.
+- [ ] `sphinx-lint` reports no problems.
+- [ ] CPython HTML documentation builds successfully.
+- [ ] Nitpicky (`-n`) documentation build passes.
+- [ ] GitHub Actions validation completes successfully.
+
+# Pull Request Guidelines
+
+Before opening a Pull Request, please ensure that your contribution is complete, focused, and ready for review.
+
+### Before You Submit
+
+- Sync your branch with the latest `3.15` branch.
+- Keep each Pull Request focused on a single topic or documentation area whenever possible.
+- Validate your translations locally before submitting.
+- Ensure GitHub Actions complete successfully.
+- Provide a clear description of your changes.
+- Reference related issues or discussions when applicable.
+
+Large translation efforts should be split into multiple smaller Pull Requests whenever practical to simplify review.
+
+---
+
+# Commit Message Examples
+
+Use concise, descriptive commit messages.
+
+Examples:
 
 ```text
-Translate library/functions.po to Punjabi
+Translate tutorial/modules.po to Punjabi
 
-Translate reference/datamodel.po to Punjabi
+Translate library/functions.po
+
+Translate library/stdtypes.po
 
 Update glossary terminology
 
 Improve translation consistency
 
-Fix validation issues in library modules
+Fix validation issues in tutorial translations
+
+Correct formatting in reference documentation
+
+Update Punjabi translations for Python 3.15
 ```
 
-## Translation Standards
+---
+
+# Translation Standards
+
+High-quality translations should be:
+
+- Technically accurate.
+- Natural and easy to read in Punjabi.
+- Consistent with existing project terminology.
+- Consistent with the official Python documentation.
+- Free from grammatical and spelling errors.
+- Valid according to GNU gettext and Sphinx validation tools.
 
 Contributors should:
 
-* Prefer natural Punjabi over literal word-for-word translation.
-* Preserve technical accuracy.
-* Maintain terminology consistency.
-* Keep formatting identical to the source.
-* Preserve all Sphinx and reStructuredText markup.
-* Follow existing translation patterns established in completed project files (`bugs.po`, `glossary.po`, `tutorial/`, `library/functions.po`, `library/stdtypes.po`, `library/functools.po`, and `library/exceptions.po`).
+- Prefer natural Punjabi over literal word-for-word translations.
+- Preserve the original meaning and technical intent.
+- Follow the terminology defined in `GLOSSARY.md`.
+- Follow the conventions described in `STYLE_GUIDE.md`.
+- Preserve all reStructuredText roles, directives, hyperlinks, and formatting.
+- Keep code examples identical to the original documentation.
+- Preserve indentation and whitespace where required.
+- Review completed translations before submission.
+- Follow translation patterns established in completed project files whenever appropriate.
 
-## Getting Help
+When uncertain about a translation, prioritize consistency with existing project terminology rather than introducing new wording.
 
-Before introducing new terminology, review:
+---
 
-* GLOSSARY.md
-* STYLE_GUIDE.md
+# Getting Help
 
-For translation discussions, suggestions, and coordination, use GitHub Issues and Pull Requests.
+If you have questions about terminology, translation style, or project workflow, consult the following project documentation first:
 
-## License
+- `README.md`
+- `STYLE_GUIDE.md`
+- `GLOSSARY.md`
+- `PROJECT_REPORT.md`
 
-Documentation translations are contributed under the CC0 license, consistent with Python Documentation Translation project guidelines.
+For project discussions, suggestions, bug reports, or translation questions, please use GitHub Issues and Pull Requests.
+
+Constructive feedback, terminology discussions, and translation reviews are always welcome.
+
+---
+
+# References
+
+Useful resources for contributors:
+
+- **Python Developer Guide – Documentation Translations**  
+  <https://devguide.python.org/documentation/translations/>
+
+- **Python Documentation**  
+  <https://docs.python.org/>
+
+- **Python Documentation on Transifex**  
+  <https://app.transifex.com/python-doc/python-newest/>
+
+- **Python Documentation Style Guide**  
+  <https://devguide.python.org/documentation/style-guide/>
+
+- **reStructuredText Primer (Sphinx)**  
+  <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>
+
+---
+
+# License
+
+This project follows the licensing model of the official Python Documentation Translation project.
+
+Documentation translations are contributed under the CC0 1.0 Universal license.
+
+By contributing to this repository, you agree that your contributions may be distributed under the same licensing terms as the official Python documentation translations.

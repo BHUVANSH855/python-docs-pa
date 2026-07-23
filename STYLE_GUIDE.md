@@ -1,33 +1,94 @@
 # Punjabi (pa) Python Docs Style Guide
 
-This guide defines translation conventions for the Punjabi (Gurmukhi) translation of the Python documentation.
+This guide defines translation conventions for the Punjabi (`pa`) translation of the Python documentation.
 
-All contributors should follow these rules to ensure consistency, technical accuracy, and long-term maintainability across the project.
+It complements `README.md`, `CONTRIBUTING.md`, and `GLOSSARY.md` by describing the writing style, terminology, formatting rules, and validation practices contributors should follow when translating Python documentation.
+
+All contributors should follow these guidelines to ensure consistency, technical accuracy, and long-term maintainability across the project.
+
+---
+
+## Contents
+
+- [Project Status](#project-status)
+- [General Principles](#general-principles)
+- [Translation Philosophy](#translation-philosophy)
+- [Never Translate](#never-translate)
+- [Variable Names](#variable-names)
+- [PO File Rules](#po-file-rules)
+- [Placeholder Preservation](#placeholder-preservation)
+- [RST Markup Preservation](#rst-markup-preservation)
+- [Inline Markup Preservation](#inline-markup-preservation)
+- [Directives](#directives)
+- [Code Blocks](#code-blocks)
+- [Interactive Python Sessions](#interactive-python-sessions)
+- [URLs](#urls)
+- [Version Information](#version-information)
+- [Technical Terms](#technical-terms)
+- [Terminology Consistency](#terminology-consistency)
+- [Batch Translation Workflow](#batch-translation-workflow)
+- [Machine Translation Policy](#machine-translation-policy)
+- [Translation Quality Checklist](#translation-quality-checklist)
+- [Validation Commands](#validation-commands)
+- [Repository-Wide Validation](#repository-wide-validation)
+- [Transifex Synchronization](#transifex-synchronization)
+- [Commit Message Conventions](#commit-message-conventions)
+- [Contributor Expectations](#contributor-expectations)
+- [Tone and Writing Style](#tone-and-writing-style)
+- [Translation Review](#translation-review)
+- [Final Rule](#final-rule)
 
 ---
 
 # Project Status
 
-Current verified milestones:
+The Punjabi (`pa`) translation project is actively maintained as part of the official Python Documentation Translation initiative.
 
-* ✅ Complete Tutorial documentation translated (17/17 files)
-* ✅ `bugs.po` fully translated
-* ✅ `glossary.po` fully translated
-* ✅ `library/functions.po` fully translated
-* ✅ `library/stdtypes.po` fully translated
-* ✅ `library/functools.po` fully translated
-* ✅ `library/exceptions.po` fully translated
-* ✅ Repository-wide validation passing
-* ✅ GitHub Actions validation workflow active
-* ✅ Transifex upload completed
-* ✅ Language tag standardized to `pa`
-* ✅ More than 4,000 documentation messages translated
+### Current Highlights
+
+- ✅ Officially listed in the Python Developer Guide Translation Coordinators (PR #1843)
+- ✅ Active translation branch: `3.15`
+- ✅ Automated synchronization with the official Python Documentation Transifex project
+- ✅ GitHub Actions validation passing
+- ✅ GNU gettext (`msgfmt`) validation passing
+- ✅ `sphinx-lint` validation passing
+- ✅ CPython HTML documentation build passing
+- ✅ Nitpicky (`-n`) documentation build passing
+
+### Completed Translation Areas
+
+| Area | Status |
+|------|--------|
+| Tutorial Documentation (17/17 files) | ✅ Complete |
+| Using Python Documentation (9/9 files) | ✅ Complete |
+| `library/stdtypes.po` | ✅ Complete |
+| `library/functions.po` | ✅ Complete |
+| `library/exceptions.po` | ✅ Complete |
+| `library/functools.po` | ✅ Complete |
+| `library/string.po` | ✅ Complete |
+| `howto/regex.po` | ✅ Complete |
+| `howto/sorting.po` | ✅ Complete |
+| `glossary.po` | ✅ Complete |
+| `bugs.po` | ✅ Complete |
+
+### Translation Statistics
+
+| Metric | Value |
+|--------|------:|
+| Verified Translated Strings | **7,668** |
+| Tutorial Files | 17 |
+| Using Python Files | 9 |
+| Completed Core Library Files | 5 |
+| Completed HOWTO Files | 2 |
+| Root Translation Files | 2 |
 
 Contributors should review previously completed translations before introducing new terminology or translation patterns.
 
 ---
 
 # General Principles
+
+The following principles apply to every translation in this repository, regardless of the document or subject area.
 
 * Translate meaning, not individual words.
 * Use natural and clear Punjabi (Gurmukhi).
@@ -408,7 +469,7 @@ Translate surrounding text only.
 
 # Technical Terms
 
-Some technical terms should remain in English.
+Some technical terms are widely recognized in English within the Python ecosystem and should normally remain untranslated unless the project glossary specifies an approved Punjabi equivalent.
 
 Examples:
 
@@ -515,6 +576,9 @@ Before committing:
 * Verify code examples remain executable.
 * Verify glossary terminology is followed.
 * Verify formatting matches the source.
+* Verify the documentation builds successfully.
+* Verify `sphinx-lint` reports no issues.
+* Verify the translation reads naturally in Punjabi.
 * Complete a manual review.
 
 ---
@@ -549,21 +613,37 @@ msgattrib --translated FILE.po
 
 # Repository-Wide Validation
 
-Validate all files:
+Validate translation files:
 
-```powershell
-Get-ChildItem -Recurse -Filter *.po | ForEach-Object {
-    msgfmt --check $_.FullName
-}
+```bash
+msgfmt --check FILE.po
 ```
 
-A completed file should have:
+Run documentation linting:
 
-```text
-0 validation errors
-0 fuzzy entries
-0 untranslated messages
+```bash
+sphinx-lint .
 ```
+
+Build the Punjabi documentation:
+
+```bash
+python -m sphinx -b html -D language=pa Doc build/html-pa
+```
+
+Run the strict ("nitpicky") documentation build:
+
+```bash
+python -m sphinx -b html -n -W Doc build/html-pa
+```
+
+A completed translation should:
+
+- Pass GNU gettext validation.
+- Preserve all reStructuredText markup.
+- Produce no `sphinx-lint` errors.
+- Build successfully with CPython's HTML documentation builder.
+- Pass the nitpicky (`-n`) documentation build.
 
 ---
 
@@ -585,6 +665,8 @@ Only validated translations should be uploaded.
 
 # Commit Message Conventions
 
+Commit messages should be concise, descriptive, and focused on a single logical change whenever possible.
+
 Use descriptive commit messages.
 
 Examples:
@@ -602,26 +684,6 @@ Update glossary terminology
 Update README statistics
 Update project documentation
 ```
-
----
-
-# Milestone Tags
-
-Major validated milestones should be tagged.
-
-Examples:
-
-```text
-tutorial-phase-1
-tutorial-complete
-v1.0-tutorial-complete
-library-functions-complete
-library-stdtypes-complete
-library-functools-complete
-library-exceptions-complete
-```
-
-Tags should represent completed, validated work.
 
 ---
 
@@ -665,14 +727,52 @@ Accuracy > Style
 
 ---
 
+# Translation Review
+
+Every completed translation should be reviewed before submission.
+
+Review each completed translation for:
+
+- Technical accuracy.
+- Natural and idiomatic Punjabi wording.
+- Consistent terminology.
+- Correct grammar and spelling.
+- Preservation of placeholders.
+- Preservation of reStructuredText markup.
+- Formatting consistency.
+- Successful validation with the project's tooling.
+
+---
+
+# References
+
+Useful resources for contributors:
+
+- **Python Developer Guide – Documentation Translations**  
+  <https://devguide.python.org/documentation/translations/>
+
+- **Python Documentation**  
+  <https://docs.python.org/>
+
+- **Python Documentation Style Guide**  
+  <https://devguide.python.org/documentation/style-guide/>
+
+- **Python Documentation on Transifex**  
+  <https://app.transifex.com/python-doc/python-newest/>
+
+- **reStructuredText Primer (Sphinx)**  
+  <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>
+
+---
+
 # Final Rule
 
 Every translation should satisfy three requirements:
 
 ```text
-Technically correct
+Technically accurate
 Consistent with the project glossary
-Natural for Punjabi readers
+Natural and readable for Punjabi users
 ```
 
-If any of these are missing, revise the translation before committing.
+If any of these requirements are not met, revise the translation before committing.

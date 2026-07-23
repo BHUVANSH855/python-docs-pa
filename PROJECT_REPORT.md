@@ -1,122 +1,160 @@
 # 🐍 Python Docs Punjabi (pa) — Project Report
 
-**Project:** python-docs-pa
-**Coordinator:** Bhuvansh Kataria (@BHUVANSH855)
-**Repository:** https://github.com/BHUVANSH855/python-docs-pa
-**Report Date:** June 22, 2026
-**Current Status:** All currently tracked translation files completed, validated, and uploaded to Transifex
+**Project:** python-docs-pa  
+**Coordinator:** Bhuvansh Kataria (@BHUVANSH855)  
+**Repository:** https://github.com/BHUVANSH855/python-docs-pa  
+**Translation Platform:** Python Documentation on Transifex  
+**Language:** Punjabi (pa)  
+**Translation Branch:** `3.15`  
+**Project Status:** Active  
+**Current Status:** Repository infrastructure established, contributor documentation fully modernized, validation pipeline operational, and **7,668 verified translated strings** completed across multiple sections of the official Python documentation.
 
 ---
 
 # Project Overview
 
-The goal of this project is to translate the official Python documentation into Punjabi (Gurmukhi) and make Python learning resources more accessible to Punjabi-speaking students, educators, and developers.
+The **python-docs-pa** project aims to translate the official Python documentation into Punjabi (Gurmukhi), making high-quality programming resources more accessible to Punjabi-speaking students, educators, and developers.
 
-The project follows Python documentation translation guidelines and maintains terminology consistency through a shared glossary, style guide, automated validation, and contributor documentation.
+The project follows the official Python Documentation Translation guidelines and emphasizes:
+
+- Consistent technical terminology
+- High-quality translations
+- Automated validation
+- Sustainable contributor onboarding
+- Long-term maintainability
+
+To support these goals, the repository includes comprehensive contributor documentation, standardized translation guidelines, automated validation workflows, and integration with the official Python Documentation Translation infrastructure.
+
+---
+
+# Project Objectives
+
+The project focuses on five primary objectives:
+
+1. Translate the official Python documentation into Punjabi while preserving technical accuracy.
+2. Maintain consistent terminology across all translated documentation.
+3. Provide contributors with clear documentation, workflows, and quality standards.
+4. Ensure translation quality through automated validation and review.
+5. Build a sustainable Punjabi translation community within the Python ecosystem.
 
 ---
 
 # Major Milestones
 
-## Repository Setup
+## Repository Modernization
 
-Completed:
+The repository has been significantly modernized to align with the recommendations of the Python Documentation Translation project.
 
-* README.md
-* CONTRIBUTING.md
-* STYLE_GUIDE.md
-* GLOSSARY.md
-* GitHub Actions validation workflow
-* Repository restructuring to match Python translation recommendations
-* Transifex synchronization workflow
-* Language tag standardized to `pa`
-* Repository renamed to `python-docs-pa`
+Completed work includes:
+
+- ✅ Comprehensive `README.md`
+- ✅ Contributor-focused `CONTRIBUTING.md`
+- ✅ Detailed `STYLE_GUIDE.md`
+- ✅ Standardized `GLOSSARY.md`
+- ✅ Updated `PROJECT_REPORT.md`
+- ✅ GitHub Actions validation workflow
+- ✅ Automated Transifex synchronization workflow
+- ✅ Repository restructuring to match Python translation recommendations
+- ✅ Language tag standardized to `pa`
+- ✅ Repository renamed to `python-docs-pa`
 
 ---
 
-## Community Recognition
+## Validation Infrastructure
 
-### Python Documentation Translation Community
+The project includes a complete validation pipeline to ensure translation quality before changes are committed.
 
-* Introduced project in Python Documentation Translation Discord
-* Received guidance and feedback from Stanislav Dzoba (Stan) and other Python documentation translation contributors
-* Dedicated Punjabi translation channel created
-* Added as Punjabi translation coordinator on Transifex
+Implemented validation includes:
 
-### Transifex
+- ✅ GNU gettext (`msgfmt`) validation
+- ✅ `sphinx-lint` validation
+- ✅ GitHub Actions automated validation
+- ✅ CPython HTML documentation build
+- ✅ Nitpicky (`-n`) documentation build
+- ✅ Translation consistency checks
 
-Language Team: Punjabi (pa)
-Translation Platform: Transifex
-Language Tag: pa
+This validation pipeline helps detect formatting issues, broken references, untranslated messages, and documentation build errors before contributions are merged.
 
-Coordinator:
+---
 
-* BHUVANSH855
+# Community Recognition
 
-Project:
+## Python Documentation Translation Community
 
-https://app.transifex.com/python-doc/python-newest/
+The Punjabi translation project is now an officially recognized part of the Python Documentation Translation ecosystem.
+
+Major milestones include:
+
+- ✅ Introduced the project within the Python Documentation Translation community
+- ✅ Received guidance and feedback from Stanislav Dzoba (Stan) and other translation contributors
+- ✅ Dedicated Punjabi translation discussion channel established
+- ✅ Official Punjabi translation coordinator added on Transifex
+- ✅ Punjabi language officially listed in the Python Developer Guide Translation Coordinators (merged via PR #1843)
+
+---
+
+## Transifex
+
+**Language Team:** Punjabi (`pa`)
+
+**Translation Platform:** Python Documentation on Transifex
+
+**Coordinator:**
+
+- Bhuvansh Kataria (@BHUVANSH855)
+
+The repository remains synchronized with the official Python Documentation translation project through the established Transifex workflow.
 
 ---
 
 # Translation Progress
 
-## Tutorial Documentation
+The Punjabi translation project has continued to expand beyond its initial milestones and now includes completed translations across multiple documentation areas.
 
-| File              | Status        | Messages |
-| ----------------- | ------------- | -------: |
-| appendix.po       | 100% Complete |       28 |
-| appetite.po       | 100% Complete |       17 |
-| classes.po        | 100% Complete |      154 |
-| controlflow.po    | 100% Complete |      226 |
-| datastructures.po | 100% Complete |      139 |
-| errors.po         | 100% Complete |       96 |
-| floatingpoint.po  | 100% Complete |       76 |
-| index.po          | 100% Complete |       20 |
-| inputoutput.po    | 100% Complete |      112 |
-| interactive.po    | 100% Complete |        7 |
-| interpreter.po    | 100% Complete |       33 |
-| introduction.po   | 100% Complete |      120 |
-| modules.po        | 100% Complete |      116 |
-| stdlib.po         | 100% Complete |       67 |
-| stdlib2.po        | 100% Complete |       65 |
-| venv.po           | 100% Complete |       42 |
-| whatnow.po        | 100% Complete |       18 |
+## Completed Documentation Areas
 
-Tutorial Total:
+| Documentation Area | Status |
+|--------------------|--------|
+| Tutorial Documentation (17/17 files) | ✅ Complete |
+| Using Python Documentation (9/9 files) | ✅ Complete |
+| Root Translation Files | ✅ Complete |
+| `library/stdtypes.po` | ✅ Complete |
+| `library/functions.po` | ✅ Complete |
+| `library/exceptions.po` | ✅ Complete |
+| `library/functools.po` | ✅ Complete |
+| `library/string.po` | ✅ Complete |
+| `howto/regex.po` | ✅ Complete |
+| `howto/sorting.po` | ✅ Complete |
 
-```text
-1436 messages
-17 files
-```
+---
 
-## Root Translation Files
+## Translation Statistics
 
-| File | Messages |
-|------|---------:|
-| bugs.po | 31 |
-| glossary.po | 30 |
+| Metric | Value |
+|--------|------:|
+| Verified Translated Strings | **7,668** |
+| Tutorial Files | 17 |
+| Using Python Files | 9 |
+| Completed Core Library Files | 5 |
+| Completed HOWTO Files | 2 |
+| Root Translation Files | 2 |
+| Active Translation Branch | `3.15` |
 
-## Library Translation Files
+---
 
-| File | Messages |
-|------|---------:|
-| functions.po | 535 |
-| stdtypes.po | 1592 |
-| functools.po | 324 |
-| exceptions.po | 207 |
+## Validation Status
 
-## Overall Statistics
+All completed translations successfully pass the project's quality assurance pipeline.
 
-```text
-Tutorial Messages : 1436
-Root Messages     : 61
-Library Messages  : 2658
-────────────────────────
-Total Messages    : 4155
-```
+| Validation | Status |
+|------------|--------|
+| GNU gettext (`msgfmt`) | ✅ PASS |
+| `sphinx-lint` | ✅ PASS |
+| GitHub Actions | ✅ PASS |
+| CPython HTML Build | ✅ PASS |
+| Nitpicky (`-n`) Build | ✅ PASS |
 
-Validation Status:
+Current validation status:
 
 ```text
 0 validation errors
@@ -126,66 +164,115 @@ Validation Status:
 
 ---
 
-# Git History Milestones
+## Translation Workflow
 
-Important translation commits:
+Every completed translation follows the same quality workflow:
 
 ```text
-60b7420 Add Punjabi translation for library/functions.po
-6592723 Translate library/stdtypes.po to Punjabi
-a389206 Add Punjabi translations for tutorial documentation
-f9debcc Translate tutorial/index.po to Punjabi
-6f06b8e Add Punjabi translation for functools module
-a894748 Translate glossary.po to Punjabi
-344ee62 Translate library/exceptions.po
-87f8012 Use pa language code across repository
-1c25498 Rename repository references to python-docs-pa
+Translate
+        │
+        ▼
+Terminology Review
+        │
+        ▼
+msgfmt Validation
+        │
+        ▼
+sphinx-lint Validation
+        │
+        ▼
+CPython Documentation Build
+        │
+        ▼
+GitHub Actions Validation
+        │
+        ▼
+Commit & Review
+        │
+        ▼
+Transifex Synchronization
 ```
+
+This workflow ensures consistent terminology, valid gettext syntax, successful documentation builds, and high-quality translations before publication.
 
 ---
 
-# Repository Tags
+# Repository Development
 
-```text
-tutorial-phase-1
-tutorial-complete
-v1.0-tutorial-complete
-```
+The repository has evolved from an initial translation effort into a fully documented and validated Python Documentation Translation project.
 
-Tag Description:
+Major development milestones include:
 
-* tutorial-phase-1 → Initial tutorial milestone
-* tutorial-complete → Entire tutorial section completed
-* v1.0-tutorial-complete → First validated tutorial release milestone
+- Repository renamed to **python-docs-pa**
+- Repository structure aligned with Python Documentation Translation recommendations
+- Language tag standardized to `pa`
+- Automated GitHub Actions validation workflow implemented
+- Automated Transifex synchronization workflow implemented
+- Comprehensive contributor documentation completed
+- Translation terminology standardized across the project
+- Validation pipeline integrated into the development workflow
+
+---
+
+# Documentation Assets
+
+The repository now provides complete contributor documentation covering every stage of the translation workflow.
+
+| Document | Purpose |
+|----------|---------|
+| `README.md` | Project overview, repository status, translation progress, setup instructions, and useful resources |
+| `CONTRIBUTING.md` | Contribution workflow, validation process, quality standards, and pull request guidelines |
+| `STYLE_GUIDE.md` | Translation conventions, formatting rules, terminology usage, and writing guidelines |
+| `GLOSSARY.md` | Standardized Punjabi terminology for Python documentation |
+| `PROJECT_REPORT.md` | Project history, milestones, translation progress, infrastructure, and future roadmap |
+
+Together, these documents provide contributors with a complete reference for participating in the Punjabi translation project.
 
 ---
 
 # Quality Assurance
 
-Translation quality is maintained through:
+Translation quality is maintained through a combination of manual review and automated validation.
 
-* Manual translation review
-* Shared glossary
-* Style guide enforcement
-* msgfmt validation
-* GitHub Actions automated checks
+## Manual Quality Checks
 
-Validation commands:
+- Translation review
+- Terminology consistency
+- Style Guide compliance
+- Glossary verification
+- Formatting review
+- Documentation review
+
+---
+
+## Automated Validation
+
+The project currently validates translations using:
+
+- GNU gettext (`msgfmt`)
+- `sphinx-lint`
+- GitHub Actions
+- CPython HTML documentation build
+- Nitpicky (`-n`) documentation build
+- Translation consistency checks
+
+---
+
+## Common Validation Commands
+
+Validate an individual translation file:
 
 ```bash
-msgfmt --check bugs.po
-msgfmt --check glossary.po
-msgfmt --check tutorial/FILENAME.po
-msgfmt --check library/FILENAME.po
+msgfmt --check FILE.po
 ```
 
-Statistics commands:
+Display translation statistics:
 
 ```bash
 msgfmt --statistics FILE.po
 ```
 
-Repository-wide validation:
+Validate every translation file in the repository:
 
 ```powershell
 Get-ChildItem -Recurse -Filter *.po | ForEach-Object {
@@ -193,122 +280,164 @@ Get-ChildItem -Recurse -Filter *.po | ForEach-Object {
 }
 ```
 
+Run `sphinx-lint`:
+
+```bash
+sphinx-lint .
+```
+
+Build the translated documentation:
+
+```bash
+python -m sphinx -b html -D language=pa Doc build/html-pa
+```
+
+Run a Nitpicky build:
+
+```bash
+python -m sphinx -n -b html -D language=pa Doc build/html-pa
+```
+
 ---
 
-# Documentation Assets
+# Repository Infrastructure
 
-## README.md
+The repository now includes a comprehensive infrastructure supporting long-term maintenance, contributor onboarding, automated validation, and sustainable project growth.
 
-Contains:
+Implemented components include:
 
-* Project overview
-* Current progress
-* Repository structure
-* Workflow instructions
-* Current project status
+- GitHub Actions automation
+- Transifex synchronization
+- Translation documentation
+- Contributor onboarding resources
+- Standardized glossary
+- Style Guide
+- Validation pipeline
+- Quality assurance workflow
 
-## CONTRIBUTING.md
-
-Contains:
-
-* Contribution workflow
-* Validation process
-* Translation rules
-* Quality checklist
-
-## STYLE_GUIDE.md
-
-Contains:
-
-* Translation conventions
-* Markup preservation rules
-* Code block handling
-* Consistency guidelines
-
-## GLOSSARY.md
-
-Contains approved Punjabi terminology for Python documentation.
-
-## PROJECT_REPORT.md
-
-Contains:
-
-* Project history
-* Translation milestones
-* Statistics
-* Community coordination records
-* Future roadmap
+This infrastructure enables contributors to produce consistent, high-quality translations while minimizing manual validation work.
 
 ---
 
 # Current Repository Status
 
-Git Status:
+The Punjabi (`pa`) translation project is actively maintained and continues to expand its coverage of the official Python documentation.
+
+## Repository Summary
+
+| Item | Status |
+|------|--------|
+| Repository | ✅ Active |
+| Translation Branch | `3.15` |
+| GitHub Actions | ✅ Operational |
+| Transifex Synchronization | ✅ Operational |
+| Documentation | ✅ Modernized |
+| Validation Pipeline | ✅ Fully Operational |
+| Contributor Documentation | ✅ Complete |
+
+---
+
+## Translation Summary
+
+| Metric | Value |
+|--------|------:|
+| Verified Translated Strings | **7,668** |
+| Tutorial Documentation | ✅ Complete |
+| Using Python Documentation | ✅ Complete |
+| Core Library Files | ✅ Complete |
+| HOWTO Files | ✅ Complete |
+| Root Translation Files | ✅ Complete |
+
+---
+
+## Validation Summary
+
+Current project status:
 
 ```text
 Working tree clean
+Validation Status : PASS
+GitHub Actions    : PASS
+msgfmt            : PASS
+sphinx-lint       : PASS
+HTML Build        : PASS
+Nitpicky Build    : PASS
 ```
 
-Branch:
-
-```text
-main
-```
-
-Validation:
-
-```text
-PASS
-```
-
-Translation Status:
-
-```text
-All currently tracked translation files complete and validated
-```
-
-Messages Translated:
-
-```text
-4155
-```
+The repository is currently in a validated state, with all completed translations passing the project's quality assurance workflow.
 
 ---
 
-# Next Objectives
+# Roadmap
 
-## Coordination
+The Punjabi translation project will continue expanding coverage of the official Python documentation.
 
-* Automate Transifex synchronization workflow
-* Coordinate with Python Documentation Translation Team
-* Prepare Python Devguide translation listing PR
+## Short-Term Goals
 
-## Translation Expansion
-
-Future target areas:
-
-* reference/
-* using/
-* whatsnew/
-
-## Long-Term Goals
-
-* Official inclusion in Python documentation translation ecosystem
-* Expansion of Punjabi documentation coverage
-* Contributor onboarding and community growth
+- Translate additional documentation sections.
+- Maintain terminology consistency across all translations.
+- Continue synchronizing completed translations with Transifex.
+- Review and refine existing translations where needed.
+- Support and onboard new contributors.
 
 ---
 
-# Project Vision
+## Medium-Term Goals
 
-The long-term goal is to establish a complete Punjabi translation of Python documentation and create a sustainable contributor ecosystem around Punjabi-language programming education.
-
-This project aims to lower barriers for Punjabi-speaking learners and contribute to the broader Python documentation translation effort.
+- Expand coverage of the remaining Python documentation.
+- Continue improving automation and validation workflows.
+- Maintain documentation in line with Python translation recommendations.
+- Strengthen collaboration with the Python Documentation Translation community.
 
 ---
 
-# Report Version
+## Long-Term Vision
 
-Version: 2.1
+The long-term objective is to provide a comprehensive, high-quality Punjabi translation of the official Python documentation.
 
-Generated after completion and validation of all currently tracked translation files in the repository, including Tutorial documentation, bugs.po, glossary.po, library/functions.po, library/stdtypes.po, library/functools.po, and library/exceptions.po. All completed translations have also been uploaded to the Python Documentation Transifex project.
+The project also aims to establish a sustainable contributor community that can maintain translations across future Python releases while following the quality standards of the Python Documentation Translation project.
+
+---
+
+# Acknowledgements
+
+This project has benefited from guidance and support provided by members of the Python Documentation Translation community.
+
+Special thanks to:
+
+- Stanislav Dzoba (Stan)
+- Python Documentation Translation contributors
+- Python Documentation Translation community on Discord
+- Python Software Foundation
+- Everyone who contributes to improving Python documentation translations
+
+Their feedback and collaboration have helped shape both the translation workflow and the project's long-term direction.
+
+---
+
+# Report Summary
+
+At the time of this report, the project has successfully established:
+
+- A standardized Punjabi terminology glossary.
+- Comprehensive contributor documentation.
+- Translation and style guidelines.
+- Automated validation infrastructure.
+- Automated Transifex synchronization.
+- Official recognition within the Python Documentation Translation ecosystem.
+- A growing collection of validated Punjabi translations totaling **7,668 verified translated strings**.
+
+The repository is now well-positioned for continued expansion, contributor onboarding, long-term maintenance, and future Python release translations as part of the official Python Documentation Translation effort.
+
+---
+
+# Report Information
+
+| Item | Value |
+|------|-------|
+| Report Version | **3.0** |
+| Repository | `python-docs-pa` |
+| Translation Language | Punjabi (`pa`) |
+| Translation Branch | `3.15` |
+| Status | Active |
+| Last Updated | July 2026 |
