@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Bhuvansh Kataria, 2026
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-11 14:46+0000\n"
+"POT-Creation-Date: 2026-07-27 16:10+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
+"Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
 "teams/5390/pa/)\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Data Compression and Archiving"
-msgstr ""
+msgstr "ਡਾਟਾ ਸੰਕੁਚਨ ਅਤੇ ਆਰਕਾਈਵਿੰਗ"
 
 msgid ""
 "The modules described in this chapter support data compression with the "
@@ -27,3 +31,6 @@ msgid ""
 "tar-format archives.  See also :ref:`archiving-operations` provided by the :"
 "mod:`shutil` module."
 msgstr ""
+"ਇਸ ਅਧਿਆਇ ਵਿੱਚ ਵਰਣਿਤ ਮੋਡੀਊਲ zlib, gzip, bzip2, lzma ਅਤੇ zstd ਐਲਗੋਰਿਦਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ "
+"ਡਾਟਾ ਸੰਕੁਚਨ ਅਤੇ ZIP ਅਤੇ tar ਫਾਰਮੈਟ ਵਾਲੇ ਆਰਕਾਈਵ ਬਣਾਉਣ ਦਾ ਸਮਰਥਨ ਕਰਦੇ ਹਨ। :mod:"
+"`shutil` ਮੋਡੀਊਲ ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤੀਆਂ :ref:`archiving-operations` ਵੀ ਵੇਖੋ।"
