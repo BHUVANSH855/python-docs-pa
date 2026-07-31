@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 15:08+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -340,7 +340,7 @@ msgid "1-character :py:class:`bytes`"
 msgstr ""
 
 msgid "``'c'``"
-msgstr "``'c'``"
+msgstr ""
 
 msgid ":class:`c_wchar`"
 msgstr ""
@@ -352,7 +352,7 @@ msgid "1-character :py:class:`str`"
 msgstr ""
 
 msgid "``'u'``"
-msgstr "``'u'``"
+msgstr ""
 
 msgid ":class:`c_byte`"
 msgstr ""
@@ -361,7 +361,7 @@ msgid ":py:class:`int`"
 msgstr ""
 
 msgid "``'b'``"
-msgstr "``'b'``"
+msgstr ""
 
 msgid ":class:`c_ubyte`"
 msgstr ""
@@ -523,7 +523,7 @@ msgid ":py:class:`float`"
 msgstr ""
 
 msgid "``'f'``"
-msgstr "``'f'``"
+msgstr ""
 
 msgid ":class:`c_double`"
 msgstr ""
@@ -532,7 +532,7 @@ msgid ":c:expr:`double`"
 msgstr ""
 
 msgid "``'d'``"
-msgstr "``'d'``"
+msgstr ""
 
 msgid ":class:`c_longdouble`"
 msgstr ""
@@ -2147,7 +2147,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "ਉਪਲਬਧਤਾ"
+msgstr ""
 
 msgid ""
 ":exc:`WindowsError` used to be raised, which is now an alias of :exc:"
@@ -2607,19 +2607,19 @@ msgid ""
 msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "Specifies an input parameter to the function."
 msgstr ""
 
 msgid "2"
-msgstr "2"
+msgstr ""
 
 msgid "Output parameter.  The foreign function fills in a value."
 msgstr ""
 
 msgid "4"
-msgstr "4"
+msgstr ""
 
 msgid "Input parameter which defaults to the integer zero."
 msgstr ""
@@ -2827,7 +2827,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
+msgstr ""
 
 msgid ""
 ">>> bytes(create_string_buffer(2))\n"
@@ -3817,7 +3817,7 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr "ਐਕਸੈਪਸ਼ਨ"
+msgstr ""
 
 msgid ""
 "This exception is raised when a foreign function call cannot convert one of "

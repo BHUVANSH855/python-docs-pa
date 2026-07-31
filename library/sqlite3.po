@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 15:08+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -305,7 +305,7 @@ msgid "Open a connection to an SQLite database."
 msgstr ""
 
 msgid "Parameters"
-msgstr "ਪੈਰਾਮੀਟਰ"
+msgstr ""
 
 msgid ""
 "The path to the database file to be opened. You can pass ``\":memory:\"`` to "
@@ -409,7 +409,7 @@ msgid ""
 msgstr ""
 
 msgid "For example:"
-msgstr "ਉਦਾਹਰਨ ਲਈ:"
+msgstr ""
 
 msgid ""
 ">>> sqlite3.complete_statement(\"SELECT foo FROM bar;\")\n"
@@ -607,7 +607,7 @@ msgid "single-thread"
 msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid "Threads may not share the module"
 msgstr ""
@@ -616,10 +616,10 @@ msgid "multi-thread"
 msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "2"
-msgstr "2"
+msgstr ""
 
 msgid "Threads may share the module, but not connections"
 msgstr ""
@@ -628,7 +628,7 @@ msgid "serialized"
 msgstr ""
 
 msgid "3"
-msgstr "3"
+msgstr ""
 
 msgid "Threads may share the module, connections and cursors"
 msgstr ""
@@ -782,7 +782,7 @@ msgid "The first three parameters are now positional-only."
 msgstr ""
 
 msgid "Example:"
-msgstr "ਉਦਾਹਰਨ:"
+msgstr ""
 
 msgid ""
 ">>> import hashlib\n"
@@ -1057,7 +1057,7 @@ msgid ""
 msgstr ""
 
 msgid "The first parameter is now positional-only."
-msgstr "ਪਹਿਲਾ parameter ਹੁਣ ਸਿਰਫ positional ਹੈ।"
+msgstr ""
 
 msgid ""
 "Register :term:`callable` *trace_callback* to be invoked for each SQL "
@@ -1797,7 +1797,7 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr "ਐਕਸੈਪਸ਼ਨ"
+msgstr ""
 
 msgid "The exception hierarchy is defined by the DB-API 2.0 (:pep:`249`)."
 msgstr ""
@@ -2565,7 +2565,7 @@ msgid ":ref:`unicode-howto`"
 msgstr ""
 
 msgid "Explanation"
-msgstr "ਵਿਆਖਿਆ"
+msgstr ""
 
 msgid "Transaction control"
 msgstr ""
@@ -2685,4 +2685,4 @@ msgid "in SQL statements"
 msgstr ""
 
 msgid ": (colon)"
-msgstr ": (ਕੋਲਨ)"
+msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 16:24+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -47,19 +47,19 @@ msgid "Minimum size in bytes"
 msgstr ""
 
 msgid "Notes"
-msgstr "ਨੋਟ"
+msgstr ""
 
 msgid "``'b'``"
-msgstr "``'b'``"
+msgstr ""
 
 msgid "signed char"
 msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "``'B'``"
 msgstr ""
@@ -68,7 +68,7 @@ msgid "unsigned char"
 msgstr ""
 
 msgid "``'u'``"
-msgstr "``'u'``"
+msgstr ""
 
 msgid "wchar_t"
 msgstr ""
@@ -77,22 +77,22 @@ msgid "Unicode character"
 msgstr ""
 
 msgid "2"
-msgstr "2"
+msgstr ""
 
 msgid "\\(1)"
-msgstr "\\(1)"
+msgstr ""
 
 msgid "``'w'``"
-msgstr "``'w'``"
+msgstr ""
 
 msgid "Py_UCS4"
 msgstr ""
 
 msgid "4"
-msgstr "4"
+msgstr ""
 
 msgid "\\(2)"
-msgstr "\\(2)"
+msgstr ""
 
 msgid "``'h'``"
 msgstr ""
@@ -107,7 +107,7 @@ msgid "unsigned short"
 msgstr ""
 
 msgid "``'i'``"
-msgstr "``'i'``"
+msgstr ""
 
 msgid "signed int"
 msgstr ""
@@ -146,22 +146,22 @@ msgid "unsigned long long"
 msgstr ""
 
 msgid "``'e'``"
-msgstr "``'e'``"
+msgstr ""
 
 msgid "_Float16"
 msgstr ""
 
 msgid "float"
-msgstr "float"
+msgstr ""
 
 msgid "\\(3)"
-msgstr "\\(3)"
+msgstr ""
 
 msgid "``'f'``"
-msgstr "``'f'``"
+msgstr ""
 
 msgid "``'d'``"
-msgstr "``'d'``"
+msgstr ""
 
 msgid "double"
 msgstr ""
@@ -173,10 +173,10 @@ msgid "float complex"
 msgstr ""
 
 msgid "complex"
-msgstr "complex"
+msgstr ""
 
 msgid "\\(4)"
-msgstr "\\(4)"
+msgstr ""
 
 msgid "``'Zd'``"
 msgstr ""
@@ -188,7 +188,7 @@ msgid "16"
 msgstr ""
 
 msgid "Notes:"
-msgstr "ਨੋਟ:"
+msgstr ""
 
 msgid "It can be 16 bits or 32 bits depending on the platform."
 msgstr ""

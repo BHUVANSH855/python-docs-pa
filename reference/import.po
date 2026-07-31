@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-11 14:46+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -87,7 +87,7 @@ msgid ""
 msgstr ""
 
 msgid "Packages"
-msgstr "ਪੈਕੇਜ"
+msgstr ""
 
 msgid ""
 "Python has only one type of module object, and all modules are of this type, "
@@ -1185,7 +1185,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "ਫੁੱਟਨੋਟ"
+msgstr ""
 
 msgid "See :class:`types.ModuleType`."
 msgstr ""
@@ -1202,28 +1202,28 @@ msgid "import machinery"
 msgstr ""
 
 msgid "package"
-msgstr "ਪੈਕੇਜ"
+msgstr ""
 
 msgid "regular"
 msgstr ""
 
 msgid "namespace"
-msgstr "ਨੇਮਸਪੇਸ"
+msgstr ""
 
 msgid "portion"
-msgstr "ਹਿੱਸਾ"
+msgstr ""
 
 msgid "sys.modules"
 msgstr ""
 
 msgid "finder"
-msgstr "ਫਾਈਂਡਰ"
+msgstr ""
 
 msgid "loader"
-msgstr "ਲੋਡਰ"
+msgstr ""
 
 msgid "module spec"
-msgstr "ਮੋਡੀਊਲ ਸਪੈਕ"
+msgstr ""
 
 msgid "import hooks"
 msgstr ""
@@ -1238,13 +1238,13 @@ msgid "hooks"
 msgstr ""
 
 msgid "import"
-msgstr "import"
+msgstr ""
 
 msgid "meta"
 msgstr ""
 
 msgid "path"
-msgstr "ਮਾਰਗ"
+msgstr ""
 
 msgid "sys.meta_path"
 msgstr ""
@@ -1253,7 +1253,7 @@ msgid "find_spec"
 msgstr ""
 
 msgid "path based finder"
-msgstr "ਪਾਥ ਆਧਾਰਿਤ ਫਾਈਂਡਰ"
+msgstr ""
 
 msgid "sys.path"
 msgstr ""

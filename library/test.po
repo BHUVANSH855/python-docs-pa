@@ -479,7 +479,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 "for _ in support.busy_retry(support.SHORT_TIMEOUT):\n"

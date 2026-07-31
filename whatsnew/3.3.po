@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-11 14:46+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -1193,7 +1193,7 @@ msgid ""
 msgstr ""
 
 msgid "array"
-msgstr "ਐਰੇ"
+msgstr ""
 
 msgid ""
 "The :mod:`array` module supports the :c:expr:`long long` type using ``q`` "
@@ -1994,7 +1994,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "The :mod:`math` module has a new function, :func:`~math.log2`,  which "
@@ -2300,7 +2300,7 @@ msgid ""
 msgstr ""
 
 msgid "re"
-msgstr "re"
+msgstr ""
 
 msgid ""
 ":class:`str` regular expressions now support ``\\u`` and ``\\U`` escapes."
@@ -2672,7 +2672,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "The :mod:`sys` module has a new :data:`~sys.thread_info` :term:`named tuple` "
@@ -2769,7 +2769,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "ਕਿਸਮਾਂ"
+msgstr ""
 
 msgid ""
 "Add a new :class:`types.MappingProxyType` class: Read-only proxy of a "

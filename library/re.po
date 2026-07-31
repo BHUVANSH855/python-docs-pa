@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-25 14:57+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -144,7 +144,7 @@ msgid ""
 msgstr ""
 
 msgid "``^``"
-msgstr "``^``"
+msgstr ""
 
 msgid ""
 "(Caret.)  Matches the start of the string, and in :const:`MULTILINE` mode "
@@ -152,7 +152,7 @@ msgid ""
 msgstr ""
 
 msgid "``$``"
-msgstr "``$``"
+msgstr ""
 
 msgid ""
 "Matches the end of the string or just before the newline at the end of the "
@@ -359,7 +359,7 @@ msgid ""
 msgstr ""
 
 msgid "``|``"
-msgstr "``|``"
+msgstr ""
 
 msgid ""
 "``A|B``, where *A* and *B* can be arbitrary REs, creates a regular "
@@ -561,7 +561,7 @@ msgid "A comment; the contents of the parentheses are simply ignored."
 msgstr ""
 
 msgid "``(?=...)``"
-msgstr "``(?=...)``"
+msgstr ""
 
 msgid ""
 "Matches if ``...`` matches next, but doesn't consume any of the string.  "
@@ -570,7 +570,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?!...)``"
-msgstr "``(?!...)``"
+msgstr ""
 
 msgid ""
 "Matches if ``...`` doesn't match next.  This is a :dfn:`negative lookahead "
@@ -651,13 +651,13 @@ msgid ""
 msgstr ""
 
 msgid "``\\A``"
-msgstr "``\\A``"
+msgstr ""
 
 msgid "Matches only at the start of the string."
 msgstr ""
 
 msgid "``\\b``"
-msgstr "``\\b``"
+msgstr ""
 
 msgid ""
 "Matches the empty string, but only at the beginning or end of a word. A word "
@@ -681,7 +681,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\B``"
-msgstr "``\\B``"
+msgstr ""
 
 msgid ""
 "Matches the empty string, but only when it is *not* at the beginning or end "
@@ -697,7 +697,7 @@ msgid "``\\B`` now matches empty input string."
 msgstr ""
 
 msgid "``\\d``"
-msgstr "``\\d``"
+msgstr ""
 
 msgid "For Unicode (str) patterns:"
 msgstr ""
@@ -720,7 +720,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\D``"
-msgstr "``\\D``"
+msgstr ""
 
 msgid ""
 "Matches any character which is not a decimal digit. This is the opposite of "
@@ -731,7 +731,7 @@ msgid "Matches ``[^0-9]`` if the :py:const:`~re.ASCII` flag is used."
 msgstr ""
 
 msgid "``\\s``"
-msgstr "``\\s``"
+msgstr ""
 
 msgid ""
 "Matches Unicode whitespace characters (as defined by :py:meth:`str."
@@ -750,7 +750,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\S``"
-msgstr "``\\S``"
+msgstr ""
 
 msgid ""
 "Matches any character which is not a whitespace character. This is the "
@@ -762,7 +762,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\w``"
-msgstr "``\\w``"
+msgstr ""
 
 msgid ""
 "Matches Unicode word characters; this includes all Unicode alphanumeric "
@@ -781,7 +781,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\W``"
-msgstr "``\\W``"
+msgstr ""
 
 msgid ""
 "Matches any character which is not a word character. This is the opposite of "
@@ -798,17 +798,16 @@ msgid ""
 msgstr ""
 
 msgid "``\\z``"
-msgstr "``\\z``"
+msgstr ""
 
 msgid "Matches only at the end of the string."
-msgstr "ਸਿਰਫ਼ ਸਟਰਿੰਗ ਦੇ ਅੰਤ ਵਿੱਚ ਮੈਚ ਕਰਦਾ ਹੈ।"
+msgstr ""
 
 msgid "``\\Z``"
-msgstr "``\\Z``"
+msgstr ""
 
 msgid "The same as ``\\z``.  For compatibility with old Python versions."
 msgstr ""
-"``\\z`` ਦੇ ਸਮਾਨ ਹੈ। ਪੁਰਾਣੇ Python ਸੰਸਕਰਣਾਂ ਨਾਲ ਅਨੁਕੂਲਤਾ (compatibility) ਲਈ ਉਪਲਬਧ ਹੈ।"
 
 msgid ""
 "Most of the :ref:`escape sequences <escape-sequences>` supported by Python "
@@ -1020,7 +1019,7 @@ msgid "Corresponds to the inline flag ``(?x)``."
 msgstr ""
 
 msgid "Functions"
-msgstr "Functions"
+msgstr ""
 
 msgid ""
 "Compile a regular expression pattern into a :ref:`regular expression object "
@@ -1336,7 +1335,7 @@ msgid "Clear the regular expression cache."
 msgstr ""
 
 msgid "Exceptions"
-msgstr "ਐਕਸੈਪਸ਼ਨ"
+msgstr ""
 
 msgid ""
 "Exception raised when a string passed to one of the functions here is not a "
@@ -1660,7 +1659,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
+msgstr ""
 
 msgid ""
 ">>> m = re.search(r\"(\\d+)\\.(\\d+)\", \"24.1632\")\n"
@@ -2279,22 +2278,22 @@ msgid ""
 msgstr ""
 
 msgid ". (dot)"
-msgstr ". (ਡਾਟ)"
+msgstr ""
 
 msgid "in regular expressions"
 msgstr ""
 
 msgid "^ (caret)"
-msgstr "^ (ਕੈਰਟ)"
+msgstr ""
 
 msgid "$ (dollar)"
 msgstr ""
 
 msgid "* (asterisk)"
-msgstr "* (ਐਸਟਰਿਸਕ)"
+msgstr ""
 
 msgid "+ (plus)"
-msgstr "+ (ਪਲੱਸ)"
+msgstr ""
 
 msgid "? (question mark)"
 msgstr ""
@@ -2318,7 +2317,7 @@ msgid "?+"
 msgstr ""
 
 msgid "{} (curly brackets)"
-msgstr "{} (ਕਰਲੀ ਬ੍ਰੈਕਟ)"
+msgstr ""
 
 msgid "\\ (backslash)"
 msgstr ""
@@ -2327,13 +2326,13 @@ msgid "[] (square brackets)"
 msgstr ""
 
 msgid "- (minus)"
-msgstr "- (ਮਾਈਨਸ)"
+msgstr ""
 
 msgid "| (vertical bar)"
-msgstr "| (ਵਰਟੀਕਲ ਬਾਰ)"
+msgstr ""
 
 msgid "() (parentheses)"
-msgstr "() (ਕੌਂਠੇ)"
+msgstr ""
 
 msgid "(?"
 msgstr ""
@@ -2429,7 +2428,7 @@ msgid "\\\\"
 msgstr ""
 
 msgid "# (hash)"
-msgstr "# (ਹੈਸ਼)"
+msgstr ""
 
 msgid "\\g"
 msgstr ""

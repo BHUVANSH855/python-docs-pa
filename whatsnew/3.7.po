@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:10+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -697,7 +697,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 "@dataclass\n"
@@ -1344,7 +1344,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "The new :func:`math.remainder` function implements the IEEE 754-style "
@@ -1484,7 +1484,7 @@ msgid ""
 msgstr ""
 
 msgid "re"
-msgstr "re"
+msgstr ""
 
 msgid ""
 "The flags :const:`re.ASCII`, :const:`re.LOCALE` and :const:`re.UNICODE` can "
@@ -1678,7 +1678,7 @@ msgid ""
 msgstr ""
 
 msgid "string"
-msgstr "ਸਟ੍ਰਿੰਗ"
+msgstr ""
 
 msgid ""
 ":class:`string.Template` now lets you to optionally modify the regular "
@@ -1720,7 +1720,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "The new :func:`sys.breakpointhook` hook function is called by the built-in :"
@@ -1801,7 +1801,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "ਕਿਸਮਾਂ"
+msgstr ""
 
 msgid ""
 "The new :class:`~types.WrapperDescriptorType`, :class:`~types."

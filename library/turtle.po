@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 15:08+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -29,7 +29,7 @@ msgid "**Source code:** :source:`Lib/turtle.py`"
 msgstr ""
 
 msgid "Introduction"
-msgstr "ਜਾਣ-ਪਛਾਣ"
+msgstr ""
 
 msgid ""
 "Turtle graphics is an implementation of `the popular geometric drawing tools "
@@ -772,7 +772,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr "ਪੈਰਾਮੀਟਰ"
+msgstr ""
 
 msgid "a number (integer or float)"
 msgstr ""
@@ -1985,7 +1985,7 @@ msgid ""
 msgstr ""
 
 msgid "For example:"
-msgstr "ਉਦਾਹਰਨ ਲਈ:"
+msgstr ""
 
 msgid ""
 ">>> s = Shape(\"compound\")\n"
@@ -2312,7 +2312,7 @@ msgid ">>> screen.mainloop()"
 msgstr ""
 
 msgid "string"
-msgstr "ਸਟ੍ਰਿੰਗ"
+msgstr ""
 
 msgid ""
 "Pop up a dialog window for input of a string. Parameter title is the title "
@@ -2659,7 +2659,7 @@ msgid "a color for the poly's outline (if given)"
 msgstr ""
 
 msgid "Example:"
-msgstr "ਉਦਾਹਰਨ:"
+msgstr ""
 
 msgid ""
 ">>> poly = ((0,0),(10,-5),(0,10),(-10,-5))\n"
@@ -2699,7 +2699,7 @@ msgid "``a.rotate(angle)`` rotation"
 msgstr ""
 
 msgid "Explanation"
-msgstr "ਵਿਆਖਿਆ"
+msgstr ""
 
 msgid ""
 "A turtle object draws on a screen object, and there a number of key classes "
@@ -3015,10 +3015,10 @@ msgid "The demo scripts are:"
 msgstr ""
 
 msgid "Name"
-msgstr "ਨਾਮ"
+msgstr ""
 
 msgid "Description"
-msgstr "ਵੇਰਵਾ"
+msgstr ""
 
 msgid "Features"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:10+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -23,25 +23,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Initialization, finalization, and threads"
-msgstr "ਸ਼ੁਰੂਆਤੀਕਰਨ, ਸਮਾਪਤੀਕਰਨ ਅਤੇ ਥ੍ਰੇਡ"
+msgstr ""
 
 msgid "This page has been split up into the following:"
-msgstr "ਇਸ ਸਫ਼ੇ ਨੂੰ ਹੇਠਾਂ ਦਿੱਤੇ ਭਾਗਾਂ ਵਿੱਚ ਵੰਡਿਆ ਗਿਆ ਹੈ:"
+msgstr ""
 
 msgid ":ref:`initialization`"
-msgstr ":ref:`initialization`"
+msgstr ""
 
 msgid ":ref:`threads`"
-msgstr ":ref:`threads`"
+msgstr ""
 
 msgid ":ref:`synchronization`"
-msgstr ":ref:`synchronization`"
+msgstr ""
 
 msgid ":ref:`thread-local-storage`"
-msgstr ":ref:`thread-local-storage`"
+msgstr ""
 
 msgid ":ref:`sub-interpreter-support`"
-msgstr ":ref:`sub-interpreter-support`"
+msgstr ""
 
 msgid ":ref:`profiling`"
-msgstr ":ref:`profiling`"
+msgstr ""

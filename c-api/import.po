@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 15:29+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Importing Modules"
-msgstr "ਮੋਡੀਊਲਾਂ ਨੂੰ ਇੰਪੋਰਟ ਕਰਨਾ"
+msgstr ""
 
 msgid ""
 "This is a wrapper around :c:func:`PyImport_Import()` which takes a :c:expr:"
@@ -406,7 +406,7 @@ msgid "package variable"
 msgstr ""
 
 msgid "__all__"
-msgstr "__all__"
+msgstr ""
 
 msgid "__all__ (package variable)"
 msgstr ""
@@ -415,13 +415,13 @@ msgid "modules (in module sys)"
 msgstr ""
 
 msgid "built-in function"
-msgstr "ਬਿਲਟ-ਇਨ ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid "__import__"
 msgstr ""
 
 msgid "compile"
-msgstr "compile"
+msgstr ""
 
 msgid "freeze utility"
 msgstr ""

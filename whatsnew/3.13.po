@@ -813,7 +813,7 @@ msgid ""
 msgstr ""
 
 msgid "array"
-msgstr "ਐਰੇ"
+msgstr ""
 
 msgid ""
 "Add the ``'w'`` type code (``Py_UCS4``) for Unicode characters. It should be "
@@ -1251,7 +1251,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "The new function :func:`~math.fma` performs fused multiply-add operations. "
@@ -1477,7 +1477,7 @@ msgid ""
 msgstr ""
 
 msgid "re"
-msgstr "re"
+msgstr ""
 
 msgid ""
 "Rename :exc:`!re.error` to :exc:`~re.PatternError` for improved clarity. :"
@@ -1583,7 +1583,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "Add the :func:`~sys._is_interned` function to test if a string was interned. "
@@ -1701,7 +1701,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "ਕਿਸਮਾਂ"
+msgstr ""
 
 msgid ""
 ":class:`~types.SimpleNamespace` can now take a single positional argument to "
@@ -2060,7 +2060,7 @@ msgid ""
 msgstr ""
 
 msgid "builtins"
-msgstr "builtins"
+msgstr ""
 
 msgid ""
 "Remove support for chained :class:`classmethod` descriptors (introduced in :"
@@ -3040,7 +3040,7 @@ msgid ""
 msgstr ""
 
 msgid "Pending removal in Python 3.20"
-msgstr "Python 3.20 ਵਿੱਚ ਹਟਾਇਆ ਜਾਣਾ ਬਾਕੀ"
+msgstr ""
 
 msgid ""
 "Calling the ``__new__()`` method of :class:`struct.Struct` without the "
@@ -3066,7 +3066,7 @@ msgid ":mod:`csv`"
 msgstr ""
 
 msgid ":mod:`ctypes`"
-msgstr ":mod:`ctypes`"
+msgstr ""
 
 msgid ":mod:`!ctypes.macholib`"
 msgstr ""

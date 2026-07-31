@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:10+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -285,7 +285,7 @@ msgid ""
 msgstr ""
 
 msgid "For example:"
-msgstr "ਉਦਾਹਰਨ ਲਈ:"
+msgstr ""
 
 msgid ""
 "from collections.abc import Callable, Awaitable\n"
@@ -1105,7 +1105,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
+msgstr ""
 
 msgid ""
 "def concat(a: AnyStr, b: AnyStr) -> AnyStr:\n"
@@ -1158,7 +1158,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "ਉਦਾਹਰਨ:"
+msgstr ""
 
 msgid ""
 "def run_query(sql: LiteralString) -> None:\n"
@@ -1902,7 +1902,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 "from typing import Any, TypeForm\n"
@@ -3795,7 +3795,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr "ਪੈਰਾਮੀਟਰ"
+msgstr ""
 
 msgid ""
 "Indicates whether the ``eq`` parameter is assumed to be ``True`` or "
@@ -3845,7 +3845,7 @@ msgid "Parameter name"
 msgstr ""
 
 msgid "Description"
-msgstr "ਵੇਰਵਾ"
+msgstr ""
 
 msgid "``init``"
 msgstr ""
@@ -4225,7 +4225,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr "ਉਦਾਹਰਨਾਂ:"
+msgstr ""
 
 msgid ""
 "assert get_origin(str) is None\n"
@@ -4992,7 +4992,7 @@ msgid ":gh:`105578`"
 msgstr ""
 
 msgid "..."
-msgstr "..."
+msgstr ""
 
 msgid "ellipsis literal"
-msgstr "ellipsis literal"
+msgstr ""

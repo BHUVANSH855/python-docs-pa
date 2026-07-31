@@ -1078,7 +1078,7 @@ msgid ""
 msgstr ""
 
 msgid "Command line and environment"
-msgstr "ਕਮਾਂਡ ਲਾਈਨ ਅਤੇ ਵਾਤਾਵਰਨ"
+msgstr ""
 
 msgid ""
 "The import time flag can now track modules that are already loaded "
@@ -1586,7 +1586,7 @@ msgid ""
 msgstr ""
 
 msgid "errno"
-msgstr "errno"
+msgstr ""
 
 msgid ""
 "Add the :data:`~errno.EHWPOISON` error code constant. (Contributed by James "
@@ -1784,7 +1784,7 @@ msgid ""
 msgstr ""
 
 msgid "json"
-msgstr "json"
+msgstr ""
 
 msgid ""
 "Add exception notes for JSON serialization errors that allow identifying the "
@@ -1830,7 +1830,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "Added more detailed error messages for domain errors in the module. "
@@ -2046,7 +2046,7 @@ msgid ""
 msgstr ""
 
 msgid "operator"
-msgstr "ਓਪਰੇਟਰ"
+msgstr ""
 
 msgid ""
 "Add :func:`~operator.is_none` and :func:`~operator.is_not_none` as a pair of "
@@ -2239,7 +2239,7 @@ msgid ""
 msgstr ""
 
 msgid "re"
-msgstr "re"
+msgstr ""
 
 msgid ""
 "Support ``\\z`` as a synonym for ``\\Z`` in :mod:`regular expressions <re>`. "
@@ -2336,7 +2336,7 @@ msgid "(Contributed by Bénédikt Tran in :gh:`120029`.)"
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "The previously undocumented special function :func:`sys.getobjects`, which "
@@ -2452,7 +2452,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "ਕਿਸਮਾਂ"
+msgstr ""
 
 msgid ""
 ":class:`types.UnionType` is now an alias for :class:`typing.Union`. See :ref:"
@@ -3763,7 +3763,7 @@ msgid ""
 msgstr ""
 
 msgid "Pending removal in Python 3.20"
-msgstr "Python 3.20 ਵਿੱਚ ਹਟਾਇਆ ਜਾਣਾ ਬਾਕੀ"
+msgstr ""
 
 msgid ""
 "Calling the ``__new__()`` method of :class:`struct.Struct` without the "
@@ -3789,7 +3789,7 @@ msgid ":mod:`csv`"
 msgstr ""
 
 msgid ":mod:`ctypes`"
-msgstr ":mod:`ctypes`"
+msgstr ""
 
 msgid ":mod:`!ctypes.macholib`"
 msgstr ""

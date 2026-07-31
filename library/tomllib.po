@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:10+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -158,19 +158,19 @@ msgid "dict"
 msgstr ""
 
 msgid "string"
-msgstr "ਸਟ੍ਰਿੰਗ"
+msgstr ""
 
 msgid "str"
 msgstr ""
 
 msgid "integer"
-msgstr "ਪੂਰਨ ਅੰਕ"
+msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "float"
-msgstr "float"
+msgstr ""
 
 msgid "float (configurable with *parse_float*)"
 msgstr ""
@@ -208,10 +208,10 @@ msgid "datetime.time"
 msgstr ""
 
 msgid "array"
-msgstr "ਐਰੇ"
+msgstr ""
 
 msgid "list"
-msgstr "ਸੂਚੀ"
+msgstr ""
 
 msgid "table"
 msgstr ""

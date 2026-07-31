@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 14:48+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -62,10 +62,10 @@ msgid "Attribute"
 msgstr ""
 
 msgid "Description"
-msgstr "ਵੇਰਵਾ"
+msgstr ""
 
 msgid "class"
-msgstr "ਕਲਾਸ"
+msgstr ""
 
 msgid "__doc__"
 msgstr ""
@@ -83,7 +83,7 @@ msgid "__qualname__"
 msgstr ""
 
 msgid "qualified name"
-msgstr "ਯੋਗ ਨਾਮ"
+msgstr ""
 
 msgid "__module__"
 msgstr ""
@@ -100,7 +100,7 @@ msgid ""
 msgstr ""
 
 msgid "method"
-msgstr "ਵਿਧੀ"
+msgstr ""
 
 msgid "name with which this method was defined"
 msgstr ""
@@ -121,7 +121,7 @@ msgid "name of module in which this method was defined"
 msgstr ""
 
 msgid "function"
-msgstr "ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid "name with which this function was defined"
 msgstr ""
@@ -272,7 +272,7 @@ msgid "used to clear all references to local variables"
 msgstr ""
 
 msgid "code"
-msgstr "ਕੋਡ"
+msgstr ""
 
 msgid "co_argcount"
 msgstr ""
@@ -393,10 +393,10 @@ msgid "returns a copy of the code object with new values"
 msgstr ""
 
 msgid "generator"
-msgstr "ਜਨਰੇਟਰ"
+msgstr ""
 
 msgid "name"
-msgstr "ਨਾਮ"
+msgstr ""
 
 msgid "gi_frame"
 msgstr ""
@@ -460,7 +460,7 @@ msgid ""
 msgstr ""
 
 msgid "coroutine"
-msgstr "ਕੋਰੂਟੀਨ"
+msgstr ""
 
 msgid "cr_await"
 msgstr ""
@@ -1226,10 +1226,10 @@ msgid ""
 msgstr ""
 
 msgid "Name"
-msgstr "ਨਾਮ"
+msgstr ""
 
 msgid "Meaning"
-msgstr "ਅਰਥ"
+msgstr ""
 
 msgid "*POSITIONAL_ONLY*"
 msgstr ""

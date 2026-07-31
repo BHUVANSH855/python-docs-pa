@@ -1204,7 +1204,7 @@ msgid ""
 msgstr ""
 
 msgid "IDLE"
-msgstr "IDLE"
+msgstr ""
 
 msgid ""
 ":gh:`82183`: When the shell is busy running code, using \"Run... "
@@ -48035,7 +48035,7 @@ msgid ":meth:`dict.items`"
 msgstr ""
 
 msgid ":func:`enumerate`"
-msgstr ":func:`enumerate`"
+msgstr ""
 
 msgid ":func:`functools.reduce`"
 msgstr ""
@@ -48056,7 +48056,7 @@ msgid ":func:`itertools.zip_longest`"
 msgstr ""
 
 msgid ":func:`zip`"
-msgstr ":func:`zip`"
+msgstr ""
 
 msgid ""
 "Previously, they could have become untracked by a prior garbage collection. "

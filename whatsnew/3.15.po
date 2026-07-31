@@ -278,7 +278,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
+msgstr ""
 
 msgid ""
 ">>> a = frozendict(x=1, y=2)\n"
@@ -986,7 +986,7 @@ msgid "Suggested optimizing refactors"
 msgstr ""
 
 msgid "Description"
-msgstr "ਵੇਰਵਾ"
+msgstr ""
 
 msgid "Old"
 msgstr ""
@@ -1180,7 +1180,7 @@ msgid ""
 msgstr ""
 
 msgid "array"
-msgstr "ਐਰੇ"
+msgstr ""
 
 msgid ""
 "Support the :c:expr:`float complex` and :c:expr:`double complex` C types: "
@@ -1535,7 +1535,7 @@ msgid ""
 msgstr ""
 
 msgid "json"
-msgstr "json"
+msgstr ""
 
 msgid ""
 "Add the *array_hook* parameter to :func:`~json.load` and :func:`~json.loads` "
@@ -1562,7 +1562,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "Add :func:`math.isnormal` and :func:`math.issubnormal` functions. "
@@ -1683,7 +1683,7 @@ msgid ""
 msgstr ""
 
 msgid "re"
-msgstr "re"
+msgstr ""
 
 msgid ""
 ":func:`re.prefixmatch` and a corresponding :meth:`re.Pattern.prefixmatch` "
@@ -1862,7 +1862,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "Add :data:`sys.abi_info` namespace to improve access to ABI information. "
@@ -2052,7 +2052,7 @@ msgid "(Contributed by Taneli Hukkinen in :gh:`142956`.)"
 msgstr ""
 
 msgid "types"
-msgstr "ਕਿਸਮਾਂ"
+msgstr ""
 
 msgid ""
 "Expose the write-through :func:`locals` proxy type as :class:`types."
@@ -2824,7 +2824,7 @@ msgid ":mod:`csv`"
 msgstr ""
 
 msgid ":mod:`ctypes`"
-msgstr ":mod:`ctypes`"
+msgstr ""
 
 msgid ":mod:`!ctypes.macholib`"
 msgstr ""
@@ -3211,7 +3211,7 @@ msgid ""
 msgstr ""
 
 msgid "Pending removal in Python 3.20"
-msgstr "Python 3.20 ਵਿੱਚ ਹਟਾਇਆ ਜਾਣਾ ਬਾਕੀ"
+msgstr ""
 
 msgid ""
 "Calling the ``__new__()`` method of :class:`struct.Struct` without the "
@@ -3916,12 +3916,6 @@ msgid ""
 "result in the module state, then call :c:func:`PyObject_CallMethod` or :c:"
 "func:`PyObject_GetAttr`. (Contributed by Victor Stinner in :gh:`141049`.)"
 msgstr ""
-":c:func:`!_PyObject_CallMethodId`, :c:func:`!_PyObject_GetAttrId` ਅਤੇ :c:func:"
-"`!_PyUnicode_FromId` ਨੂੰ 3.15 ਤੋਂ ਅਪ੍ਰਚਲਿਤ (deprecated) ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ ਅਤੇ ਇਨ੍ਹਾਂ ਨੂੰ "
-"3.20 ਵਿੱਚ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ। ਇਸ ਦੀ ਬਜਾਏ, :c:func:`PyUnicode_InternFromString()` "
-"ਦੀ ਵਰਤੋਂ ਕਰੋ ਅਤੇ ਨਤੀਜੇ ਨੂੰ ਮੋਡੀਊਲ ਸਟੇਟ ਵਿੱਚ ਕੈਸ਼ ਕਰੋ, ਫਿਰ :c:func:`PyObject_CallMethod` "
-"ਜਾਂ :c:func:`PyObject_GetAttr` ਨੂੰ ਕਾਲ ਕਰੋ। (ਇਹ ਯੋਗਦਾਨ Victor Stinner ਵੱਲੋਂ :gh:"
-"`141049` ਵਿੱਚ ਦਿੱਤਾ ਗਿਆ ਸੀ।)"
 
 msgid ""
 "Deprecate :c:member:`~PyComplexObject.cval` field of the :c:type:"

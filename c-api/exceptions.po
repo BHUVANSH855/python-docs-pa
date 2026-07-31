@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 14:48+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -234,7 +234,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "ਉਪਲਬਧਤਾ"
+msgstr ""
 
 msgid ""
 "Similar to :c:func:`PyErr_SetFromWindowsErr`, with an additional parameter "
@@ -440,7 +440,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
+msgstr ""
 
 msgid ""
 "{\n"
@@ -1229,13 +1229,13 @@ msgid "These aliases used to be separate exception types."
 msgstr ""
 
 msgid "Notes"
-msgstr "ਨੋਟ"
+msgstr ""
 
 msgid "[win]_"
 msgstr ""
 
 msgid "Notes:"
-msgstr "ਨੋਟ:"
+msgstr ""
 
 msgid ""
 ":c:var:`!PyExc_WindowsError` is only defined on Windows; protect code that "
@@ -1392,7 +1392,7 @@ msgid "strerror (C function)"
 msgstr ""
 
 msgid "module"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid "signal"
 msgstr ""

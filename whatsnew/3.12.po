@@ -586,7 +586,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 "from typing import override\n"
@@ -731,7 +731,7 @@ msgid "Improved Modules"
 msgstr ""
 
 msgid "array"
-msgstr "ਐਰੇ"
+msgstr ""
 
 msgid ""
 "The :class:`array.array` class now supports subscripting, making it a :term:"
@@ -875,7 +875,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "Add :func:`math.sumprod` for computing a sum of products. (Contributed by "
@@ -1074,7 +1074,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "Add the :mod:`sys.monitoring` namespace to expose the new :ref:`PEP 669 "
@@ -1158,7 +1158,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "ਕਿਸਮਾਂ"
+msgstr ""
 
 msgid ""
 "Add :func:`types.get_original_bases` to allow for further introspection of :"
@@ -2265,7 +2265,7 @@ msgid ""
 msgstr ""
 
 msgid "Pending removal in Python 3.20"
-msgstr "Python 3.20 ਵਿੱਚ ਹਟਾਇਆ ਜਾਣਾ ਬਾਕੀ"
+msgstr ""
 
 msgid ""
 "Calling the ``__new__()`` method of :class:`struct.Struct` without the "
@@ -2291,7 +2291,7 @@ msgid ":mod:`csv`"
 msgstr ""
 
 msgid ":mod:`ctypes`"
-msgstr ":mod:`ctypes`"
+msgstr ""
 
 msgid ":mod:`!ctypes.macholib`"
 msgstr ""

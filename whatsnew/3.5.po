@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:10+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -432,7 +432,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples::"
-msgstr "ਉਦਾਹਰਨਾਂ::"
+msgstr ""
 
 msgid ""
 ">>> b'Hello %b!' % b'World'\n"
@@ -601,7 +601,7 @@ msgid "print(\"Hello World\")"
 msgstr ""
 
 msgid "and::"
-msgstr "ਅਤੇ::"
+msgstr ""
 
 msgid ""
 "while True:\n"
@@ -1079,7 +1079,7 @@ msgid ""
 msgstr ""
 
 msgid "code"
-msgstr "ਕੋਡ"
+msgstr ""
 
 msgid ""
 "The :func:`InteractiveInterpreter.showtraceback() <code."
@@ -1212,7 +1212,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 ">>> import configparser\n"
@@ -1649,7 +1649,7 @@ msgid "(Contributed by Leon Weber in :issue:`20480`.)"
 msgstr ""
 
 msgid "json"
-msgstr "json"
+msgstr ""
 
 msgid ""
 "The :mod:`json.tool` command line interface now preserves the order of keys "
@@ -1745,7 +1745,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "Two new constants have been added to the :mod:`math` module: :data:`~math."
@@ -1774,7 +1774,7 @@ msgid ""
 msgstr ""
 
 msgid "operator"
-msgstr "ਓਪਰੇਟਰ"
+msgstr ""
 
 msgid ""
 ":func:`~operator.attrgetter`, :func:`~operator.itemgetter`, and :func:"
@@ -1924,7 +1924,7 @@ msgid ""
 msgstr ""
 
 msgid "re"
-msgstr "re"
+msgstr ""
 
 msgid ""
 "References and conditional references to groups with fixed length are now "
@@ -2260,7 +2260,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "A new :func:`!set_coroutine_wrapper` function allows setting a global hook "
@@ -2376,7 +2376,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "ਕਿਸਮਾਂ"
+msgstr ""
 
 msgid ""
 "A new :func:`~types.coroutine` function to transform :term:`generator "

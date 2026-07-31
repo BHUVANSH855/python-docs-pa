@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 15:08+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -151,7 +151,7 @@ msgid ":func:`mktime`"
 msgstr ""
 
 msgid "Functions"
-msgstr "Functions"
+msgstr ""
 
 msgid ""
 "Convert a tuple or :class:`struct_time` representing a time as returned by :"
@@ -187,7 +187,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "ਉਪਲਬਧਤਾ"
+msgstr ""
 
 msgid ""
 "See the man page for :manpage:`pthread_getcpuclockid(3)` for further "
@@ -497,10 +497,10 @@ msgid "Directive"
 msgstr ""
 
 msgid "Meaning"
-msgstr "ਅਰਥ"
+msgstr ""
 
 msgid "Notes"
-msgstr "ਨੋਟ"
+msgstr ""
 
 msgid "``%a``"
 msgstr ""
@@ -548,7 +548,7 @@ msgid "[000000,999999]."
 msgstr ""
 
 msgid "\\(1)"
-msgstr "\\(1)"
+msgstr ""
 
 msgid "``%H``"
 msgstr ""
@@ -587,7 +587,7 @@ msgid "Locale's equivalent of either AM or PM."
 msgstr ""
 
 msgid "\\(2)"
-msgstr "\\(2)"
+msgstr ""
 
 msgid "``%S``"
 msgstr ""
@@ -596,7 +596,7 @@ msgid "Second as a decimal number [00,61]."
 msgstr ""
 
 msgid "\\(3)"
-msgstr "\\(3)"
+msgstr ""
 
 msgid "``%U``"
 msgstr ""
@@ -608,7 +608,7 @@ msgid ""
 msgstr ""
 
 msgid "\\(4)"
-msgstr "\\(4)"
+msgstr ""
 
 msgid "``%u``"
 msgstr ""
@@ -695,7 +695,7 @@ msgid "A literal ``'%'`` character."
 msgstr ""
 
 msgid "Notes:"
-msgstr "ਨੋਟ:"
+msgstr ""
 
 msgid ""
 "The ``%f`` format directive only applies to :func:`strptime`, not to :func:"
@@ -762,7 +762,7 @@ msgid ""
 msgstr ""
 
 msgid "For example:"
-msgstr "ਉਦਾਹਰਨ ਲਈ:"
+msgstr ""
 
 msgid ""
 "Support for the ``%Z`` directive is based on the values contained in "
@@ -796,49 +796,49 @@ msgid "Values"
 msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid "(for example, 1993)"
 msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "range [1, 12]"
 msgstr ""
 
 msgid "2"
-msgstr "2"
+msgstr ""
 
 msgid "range [1, 31]"
 msgstr ""
 
 msgid "3"
-msgstr "3"
+msgstr ""
 
 msgid "range [0, 23]"
 msgstr ""
 
 msgid "4"
-msgstr "4"
+msgstr ""
 
 msgid "range [0, 59]"
 msgstr ""
 
 msgid "5"
-msgstr "5"
+msgstr ""
 
 msgid "range [0, 61]; see :ref:`Note (2) <leap-second>` in :func:`strftime`"
 msgstr ""
 
 msgid "6"
-msgstr "6"
+msgstr ""
 
 msgid "range [0, 6]; Monday is 0"
 msgstr ""
 
 msgid "7"
-msgstr "7"
+msgstr ""
 
 msgid "range [1, 366]"
 msgstr ""
@@ -1204,7 +1204,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "ਫੁੱਟਨੋਟ"
+msgstr ""
 
 msgid ""
 "The use of ``%Z`` is now deprecated, but the ``%z`` escape that expands to "
@@ -1247,7 +1247,7 @@ msgid "processor time"
 msgstr ""
 
 msgid "% (percent)"
-msgstr "% (ਪ੍ਰਤੀਸ਼ਤ)"
+msgstr ""
 
 msgid "datetime format"
 msgstr ""

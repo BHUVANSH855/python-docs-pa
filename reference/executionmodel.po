@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-11 14:46+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -331,7 +331,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "ਉਦਾਹਰਨ:"
+msgstr ""
 
 msgid ""
 ">>> type Alias = 1/0\n"
@@ -419,7 +419,7 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr "ਐਕਸੈਪਸ਼ਨ"
+msgstr ""
 
 msgid ""
 "Exceptions are a means of breaking out of the normal flow of control of a "
@@ -704,7 +704,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "ਫੁੱਟਨੋਟ"
+msgstr ""
 
 msgid ""
 "This limitation occurs because the code that is executed by these operations "
@@ -715,7 +715,7 @@ msgid "execution model"
 msgstr ""
 
 msgid "code"
-msgstr "ਕੋਡ"
+msgstr ""
 
 msgid "block"
 msgstr ""
@@ -727,13 +727,13 @@ msgid "frame"
 msgstr ""
 
 msgid "namespace"
-msgstr "ਨੇਮਸਪੇਸ"
+msgstr ""
 
 msgid "scope"
 msgstr ""
 
 msgid "name"
-msgstr "ਨਾਮ"
+msgstr ""
 
 msgid "binding"
 msgstr ""
@@ -760,7 +760,7 @@ msgid "UnboundLocalError"
 msgstr ""
 
 msgid "module"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid "__main__"
 msgstr ""
@@ -769,7 +769,7 @@ msgid "restricted"
 msgstr ""
 
 msgid "exception"
-msgstr "exception"
+msgstr ""
 
 msgid "raise an exception"
 msgstr ""

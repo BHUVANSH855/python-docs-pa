@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 14:48+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -481,10 +481,10 @@ msgid ""
 msgstr ""
 
 msgid "Flag"
-msgstr "Flag"
+msgstr ""
 
 msgid "Value"
-msgstr "ਮੁੱਲ"
+msgstr ""
 
 msgid "``-1``"
 msgstr ""
@@ -859,13 +859,13 @@ msgid "This is currently equivalent to :c:expr:`(1 << PyLong_SHIFT) - 1`"
 msgstr ""
 
 msgid "object"
-msgstr "ਆਬਜੈਕਟ"
+msgstr ""
 
 msgid "long integer"
 msgstr ""
 
 msgid "integer"
-msgstr "ਪੂਰਨ ਅੰਕ"
+msgstr ""
 
 msgid "LONG_MAX (C macro)"
 msgstr ""

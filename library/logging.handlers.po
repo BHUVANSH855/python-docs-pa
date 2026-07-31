@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 14:48+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -83,13 +83,13 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr "ਪੈਰਾਮੀਟਰ"
+msgstr ""
 
 msgid "The stream that the handler should use."
 msgstr ""
 
 msgid "Returns"
-msgstr "ਵਾਪਸੀ"
+msgstr ""
 
 msgid "the old stream, if the stream was changed, or ``None`` if it wasn't."
 msgstr ""
@@ -388,7 +388,7 @@ msgid ""
 msgstr ""
 
 msgid "Value"
-msgstr "ਮੁੱਲ"
+msgstr ""
 
 msgid "Type of interval"
 msgstr ""

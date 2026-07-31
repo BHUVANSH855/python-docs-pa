@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 15:29+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -169,7 +169,7 @@ msgid ""
 msgstr ""
 
 msgid "Tk"
-msgstr "Tk"
+msgstr ""
 
 msgid ""
 "Tk is a `Tcl package <https://wiki.tcl-lang.org/37432>`_ implemented in C "
@@ -788,13 +788,13 @@ msgid "Index"
 msgstr ""
 
 msgid "Meaning"
-msgstr "ਅਰਥ"
+msgstr ""
 
 msgid "Example"
 msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid "option name"
 msgstr ""
@@ -803,13 +803,13 @@ msgid "``'relief'``"
 msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "option name for database lookup"
 msgstr ""
 
 msgid "2"
-msgstr "2"
+msgstr ""
 
 msgid "option class for database lookup"
 msgstr ""
@@ -818,7 +818,7 @@ msgid "``'Relief'``"
 msgstr ""
 
 msgid "3"
-msgstr "3"
+msgstr ""
 
 msgid "default value"
 msgstr ""
@@ -827,7 +827,7 @@ msgid "``'raised'``"
 msgstr ""
 
 msgid "4"
-msgstr "4"
+msgstr ""
 
 msgid "current value"
 msgstr ""
@@ -836,7 +836,7 @@ msgid "``'groove'``"
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 ">>> print(fred.config())\n"
@@ -971,7 +971,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
+msgstr ""
 
 msgid ""
 "import tkinter as tk\n"
@@ -1075,7 +1075,7 @@ msgid "You can pass integers 0 or 1 or the strings ``\"yes\"`` or ``\"no\"``."
 msgstr ""
 
 msgid "callback"
-msgstr "ਕਾਲਬੈਕ"
+msgstr ""
 
 msgid "This is any Python function that takes no arguments.  For example::"
 msgstr ""
@@ -1200,7 +1200,7 @@ msgid "where:"
 msgstr ""
 
 msgid "sequence"
-msgstr "ਕ੍ਰਮ"
+msgstr ""
 
 msgid ""
 "is a string that denotes the target kind of event.  Physical events use the "
@@ -1305,7 +1305,7 @@ msgid "%T"
 msgstr ""
 
 msgid "type"
-msgstr "ਕਿਸਮ"
+msgstr ""
 
 msgid "%w"
 msgstr ""
@@ -6439,7 +6439,7 @@ msgid ""
 msgstr ""
 
 msgid "Module-level functions"
-msgstr "ਮੋਡੀਊਲ-ਪੱਧਰੀ ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid ""
 "The :func:`Tcl` function is a factory function which creates an object much "

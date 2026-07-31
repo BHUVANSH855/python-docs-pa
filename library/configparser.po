@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:10+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -335,7 +335,7 @@ msgid ""
 msgstr ""
 
 msgid "For example:"
-msgstr "ਉਦਾਹਰਨ ਲਈ:"
+msgstr ""
 
 msgid ""
 "[Simple Values]\n"
@@ -1473,7 +1473,7 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr "ਐਕਸੈਪਸ਼ਨ"
+msgstr ""
 
 msgid "Base class for all other :mod:`!configparser` exceptions."
 msgstr ""
@@ -1560,7 +1560,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "ਫੁੱਟਨੋਟ"
+msgstr ""
 
 msgid ""
 "Config parsers allow for heavy customization.  If you are interested in "
@@ -1572,7 +1572,7 @@ msgid ".ini"
 msgstr ""
 
 msgid "file"
-msgstr "ਫਾਈਲ"
+msgstr ""
 
 msgid "configuration"
 msgstr ""
@@ -1584,7 +1584,7 @@ msgid "Windows ini file"
 msgstr ""
 
 msgid "% (percent)"
-msgstr "% (ਪ੍ਰਤੀਸ਼ਤ)"
+msgstr ""
 
 msgid "interpolation in configuration files"
 msgstr ""

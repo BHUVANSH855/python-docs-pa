@@ -81,7 +81,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "ਉਪਲਬਧਤਾ"
+msgstr ""
 
 msgid ""
 "Append the callable *hook* to the list of active auditing hooks for the "
@@ -721,7 +721,7 @@ msgid "Attributes of the :data:`!float_info` :term:`named tuple`"
 msgstr ""
 
 msgid "attribute"
-msgstr "ਐਟ੍ਰਿਬਿਊਟ"
+msgstr ""
 
 msgid "float.h macro"
 msgstr ""
@@ -933,10 +933,6 @@ msgid ""
 "filesystem_encoding` and :c:member:`~PyConfig.filesystem_errors` members of :"
 "c:type:`PyConfig`."
 msgstr ""
-":term:`filesystem encoding and error handler` ਨੂੰ Python ਸ਼ੁਰੂ ਹੋਣ ਸਮੇਂ :c:func:"
-"`PyConfig_Read` ਫੰਕਸ਼ਨ ਦੁਆਰਾ ਸੰਰਚਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। :c:type:`PyConfig` ਦੇ :c:member:"
-"`~PyConfig.filesystem_encoding` ਅਤੇ :c:member:`~PyConfig.filesystem_errors` "
-"ਮੈਂਬਰ ਵੇਖੋ।"
 
 msgid ":func:`getfilesystemencoding` result cannot be ``None`` anymore."
 msgstr ""
@@ -1146,7 +1142,7 @@ msgid "Constant"
 msgstr ""
 
 msgid "Meaning"
-msgstr "ਅਰਥ"
+msgstr ""
 
 msgid "``1`` (VER_NT_WORKSTATION)"
 msgstr ""
@@ -2260,7 +2256,7 @@ msgid ""
 msgstr ""
 
 msgid "See :pep:`529` for more details."
-msgstr "ਹੋਰ ਵੇਰਵਿਆਂ ਲਈ :pep:`529` ਵੇਖੋ।"
+msgstr ""
 
 msgid "Use :envvar:`PYTHONLEGACYWINDOWSFSENCODING` instead."
 msgstr ""
@@ -2588,7 +2584,7 @@ msgid "auditing"
 msgstr ""
 
 msgid "object"
-msgstr "ਆਬਜੈਕਟ"
+msgstr ""
 
 msgid "traceback"
 msgstr ""
@@ -2606,13 +2602,13 @@ msgid "debugger"
 msgstr ""
 
 msgid "module"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid "search"
-msgstr "ਖੋਜ"
+msgstr ""
 
 msgid "path"
-msgstr "ਮਾਰਗ"
+msgstr ""
 
 msgid "interpreter prompts"
 msgstr ""
@@ -2627,4 +2623,4 @@ msgid "interpreter prompt"
 msgstr ""
 
 msgid "..."
-msgstr "..."
+msgstr ""

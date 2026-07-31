@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-11 14:46+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -192,7 +192,7 @@ msgid ""
 msgstr ""
 
 msgid "Introduction"
-msgstr "ਜਾਣ-ਪਛਾਣ"
+msgstr ""
 
 msgid ""
 ":mod:`!optparse` is a more convenient, flexible, and powerful library for "
@@ -290,7 +290,7 @@ msgid "Terminology"
 msgstr ""
 
 msgid "argument"
-msgstr "ਆਰਗਿਊਮੈਂਟ"
+msgstr ""
 
 msgid ""
 "a string entered on the command-line, and passed by the shell to ``execl()`` "
@@ -385,7 +385,7 @@ msgid ""
 msgstr ""
 
 msgid "positional argument"
-msgstr "ਸਥਿਤੀ-ਆਧਾਰਿਤ ਆਰਗੂਮੈਂਟ"
+msgstr ""
 
 msgid ""
 "something leftover in the argument list after options have been parsed, i.e. "
@@ -605,7 +605,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
+msgstr ""
 
 msgid ""
 "parser.add_option(\"-f\", \"--file\",\n"
@@ -1616,7 +1616,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 "parser.add_option(\"-f\")\n"
@@ -2823,7 +2823,7 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr "ਐਕਸੈਪਸ਼ਨ"
+msgstr ""
 
 msgid ""
 "Raised if an :class:`Option` instance is created with invalid or "

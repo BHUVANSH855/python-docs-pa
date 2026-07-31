@@ -139,7 +139,7 @@ msgid "Code"
 msgstr ""
 
 msgid "Meaning"
-msgstr "ਅਰਥ"
+msgstr ""
 
 msgid "``'- '``"
 msgstr ""
@@ -400,7 +400,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "ਉਦਾਹਰਨ:"
+msgstr ""
 
 msgid ""
 "Compare *a* and *b* (lists of strings); return a delta (a :term:`generator` "
@@ -606,7 +606,7 @@ msgid "The *tag* values are strings, with these meanings:"
 msgstr ""
 
 msgid "Value"
-msgstr "ਮੁੱਲ"
+msgstr ""
 
 msgid "``'replace'``"
 msgstr ""
@@ -635,7 +635,7 @@ msgid "``a[i1:i2] == b[j1:j2]`` (the sub-sequences are equal)."
 msgstr ""
 
 msgid "For example::"
-msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
+msgstr ""
 
 msgid ""
 ">>> a = \"qabxcd\"\n"
