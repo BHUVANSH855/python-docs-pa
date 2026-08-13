@@ -5,15 +5,16 @@
 #
 # Translators:
 # Bhuvansh Kataria, 2026
+# DARSHAN RAJPUT, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-29 15:50+0000\n"
+"POT-Creation-Date: 2026-08-11 14:51+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: Bhuvansh Kataria, 2026\n"
+"Last-Translator: DARSHAN RAJPUT, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
 "teams/5390/pa/)\n"
 "MIME-Version: 1.0\n"
@@ -23,16 +24,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Appendix"
-msgstr ""
+msgstr "ਪਰਿਸ਼ਿਸ਼ਟ"
 
 msgid "Interactive Mode"
-msgstr ""
+msgstr "ਇੰਟਰਐਕਟਿਵ ਮੋਡ"
 
 msgid ""
 "There are two variants of the interactive :term:`REPL`.  The classic basic "
 "interpreter is supported on all platforms with minimal line control "
 "capabilities."
 msgstr ""
+"ਇੰਟਰਐਕਟਿਵ :term:\\REPL` ਦੇ ਦੋ ਰੂਪ ਹਨ। ਕਲਾਸਿਕ ਮੁੱਢਲਾ ਇੰਟਰਪ੍ਰੀਟਰ ਸਾਰੇ ਪਲੇਟਫਾਰਮਾਂ 'ਤੇ ਘੱਟੋ-ਘੱਟ "
+"ਲਾਈਨ ਕੰਟਰੋਲ ਸਮਰੱਥਾਵਾਂ ਨਾਲ ਸਮਰਥਿਤ ਹੈ।`"
 
 msgid ""
 "Since Python 3.13, a new interactive shell is used by default. This one "
