@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report a bug or validation issue in the Punjabi translation project.
+about: Report a bug, translation issue, validation error, or documentation problem in the Punjabi translation project.
 title: "[BUG] "
 labels: bug
 assignees: ""
@@ -8,22 +8,61 @@ assignees: ""
 
 # Bug Report
 
-## Description
+Thank you for helping improve the Punjabi (`pa`) translation of the Python documentation.
 
-Provide a clear and concise description of the problem.
-
----
-
-## Affected File(s)
-
-Example:
-
-- `tutorial/classes.po`
-- `library/stdtypes.po`
+Please provide as much information as possible to help us reproduce and resolve the issue.
 
 ---
 
-## Steps to Reproduce
+# Bug Summary
+
+Provide a clear and concise description of the issue.
+
+-
+
+---
+
+# Category
+
+Select all that apply.
+
+- [ ] Translation error
+- [ ] Terminology inconsistency
+- [ ] Formatting / reStructuredText markup
+- [ ] Broken cross-reference
+- [ ] Validation failure
+- [ ] GitHub Actions
+- [ ] Documentation issue
+- [ ] Repository tooling
+- [ ] Other
+
+---
+
+# Affected Documentation Area
+
+Examples:
+
+- Tutorial
+- Using Python
+- Standard Library
+- HOWTO
+- FAQ
+- Reference
+- C API
+- What's New
+- Repository documentation
+
+Documentation area:
+
+-
+
+Affected file(s):
+
+- `example.po`
+
+---
+
+# Steps to Reproduce
 
 1.
 2.
@@ -31,32 +70,37 @@ Example:
 
 ---
 
-## Expected Behavior
+# Expected Behavior
 
 Describe what you expected to happen.
 
+-
+
 ---
 
-## Actual Behavior
+# Actual Behavior
 
 Describe what actually happened.
 
+-
+
 ---
 
-## Validation Output
+# Validation Output (if applicable)
 
-If applicable, paste the output from:
+Include any relevant validation output.
 
 ```text
 msgfmt
 sphinx-lint
 HTML build
+Nitpicky build
 GitHub Actions
 ```
 
 ---
 
-## Environment
+# Environment
 
 - Operating System:
 - Python Version:
@@ -65,6 +109,16 @@ GitHub Actions
 
 ---
 
-## Additional Information
+# Additional Information
 
-Add any other relevant information, screenshots, or logs.
+Include anything that may help reproduce or understand the issue.
+
+Examples:
+
+- screenshots
+- logs
+- source English text
+- suggested translation
+- related issue or discussion
+
+-

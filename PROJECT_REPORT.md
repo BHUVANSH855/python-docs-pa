@@ -1,10 +1,10 @@
 # 🐍 Python Docs Punjabi (pa) — Project Report
 
-**Project:** python-docs-pa  
+**Project:** [python-docs-pa](https://github.com/BHUVANSH855/python-docs-pa)
 **Coordinators:**
-- Bhuvansh Kataria (@BHUVANSH855)
-- Mohit Yadav (@mohityadav8)
-- Yashraj Jangra (@jangrayash1505)  
+- Bhuvansh Kataria [@BHUVANSH855](https://github.com/BHUVANSH855)
+- Mohit Yadav [@mohityadav8](https://github.com/mohityadav8)
+- Yashraj Jangra [@Yashraj-Jangra](https://github.com/Yashraj-Jangra)  
 **Repository:** https://github.com/BHUVANSH855/python-docs-pa  
 **Translation Platform:** Python Documentation on Transifex  
 **Language:** Punjabi (pa)  
@@ -22,7 +22,7 @@ The project has evolved from an individual translation initiative into a collabo
 
 Recent development has focused on strengthening the project's infrastructure, documentation quality, contributor onboarding, and long-term maintainability alongside continued translation work.
 
-The **python-docs-pa** project aims to translate the official Python documentation into Punjabi (Gurmukhi), making high-quality programming resources more accessible to Punjabi-speaking students, educators, and developers.
+The [**python-docs-pa**](https://github.com/BHUVANSH855/python-docs-pa) project aims to translate the official Python documentation into Punjabi (Gurmukhi), making high-quality programming resources more accessible to Punjabi-speaking students, educators, and developers.
 
 The project follows the official Python Documentation Translation guidelines and emphasizes:
 
@@ -110,9 +110,9 @@ Major milestones include:
 
 **Project Coordinators:**
 
-- Bhuvansh Kataria (@BHUVANSH855)
-- Mohit Yadav (@mohityadav8)
-- Yashraj Jangra (@jangrayash1505)
+- Bhuvansh Kataria [@BHUVANSH855](https://github.com/BHUVANSH855)
+- Mohit Yadav [@mohityadav8](https://github.com/mohityadav8)
+- Yashraj Jangra [@Yashraj-Jangra](https://github.com/Yashraj-Jangra)
 
 The repository remains synchronized with the official Python Documentation Translation project through the established Transifex workflow.
 
@@ -262,7 +262,7 @@ The repository has evolved from an initial translation effort into a fully docum
 
 Major development milestones include:
 
-- Repository renamed to **python-docs-pa**
+- Repository renamed to **[python-docs-pa](https://github.com/BHUVANSH855/python-docs-pa)**
 - Repository structure aligned with Python Documentation Translation recommendations
 - Language tag standardized to `pa`
 - Automated GitHub Actions validation workflow implemented

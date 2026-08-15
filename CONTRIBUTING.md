@@ -40,9 +40,9 @@ The Punjabi (`pa`) translation project is maintained collaboratively by a team o
 
 The project is currently coordinated by:
 
-- Bhuvansh Kataria (@BHUVANSH855)
-- Mohit Yadav (@mohityadav8)
-- Yashraj Jangra (@jangrayash1505)
+- Bhuvansh Kataria [@BHUVANSH855](https://github.com/BHUVANSH855)
+- Mohit Yadav [@mohityadav8](https://github.com/mohityadav8)
+- Yashraj Jangra [@Yashraj-Jangra](https://github.com/Yashraj-Jangra)
 
 The coordinators are responsible for:
 
