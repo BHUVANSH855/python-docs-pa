@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 15:21+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -146,7 +146,7 @@ msgid ""
 msgstr ""
 
 msgid "Character"
-msgstr "ਅੱਖਰ"
+msgstr ""
 
 msgid "Byte order"
 msgstr ""
@@ -173,13 +173,13 @@ msgid "none"
 msgstr ""
 
 msgid "``<``"
-msgstr "``<``"
+msgstr ""
 
 msgid "little-endian"
 msgstr ""
 
 msgid "``>``"
-msgstr "``>``"
+msgstr ""
 
 msgid "big-endian"
 msgstr ""
@@ -240,7 +240,7 @@ msgid ""
 msgstr ""
 
 msgid "Notes:"
-msgstr "ਨੋਟ:"
+msgstr ""
 
 msgid ""
 "Padding is only automatically added between successive structure members. No "
@@ -283,7 +283,7 @@ msgid "Standard size"
 msgstr ""
 
 msgid "Notes"
-msgstr "ਨੋਟ"
+msgstr ""
 
 msgid "``x``"
 msgstr ""
@@ -295,7 +295,7 @@ msgid "no value"
 msgstr ""
 
 msgid "\\(7)"
-msgstr "\\(7)"
+msgstr ""
 
 msgid "``c``"
 msgstr ""
@@ -307,7 +307,7 @@ msgid "bytes of length 1"
 msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "``b``"
 msgstr ""
@@ -316,10 +316,10 @@ msgid ":c:expr:`signed char`"
 msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "\\(2)"
-msgstr "\\(2)"
+msgstr ""
 
 msgid "``B``"
 msgstr ""
@@ -337,7 +337,7 @@ msgid "bool"
 msgstr ""
 
 msgid "\\(1)"
-msgstr "\\(1)"
+msgstr ""
 
 msgid "``h``"
 msgstr ""
@@ -346,7 +346,7 @@ msgid ":c:expr:`short`"
 msgstr ""
 
 msgid "2"
-msgstr "2"
+msgstr ""
 
 msgid "``H``"
 msgstr ""
@@ -361,7 +361,7 @@ msgid ":c:expr:`int`"
 msgstr ""
 
 msgid "4"
-msgstr "4"
+msgstr ""
 
 msgid "``I``"
 msgstr ""
@@ -418,7 +418,7 @@ msgid ":c:expr:`_Float16`"
 msgstr ""
 
 msgid "float"
-msgstr "float"
+msgstr ""
 
 msgid "\\(4), \\(6)"
 msgstr ""
@@ -430,7 +430,7 @@ msgid ":c:expr:`float`"
 msgstr ""
 
 msgid "\\(4)"
-msgstr "\\(4)"
+msgstr ""
 
 msgid "``d``"
 msgstr ""
@@ -445,7 +445,7 @@ msgid ":c:expr:`float complex`"
 msgstr ""
 
 msgid "complex"
-msgstr "complex"
+msgstr ""
 
 msgid "\\(10)"
 msgstr ""
@@ -466,7 +466,7 @@ msgid ":c:expr:`char[]`"
 msgstr ""
 
 msgid "bytes"
-msgstr "bytes"
+msgstr ""
 
 msgid "\\(9)"
 msgstr ""
@@ -475,7 +475,7 @@ msgid "``p``"
 msgstr ""
 
 msgid "\\(8)"
-msgstr "\\(8)"
+msgstr ""
 
 msgid "``P``"
 msgstr ""
@@ -843,7 +843,7 @@ msgid ""
 msgstr ""
 
 msgid "Classes"
-msgstr "ਕਲਾਸਾਂ"
+msgstr ""
 
 msgid "The :mod:`!struct` module also defines the following type:"
 msgstr ""
@@ -903,7 +903,7 @@ msgid "The *repr()* of structs has changed.  It is now:"
 msgstr ""
 
 msgid "C"
-msgstr "C"
+msgstr ""
 
 msgid "structures"
 msgstr ""
@@ -912,7 +912,7 @@ msgid "packing"
 msgstr ""
 
 msgid "binary"
-msgstr "ਬਾਈਨਰੀ"
+msgstr ""
 
 msgid "data"
 msgstr ""
@@ -924,13 +924,13 @@ msgid "in struct format strings"
 msgstr ""
 
 msgid "= (equals)"
-msgstr "= (ਬਰਾਬਰ)"
+msgstr ""
 
 msgid "< (less)"
-msgstr "< (ਘੱਟ)"
+msgstr ""
 
 msgid "> (greater)"
-msgstr "> (ਵੱਧ)"
+msgstr ""
 
 msgid "! (exclamation)"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 15:08+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -324,7 +324,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "ਉਪਲਬਧਤਾ"
+msgstr ""
 
 msgid ""
 "Join one or more path segments intelligently.  The return value is the "
@@ -616,19 +616,19 @@ msgid ""
 msgstr ""
 
 msgid "path"
-msgstr "ਮਾਰਗ"
+msgstr ""
 
 msgid "operations"
-msgstr "ਕਾਰਵਾਈਆਂ"
+msgstr ""
 
 msgid "~ (tilde)"
-msgstr "~ (ਟਿਲਡੇ)"
+msgstr ""
 
 msgid "home directory expansion"
 msgstr ""
 
 msgid "module"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid "pwd"
 msgstr ""
@@ -640,7 +640,7 @@ msgid "environment variables expansion"
 msgstr ""
 
 msgid "% (percent)"
-msgstr "% (ਪ੍ਰਤੀਸ਼ਤ)"
+msgstr ""
 
 msgid "environment variables expansion (Windows)"
 msgstr ""

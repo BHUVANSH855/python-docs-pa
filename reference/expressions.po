@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 14:48+0000\n"
+"POT-Creation-Date: 2026-07-31 15:58+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -929,7 +929,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
+msgstr ""
 
 msgid ""
 ">>> system_defaults = {'color': 'blue', 'count': 8}\n"
@@ -2185,7 +2185,7 @@ msgid ""
 msgstr ""
 
 msgid "Comparisons"
-msgstr "ਤੁਲਨਾਵਾਂ"
+msgstr ""
 
 msgid ""
 "Unlike C, all comparison operations in Python have the same priority, which "
@@ -2436,7 +2436,7 @@ msgstr ""
 
 msgid ""
 "The last two expressions apply to totally ordered collections (e.g. to "
-"sequences, but not to sets or mappings). See also the :func:`~functools."
+"sequences, but not to sets or mappings). See also the :deco:`~functools."
 "total_ordering` decorator."
 msgstr ""
 
@@ -2705,7 +2705,7 @@ msgid "Operator"
 msgstr ""
 
 msgid "Description"
-msgstr "ਵੇਰਵਾ"
+msgstr ""
 
 msgid "``(expressions...)``,"
 msgstr ""
@@ -2766,13 +2766,13 @@ msgid "Bitwise AND"
 msgstr ""
 
 msgid "``^``"
-msgstr "``^``"
+msgstr ""
 
 msgid "Bitwise XOR"
 msgstr ""
 
 msgid "``|``"
-msgstr "``|``"
+msgstr ""
 
 msgid "Bitwise OR"
 msgstr ""
@@ -2822,7 +2822,7 @@ msgid "Assignment expression"
 msgstr ""
 
 msgid "Footnotes"
-msgstr "ਫੁੱਟਨੋਟ"
+msgstr ""
 
 msgid ""
 "While ``abs(x%y) < abs(y)`` is true mathematically, for floats it may not be "
@@ -2885,13 +2885,13 @@ msgid ""
 msgstr ""
 
 msgid "expression"
-msgstr "ਐਕਸਪ੍ਰੈਸ਼ਨ"
+msgstr ""
 
 msgid "BNF"
 msgstr ""
 
 msgid "arithmetic"
-msgstr "ਅੰਕਗਣਿਤ"
+msgstr ""
 
 msgid "conversion"
 msgstr ""
@@ -2900,19 +2900,19 @@ msgid "atom"
 msgstr ""
 
 msgid "name"
-msgstr "ਨਾਮ"
+msgstr ""
 
 msgid "identifier"
 msgstr ""
 
 msgid "exception"
-msgstr "exception"
+msgstr ""
 
 msgid "NameError"
 msgstr ""
 
 msgid "mangling"
-msgstr "ਮੈਂਗਲਿੰਗ"
+msgstr ""
 
 msgid "private"
 msgstr ""
@@ -2924,22 +2924,22 @@ msgid "literal"
 msgstr ""
 
 msgid "immutable"
-msgstr "ਅਪਰਿਵਰਤਨਯੋਗ"
+msgstr ""
 
 msgid "data"
 msgstr ""
 
 msgid "type"
-msgstr "ਕਿਸਮ"
+msgstr ""
 
 msgid "object"
-msgstr "ਆਬਜੈਕਟ"
+msgstr ""
 
 msgid "parenthesized form"
 msgstr ""
 
 msgid "() (parentheses)"
-msgstr "() (ਕੌਂਠੇ)"
+msgstr ""
 
 msgid "comprehensions"
 msgstr ""
@@ -2951,19 +2951,19 @@ msgid "comma"
 msgstr ""
 
 msgid "iterable"
-msgstr "ਇਟਰੇਬਲ"
+msgstr ""
 
 msgid "unpacking"
 msgstr ""
 
 msgid "* (asterisk)"
-msgstr "* (ਐਸਟਰਿਸਕ)"
+msgstr ""
 
 msgid "in expression lists"
 msgstr ""
 
 msgid "list"
-msgstr "ਸੂਚੀ"
+msgstr ""
 
 msgid "display"
 msgstr ""
@@ -2984,10 +2984,10 @@ msgid "expression list"
 msgstr ""
 
 msgid "set"
-msgstr "ਸੈੱਟ"
+msgstr ""
 
 msgid "{} (curly brackets)"
-msgstr "{} (ਕਰਲੀ ਬ੍ਰੈਕਟ)"
+msgstr ""
 
 msgid "set expression"
 msgstr ""
@@ -2996,16 +2996,16 @@ msgid "tuple display"
 msgstr ""
 
 msgid "tuple"
-msgstr "ਟਿਊਪਲ"
+msgstr ""
 
 msgid "dictionary"
-msgstr "ਡਿਕਸ਼ਨਰੀ"
+msgstr ""
 
 msgid "key"
-msgstr "ਕੀ"
+msgstr ""
 
 msgid "value"
-msgstr "ਮੁੱਲ"
+msgstr ""
 
 msgid "key/value pair"
 msgstr ""
@@ -3014,7 +3014,7 @@ msgid "dictionary expression"
 msgstr ""
 
 msgid ": (colon)"
-msgstr ": (ਕੋਲਨ)"
+msgstr ""
 
 msgid "in dictionary expressions"
 msgstr ""
@@ -3023,16 +3023,16 @@ msgid "in dictionary displays"
 msgstr ""
 
 msgid "**"
-msgstr "**"
+msgstr ""
 
 msgid "for"
-msgstr "for"
+msgstr ""
 
 msgid "in comprehensions"
 msgstr ""
 
 msgid "if"
-msgstr "if"
+msgstr ""
 
 msgid "async for"
 msgstr ""
@@ -3041,10 +3041,10 @@ msgid "await"
 msgstr ""
 
 msgid "generator"
-msgstr "ਜਨਰੇਟਰ"
+msgstr ""
 
 msgid "generator expression"
-msgstr "ਜਨਰੇਟਰ ਐਕਸਪ੍ਰੈਸ਼ਨ"
+msgstr ""
 
 msgid "keyword"
 msgstr ""
@@ -3056,10 +3056,10 @@ msgid "from"
 msgstr ""
 
 msgid "function"
-msgstr "ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid "coroutine"
-msgstr "ਕੋਰੂਟੀਨ"
+msgstr ""
 
 msgid "yield from expression"
 msgstr ""
@@ -3083,13 +3083,13 @@ msgid "primary"
 msgstr ""
 
 msgid "attribute"
-msgstr "ਐਟ੍ਰਿਬਿਊਟ"
+msgstr ""
 
 msgid "reference"
 msgstr ""
 
 msgid ". (dot)"
-msgstr ". (ਡਾਟ)"
+msgstr ""
 
 msgid "attribute reference"
 msgstr ""
@@ -3098,19 +3098,19 @@ msgid "AttributeError"
 msgstr ""
 
 msgid "module"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid "subscription"
 msgstr ""
 
 msgid "sequence"
-msgstr "ਕ੍ਰਮ"
+msgstr ""
 
 msgid "mapping"
-msgstr "ਮੈਪਿੰਗ"
+msgstr ""
 
 msgid "string"
-msgstr "ਸਟ੍ਰਿੰਗ"
+msgstr ""
 
 msgid "item"
 msgstr ""
@@ -3119,16 +3119,16 @@ msgid "slicing"
 msgstr ""
 
 msgid "slice"
-msgstr "ਸਲਾਈਸ"
+msgstr ""
 
 msgid "callable"
-msgstr "ਕਾਲਯੋਗ"
+msgstr ""
 
 msgid "call"
 msgstr ""
 
 msgid "argument"
-msgstr "ਆਰਗਿਊਮੈਂਟ"
+msgstr ""
 
 msgid "call semantics"
 msgstr ""
@@ -3137,13 +3137,13 @@ msgid "argument list"
 msgstr ""
 
 msgid "= (equals)"
-msgstr "= (ਬਰਾਬਰ)"
+msgstr ""
 
 msgid "in function calls"
-msgstr "ਫੰਕਸ਼ਨ ਕਾਲਾਂ ਵਿੱਚ"
+msgstr ""
 
 msgid "parameter"
-msgstr "ਪੈਰਾਮੀਟਰ"
+msgstr ""
 
 msgid "user-defined"
 msgstr ""
@@ -3152,16 +3152,16 @@ msgid "user-defined function"
 msgstr ""
 
 msgid "built-in function"
-msgstr "ਬਿਲਟ-ਇਨ ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid "method"
-msgstr "ਵਿਧੀ"
+msgstr ""
 
 msgid "built-in method"
 msgstr ""
 
 msgid "class"
-msgstr "ਕਲਾਸ"
+msgstr ""
 
 msgid "class object"
 msgstr ""
@@ -3179,16 +3179,16 @@ msgid "power"
 msgstr ""
 
 msgid "operation"
-msgstr "ਕਾਰਵਾਈ"
+msgstr ""
 
 msgid "operator"
-msgstr "ਓਪਰੇਟਰ"
+msgstr ""
 
 msgid "unary"
 msgstr ""
 
 msgid "bitwise"
-msgstr "ਬਿਟਵਾਈਜ਼"
+msgstr ""
 
 msgid "negation"
 msgstr ""
@@ -3197,28 +3197,28 @@ msgid "minus"
 msgstr ""
 
 msgid "- (minus)"
-msgstr "- (ਮਾਈਨਸ)"
+msgstr ""
 
 msgid "unary operator"
-msgstr "ਯੂਨਰੀ ਓਪਰੇਟਰ"
+msgstr ""
 
 msgid "plus"
 msgstr ""
 
 msgid "+ (plus)"
-msgstr "+ (ਪਲੱਸ)"
+msgstr ""
 
 msgid "inversion"
 msgstr ""
 
 msgid "~ (tilde)"
-msgstr "~ (ਟਿਲਡੇ)"
+msgstr ""
 
 msgid "TypeError"
 msgstr ""
 
 msgid "binary"
-msgstr "ਬਾਈਨਰੀ"
+msgstr ""
 
 msgid "multiplication"
 msgstr ""
@@ -3236,43 +3236,43 @@ msgid "division"
 msgstr ""
 
 msgid "/ (slash)"
-msgstr "/ (ਸਲੈਸ਼)"
+msgstr ""
 
 msgid "//"
-msgstr "//"
+msgstr ""
 
 msgid "modulo"
 msgstr ""
 
 msgid "% (percent)"
-msgstr "% (ਪ੍ਰਤੀਸ਼ਤ)"
+msgstr ""
 
 msgid "addition"
 msgstr ""
 
 msgid "binary operator"
-msgstr "ਬਾਈਨਰੀ ਓਪਰੇਟਰ"
+msgstr ""
 
 msgid "subtraction"
 msgstr ""
 
 msgid "shifting"
-msgstr "ਸ਼ਿਫਟਿੰਗ"
+msgstr ""
 
 msgid "<<"
-msgstr "<<"
+msgstr ""
 
 msgid ">>"
-msgstr ">>"
+msgstr ""
 
 msgid "ValueError"
 msgstr ""
 
 msgid "and"
-msgstr "and"
+msgstr ""
 
 msgid "& (ampersand)"
-msgstr "& (ਐਂਪਰਸੈਂਡ)"
+msgstr ""
 
 msgid "xor"
 msgstr ""
@@ -3281,55 +3281,55 @@ msgid "exclusive"
 msgstr ""
 
 msgid "or"
-msgstr "or"
+msgstr ""
 
 msgid "^ (caret)"
-msgstr "^ (ਕੈਰਟ)"
+msgstr ""
 
 msgid "inclusive"
 msgstr ""
 
 msgid "| (vertical bar)"
-msgstr "| (ਵਰਟੀਕਲ ਬਾਰ)"
+msgstr ""
 
 msgid "comparison"
-msgstr "ਤੁਲਨਾ"
+msgstr ""
 
 msgid "C"
-msgstr "C"
+msgstr ""
 
 msgid "language"
-msgstr "ਭਾਸ਼ਾ"
+msgstr ""
 
 msgid "< (less)"
-msgstr "< (ਘੱਟ)"
+msgstr ""
 
 msgid "> (greater)"
-msgstr "> (ਵੱਧ)"
+msgstr ""
 
 msgid "<="
-msgstr "<="
+msgstr ""
 
 msgid ">="
-msgstr ">="
+msgstr ""
 
 msgid "=="
-msgstr "=="
+msgstr ""
 
 msgid "!="
-msgstr "!="
+msgstr ""
 
 msgid "chaining"
-msgstr "ਚੇਨਿੰਗ"
+msgstr ""
 
 msgid "comparisons"
-msgstr "ਤੁਲਨਾਵਾਂ"
+msgstr ""
 
 msgid "in"
-msgstr "in"
+msgstr ""
 
 msgid "not in"
-msgstr "not in"
+msgstr ""
 
 msgid "membership"
 msgstr ""
@@ -3338,10 +3338,10 @@ msgid "test"
 msgstr ""
 
 msgid "is"
-msgstr "is"
+msgstr ""
 
 msgid "is not"
-msgstr "is not"
+msgstr ""
 
 msgid "identity"
 msgstr ""
@@ -3350,10 +3350,10 @@ msgid "Conditional"
 msgstr ""
 
 msgid "Boolean"
-msgstr "ਬੂਲੀਅਨ"
+msgstr ""
 
 msgid "not"
-msgstr "not"
+msgstr ""
 
 msgid ":= (colon equals)"
 msgstr ""
@@ -3362,13 +3362,13 @@ msgid "assignment expression"
 msgstr ""
 
 msgid "walrus operator"
-msgstr "ਵਾਲਰਸ ਓਪਰੇਟਰ"
+msgstr ""
 
 msgid "named expression"
 msgstr ""
 
 msgid "assignment"
-msgstr "ਅਸਾਈਨਮੈਂਟ"
+msgstr ""
 
 msgid "conditional"
 msgstr ""
@@ -3383,7 +3383,7 @@ msgid "else"
 msgstr ""
 
 msgid "lambda"
-msgstr "ਲੈਂਬਡਾ"
+msgstr ""
 
 msgid "form"
 msgstr ""

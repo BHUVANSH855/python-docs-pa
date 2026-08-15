@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 15:08+0000\n"
+"POT-Creation-Date: 2026-08-07 14:47+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -132,7 +132,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "ਉਪਲਬਧਤਾ"
+msgstr ""
 
 msgid "Part of the"
 msgstr ""
@@ -277,10 +277,28 @@ msgstr ""
 msgid "Other resources:"
 msgstr ""
 
+msgid "Python developer's guide"
+msgstr ""
+
+msgid "Information on contributing to Python"
+msgstr ""
+
 msgid "Python Packaging User Guide"
 msgstr ""
 
 msgid "Resources relating to Python packaging"
+msgstr ""
+
+msgid "Audio/visual talks"
+msgstr ""
+
+msgid "Podcasts, talks, and video presentations from the community"
+msgstr ""
+
+msgid "Python Enhancement Proposals"
+msgstr ""
+
+msgid "Index of proposed improvements to Python"
 msgstr ""
 
 msgid "Static Typing with Python"
@@ -305,7 +323,7 @@ msgid "All functions, classes, and terms"
 msgstr ""
 
 msgid "Glossary"
-msgstr "ਸ਼ਬਦਾਵਲੀ"
+msgstr ""
 
 msgid "Terms explained"
 msgstr ""
@@ -350,24 +368,6 @@ msgid "Docs by version"
 msgstr ""
 
 msgid "All versions"
-msgstr ""
-
-msgid "Other resources"
-msgstr ""
-
-msgid "PEP index"
-msgstr ""
-
-msgid "Beginner's guide"
-msgstr ""
-
-msgid "Book list"
-msgstr ""
-
-msgid "Audio/visual talks"
-msgstr ""
-
-msgid "Python developer’s guide"
 msgstr ""
 
 msgid ""

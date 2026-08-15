@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-05 15:08+0000\n"
+"POT-Creation-Date: 2026-07-31 15:58+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -1243,31 +1243,31 @@ msgid ":class:`bytes`"
 msgstr ""
 
 msgid ":class:`dict`"
-msgstr ":class:`dict`"
+msgstr ""
 
 msgid ":class:`float`"
 msgstr ""
 
 msgid ":class:`frozendict`"
-msgstr ":class:`frozendict`"
+msgstr ""
 
 msgid ":class:`frozenset`"
-msgstr ":class:`frozenset`"
+msgstr ""
 
 msgid ":class:`int`"
 msgstr ""
 
 msgid ":class:`list`"
-msgstr ":class:`list`"
+msgstr ""
 
 msgid ":class:`set`"
-msgstr ":class:`set`"
+msgstr ""
 
 msgid ":class:`str`"
 msgstr ""
 
 msgid ":class:`tuple`"
-msgstr ":class:`tuple`"
+msgstr ""
 
 msgid ""
 "These classes accept a single positional argument, and the pattern there is "
@@ -1459,7 +1459,7 @@ msgid "The original specification for function annotations."
 msgstr ""
 
 msgid ":pep:`484` - Type Hints"
-msgstr ":pep:`484` - Type Hints"
+msgstr ""
 
 msgid "Definition of a standard meaning for annotations: type hints."
 msgstr ""
@@ -1711,7 +1711,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "ਉਦਾਹਰਨ:"
+msgstr ""
 
 msgid ""
 ">>> class Solid1:\n"
@@ -2200,7 +2200,7 @@ msgid ""
 "this is not enforced by the language, and in general annotations may contain "
 "arbitrary expressions. The presence of annotations does not change the "
 "runtime semantics of the code, except if some mechanism is used that "
-"introspects and uses the annotations (such as :mod:`dataclasses` or :func:"
+"introspects and uses the annotations (such as :mod:`dataclasses` or :deco:"
 "`functools.singledispatch`)."
 msgstr ""
 
@@ -2233,7 +2233,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "ਫੁੱਟਨੋਟ"
+msgstr ""
 
 msgid ""
 "The exception is propagated to the invocation stack unless there is a :"
@@ -2265,7 +2265,7 @@ msgid ":class:`array.array`"
 msgstr ""
 
 msgid ":class:`collections.deque`"
-msgstr ":class:`collections.deque`"
+msgstr ""
 
 msgid ":class:`memoryview`"
 msgstr ""
@@ -2313,7 +2313,7 @@ msgid "compound"
 msgstr ""
 
 msgid "statement"
-msgstr "ਸਟੇਟਮੈਂਟ"
+msgstr ""
 
 msgid "clause"
 msgstr ""
@@ -2337,7 +2337,7 @@ msgid "else"
 msgstr ""
 
 msgid "if"
-msgstr "if"
+msgstr ""
 
 msgid "keyword"
 msgstr ""
@@ -2346,16 +2346,16 @@ msgid "elif"
 msgstr ""
 
 msgid ": (colon)"
-msgstr ": (ਕੋਲਨ)"
+msgstr ""
 
 msgid "compound statement"
 msgstr ""
 
 msgid "while"
-msgstr "while"
+msgstr ""
 
 msgid "loop"
-msgstr "ਲੂਪ"
+msgstr ""
 
 msgid "break"
 msgstr ""
@@ -2364,34 +2364,34 @@ msgid "continue"
 msgstr ""
 
 msgid "for"
-msgstr "for"
+msgstr ""
 
 msgid "in"
-msgstr "in"
+msgstr ""
 
 msgid "target"
 msgstr ""
 
 msgid "list"
-msgstr "ਸੂਚੀ"
+msgstr ""
 
 msgid "object"
-msgstr "ਆਬਜੈਕਟ"
+msgstr ""
 
 msgid "sequence"
-msgstr "ਕ੍ਰਮ"
+msgstr ""
 
 msgid "built-in function"
-msgstr "ਬਿਲਟ-ਇਨ ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid "range"
-msgstr "range"
+msgstr ""
 
 msgid "try"
-msgstr "try"
+msgstr ""
 
 msgid "except"
-msgstr "except"
+msgstr ""
 
 msgid "finally"
 msgstr ""
@@ -2403,10 +2403,10 @@ msgid "except clause"
 msgstr ""
 
 msgid "module"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid "traceback"
 msgstr ""
@@ -2454,7 +2454,7 @@ msgid "AS pattern, OR pattern, capture pattern, wildcard pattern"
 msgstr ""
 
 msgid "parameter"
-msgstr "ਪੈਰਾਮੀਟਰ"
+msgstr ""
 
 msgid "function definition"
 msgstr ""
@@ -2463,13 +2463,13 @@ msgid "def"
 msgstr ""
 
 msgid "function"
-msgstr "ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid "definition"
 msgstr ""
 
 msgid "name"
-msgstr "ਨਾਮ"
+msgstr ""
 
 msgid "binding"
 msgstr ""
@@ -2478,7 +2478,7 @@ msgid "user-defined function"
 msgstr ""
 
 msgid "() (parentheses)"
-msgstr "() (ਕੌਂਠੇ)"
+msgstr ""
 
 msgid "parameter list"
 msgstr ""
@@ -2490,40 +2490,40 @@ msgid "default"
 msgstr ""
 
 msgid "value"
-msgstr "ਮੁੱਲ"
+msgstr ""
 
 msgid "argument"
-msgstr "ਆਰਗਿਊਮੈਂਟ"
+msgstr ""
 
 msgid "= (equals)"
-msgstr "= (ਬਰਾਬਰ)"
+msgstr ""
 
 msgid "/ (slash)"
-msgstr "/ (ਸਲੈਸ਼)"
+msgstr ""
 
 msgid "* (asterisk)"
-msgstr "* (ਐਸਟਰਿਸਕ)"
+msgstr ""
 
 msgid "**"
-msgstr "**"
+msgstr ""
 
 msgid "annotations"
-msgstr "ਐਨੋਟੇਸ਼ਨ"
+msgstr ""
 
 msgid "->"
-msgstr "->"
+msgstr ""
 
 msgid "function annotations"
-msgstr "ਫੰਕਸ਼ਨ ਐਨੋਟੇਸ਼ਨ"
+msgstr ""
 
 msgid "lambda"
-msgstr "ਲੈਂਬਡਾ"
+msgstr ""
 
 msgid "expression"
-msgstr "ਐਕਸਪ੍ਰੈਸ਼ਨ"
+msgstr ""
 
 msgid "class"
-msgstr "ਕਲਾਸ"
+msgstr ""
 
 msgid "execution"
 msgstr ""
@@ -2535,7 +2535,7 @@ msgid "inheritance"
 msgstr ""
 
 msgid "docstring"
-msgstr "ਡੌਕਸਟ੍ਰਿੰਗ"
+msgstr ""
 
 msgid "class definition"
 msgstr ""

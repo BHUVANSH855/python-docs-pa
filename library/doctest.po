@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-11 14:46+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -949,7 +949,7 @@ msgid ""
 msgstr ""
 
 msgid "Warnings"
-msgstr "Warnings"
+msgstr ""
 
 msgid ""
 ":mod:`!doctest` is serious about requiring exact matches in expected "
@@ -2276,7 +2276,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "ਫੁੱਟਨੋਟ"
+msgstr ""
 
 msgid ""
 "Examples containing both expected output and an exception are not supported. "
@@ -2291,10 +2291,10 @@ msgid "interpreter prompt"
 msgstr ""
 
 msgid "..."
-msgstr "..."
+msgstr ""
 
 msgid "^ (caret)"
-msgstr "^ (ਕੈਰਟ)"
+msgstr ""
 
 msgid "marker"
 msgstr ""
@@ -2306,10 +2306,10 @@ msgid "in doctests"
 msgstr ""
 
 msgid "# (hash)"
-msgstr "# (ਹੈਸ਼)"
+msgstr ""
 
 msgid "+ (plus)"
-msgstr "+ (ਪਲੱਸ)"
+msgstr ""
 
 msgid "- (minus)"
-msgstr "- (ਮਾਈਨਸ)"
+msgstr ""

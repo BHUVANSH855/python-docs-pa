@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 15:29+0000\n"
+"POT-Creation-Date: 2026-07-31 15:58+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Introduction"
-msgstr "ਜਾਣ-ਪਛਾਣ"
+msgstr ""
 
 msgid ""
 "The Application Programmer's Interface to Python gives C and C++ programmers "
@@ -241,7 +241,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 "PyDoc_STRVAR(pop_doc, \"Remove and return the rightmost element.\");\n"
@@ -275,7 +275,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
+msgstr ""
 
 msgid ""
 "PyDoc_VAR(python_doc) = PyDoc_STR(\n"
@@ -1008,7 +1008,7 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr "ਐਕਸੈਪਸ਼ਨ"
+msgstr ""
 
 msgid ""
 "The Python programmer only needs to deal with exceptions if specific  error "
@@ -1157,7 +1157,7 @@ msgid ""
 msgstr ""
 
 msgid "Embedding Python"
-msgstr "Python ਨੂੰ Embed ਕਰਨਾ"
+msgstr ""
 
 msgid ""
 "The one important task that only embedders (as opposed to extension writers) "
@@ -1265,7 +1265,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Defining :c:macro:`Py_TRACE_REFS` enables reference tracing (see the :option:"
+"Defining ``Py_TRACE_REFS`` enables reference tracing (see the :option:"
 "`configure --with-trace-refs option <--with-trace-refs>`). When defined, a "
 "circular doubly linked list of active objects is maintained by adding two "
 "extra fields to every :c:type:`PyObject`.  Total allocations are tracked as "
@@ -1339,10 +1339,10 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr "ਆਬਜੈਕਟ"
+msgstr ""
 
 msgid "type"
-msgstr "ਕਿਸਮ"
+msgstr ""
 
 msgid "Py_INCREF (C function)"
 msgstr ""
@@ -1396,22 +1396,22 @@ msgid "Py_Initialize (C function)"
 msgstr ""
 
 msgid "module"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid "builtins"
-msgstr "builtins"
+msgstr ""
 
 msgid "__main__"
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid "search"
-msgstr "ਖੋਜ"
+msgstr ""
 
 msgid "path"
-msgstr "ਮਾਰਗ"
+msgstr ""
 
 msgid "path (in module sys)"
 msgstr ""

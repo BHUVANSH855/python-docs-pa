@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-07 16:22+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -208,7 +208,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr "ਪੈਰਾਮੀਟਰ"
+msgstr ""
 
 msgid "The Python object to be serialized."
 msgstr ""
@@ -422,19 +422,19 @@ msgid "Python"
 msgstr ""
 
 msgid "object"
-msgstr "ਆਬਜੈਕਟ"
+msgstr ""
 
 msgid "dict"
 msgstr ""
 
 msgid "array"
-msgstr "ਐਰੇ"
+msgstr ""
 
 msgid "list"
-msgstr "ਸੂਚੀ"
+msgstr ""
 
 msgid "string"
-msgstr "ਸਟ੍ਰਿੰਗ"
+msgstr ""
 
 msgid "str"
 msgstr ""
@@ -443,25 +443,25 @@ msgid "number (int)"
 msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "number (real)"
 msgstr ""
 
 msgid "float"
-msgstr "float"
+msgstr ""
 
 msgid "true"
-msgstr "ਸੱਚ"
+msgstr ""
 
 msgid "True"
-msgstr "True"
+msgstr ""
 
 msgid "false"
-msgstr "ਝੂਠ"
+msgstr ""
 
 msgid "False"
-msgstr "False"
+msgstr ""
 
 msgid "null"
 msgstr ""
@@ -685,7 +685,7 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr "ਐਕਸੈਪਸ਼ਨ"
+msgstr ""
 
 msgid "Subclass of :exc:`ValueError` with the following additional attributes:"
 msgstr ""
@@ -954,7 +954,7 @@ msgid "Show the help message."
 msgstr ""
 
 msgid "Footnotes"
-msgstr "ਫੁੱਟਨੋਟ"
+msgstr ""
 
 msgid ""
 "As noted in `the errata for RFC 7159 <https://www.rfc-editor.org/"

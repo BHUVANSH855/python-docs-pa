@@ -47,7 +47,13 @@ jobs:
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
-      - run: ./transifex-util.py fetch --language pa --project-slug python-newest --version ${{ matrix.version }}
+      - name: Fetch reviewed translations from Transifex
+        run: |
+          ./transifex-util.py fetch \
+            --language pa \
+            --project-slug python-newest \
+            --version ${{ matrix.version }} \
+            --pull-options="--mode reviewed"
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
@@ -69,7 +75,7 @@ jobs:
 
       - run: git add . ':!transifex-util.py'
 
-      - run: git commit -m "Update translation from Transifex"
+      - run: git commit -m "Update reviewed translations from Transifex"
         if: env.SIGNIFICANT_CHANGES
 
       - uses: ad-m/github-push-action@master

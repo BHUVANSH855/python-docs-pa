@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 15:08+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -159,10 +159,10 @@ msgid "Option"
 msgstr ""
 
 msgid "Description"
-msgstr "ਵੇਰਵਾ"
+msgstr ""
 
 msgid "class"
-msgstr "ਕਲਾਸ"
+msgstr ""
 
 msgid ""
 "Specifies the window class. The class is used when querying the option "
@@ -193,7 +193,7 @@ msgid ""
 msgstr ""
 
 msgid "style"
-msgstr "ਸ਼ੈਲੀ"
+msgstr ""
 
 msgid "May be used to specify a custom widget style."
 msgstr ""
@@ -322,7 +322,7 @@ msgid "The widget state is a bitmap of independent state flags."
 msgstr ""
 
 msgid "Flag"
-msgstr "Flag"
+msgstr ""
 
 msgid "active"
 msgstr ""
@@ -495,7 +495,7 @@ msgid ""
 msgstr ""
 
 msgid "values"
-msgstr "ਮੁੱਲ"
+msgstr ""
 
 msgid "Specifies the list of values to display in the drop-down listbox."
 msgstr ""
@@ -878,7 +878,7 @@ msgid "A number specifying the maximum value. Defaults to 100."
 msgstr ""
 
 msgid "value"
-msgstr "ਮੁੱਲ"
+msgstr ""
 
 msgid ""
 "The current value of the progress bar. In \"determinate\" mode, this "
@@ -1116,7 +1116,7 @@ msgid ""
 msgstr ""
 
 msgid "open"
-msgstr "open"
+msgstr ""
 
 msgid ""
 "``True``/``False`` value indicating whether the item's children should be "
@@ -1171,7 +1171,7 @@ msgid ""
 msgstr ""
 
 msgid "Notes:"
-msgstr "ਨੋਟ:"
+msgstr ""
 
 msgid ""
 "Item's option values may be displayed in a different order than the order in "
@@ -1788,7 +1788,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 "img1 = tkinter.PhotoImage(master=root, file='button.png')\n"

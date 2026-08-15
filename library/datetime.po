@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-07 16:22+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -415,10 +415,10 @@ msgid "Supported operations:"
 msgstr ""
 
 msgid "Operation"
-msgstr "ਕਾਰਵਾਈ"
+msgstr ""
 
 msgid "Result"
-msgstr "ਨਤੀਜਾ"
+msgstr ""
 
 msgid "``t1 = t2 + t3``"
 msgstr ""
@@ -532,7 +532,7 @@ msgid ""
 msgstr ""
 
 msgid "Notes:"
-msgstr "ਨੋਟ:"
+msgstr ""
 
 msgid "This is exact but may overflow."
 msgstr ""
@@ -730,7 +730,7 @@ msgid "Ordinal dates are not currently supported (``YYYY-OOO``)."
 msgstr ""
 
 msgid "Examples::"
-msgstr "ਉਦਾਹਰਨਾਂ::"
+msgstr ""
 
 msgid ""
 ">>> import datetime as dt\n"
@@ -819,7 +819,7 @@ msgid "``timedelta = date1 - date2``"
 msgstr ""
 
 msgid "\\(3)"
-msgstr "\\(3)"
+msgstr ""
 
 msgid "``date1 == date2``"
 msgstr ""
@@ -899,7 +899,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 ">>> import datetime as dt\n"
@@ -1158,7 +1158,7 @@ msgid "Return the current local date and time, with :attr:`.tzinfo` ``None``."
 msgstr ""
 
 msgid "Equivalent to::"
-msgstr "ਇਸਦੇ ਸਮਾਨ::"
+msgstr ""
 
 msgid "datetime.fromtimestamp(time.time())"
 msgstr ""
@@ -1444,13 +1444,13 @@ msgid "``datetime2 = datetime1 + timedelta``"
 msgstr ""
 
 msgid "\\(1)"
-msgstr "\\(1)"
+msgstr ""
 
 msgid "``datetime2 = datetime1 - timedelta``"
 msgstr ""
 
 msgid "\\(2)"
-msgstr "\\(2)"
+msgstr ""
 
 msgid "``timedelta = datetime1 - datetime2``"
 msgstr ""
@@ -2135,7 +2135,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr "ਉਦਾਹਰਨਾਂ:"
+msgstr ""
 
 msgid ""
 ">>> import datetime as dt\n"
@@ -2967,13 +2967,13 @@ msgid "Directive"
 msgstr ""
 
 msgid "Meaning"
-msgstr "ਅਰਥ"
+msgstr ""
 
 msgid "Example"
 msgstr ""
 
 msgid "Notes"
-msgstr "ਨੋਟ"
+msgstr ""
 
 msgid "``%a``"
 msgstr ""
@@ -3117,7 +3117,7 @@ msgid "0001, 0002, ..., 2013, 2014, ..., 9998, 9999"
 msgstr ""
 
 msgid "\\(8)"
-msgstr "\\(8)"
+msgstr ""
 
 msgid "``%h``"
 msgstr ""
@@ -3179,7 +3179,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\n``"
-msgstr "``\\n``"
+msgstr ""
 
 msgid "``%p``"
 msgstr ""
@@ -3353,7 +3353,7 @@ msgid "(empty), +0000, -0400, +1030, +063415, -030712.345216"
 msgstr ""
 
 msgid "\\(6)"
-msgstr "\\(6)"
+msgstr ""
 
 msgid "``%Z``"
 msgstr ""
@@ -3395,7 +3395,7 @@ msgid "000000, 000001, ..., 999999"
 msgstr ""
 
 msgid "\\(5)"
-msgstr "\\(5)"
+msgstr ""
 
 msgid "``%:z``"
 msgstr ""
@@ -3653,7 +3653,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "ਫੁੱਟਨੋਟ"
+msgstr ""
 
 msgid "If, that is, we ignore the effects of relativity."
 msgstr ""
@@ -3673,7 +3673,7 @@ msgid ""
 msgstr ""
 
 msgid "% (percent)"
-msgstr "% (ਪ੍ਰਤੀਸ਼ਤ)"
+msgstr ""
 
 msgid "datetime format"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 15:08+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -40,7 +40,7 @@ msgid ""
 msgstr ""
 
 msgid "Availability"
-msgstr "ਉਪਲਬਧਤਾ"
+msgstr ""
 
 msgid ""
 "This module does not work or is not available on WebAssembly. See :ref:`wasm-"
@@ -431,7 +431,7 @@ msgid "The module :mod:`!socket` exports the following elements."
 msgstr ""
 
 msgid "Exceptions"
-msgstr "ਐਕਸੈਪਸ਼ਨ"
+msgstr ""
 
 msgid "A deprecated alias of :exc:`OSError`."
 msgstr ""
@@ -758,7 +758,7 @@ msgid ""
 msgstr ""
 
 msgid "Functions"
-msgstr "Functions"
+msgstr ""
 
 msgid "Creating sockets"
 msgstr ""
@@ -1754,7 +1754,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 ">>> import socket\n"
@@ -2319,19 +2319,19 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr "ਆਬਜੈਕਟ"
+msgstr ""
 
 msgid "socket"
 msgstr ""
 
 msgid "I/O control"
-msgstr "I/O ਨਿਯੰਤਰਣ"
+msgstr ""
 
 msgid "buffering"
-msgstr "ਬਫਰਿੰਗ"
+msgstr ""
 
 msgid "module"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid "struct"
 msgstr ""

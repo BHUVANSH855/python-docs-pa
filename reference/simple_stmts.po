@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-11 14:46+0000\n"
+"POT-Creation-Date: 2026-07-31 15:58+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -165,7 +165,7 @@ msgstr ""
 
 msgid ""
 "This description does not necessarily apply to descriptor attributes, such "
-"as properties created with :func:`property`."
+"as properties created with :deco:`property`."
 msgstr ""
 
 msgid ""
@@ -413,7 +413,7 @@ msgid ""
 msgstr ""
 
 msgid "The :keyword:`!del` statement"
-msgstr ":keyword:`!del` ਸਟੇਟਮੈਂਟ"
+msgstr ""
 
 msgid ""
 "Deletion is recursively defined very similar to the way assignment is "
@@ -731,8 +731,6 @@ msgid ""
 "If the module name is followed by :keyword:`!as`, then the name following :"
 "keyword:`!as` is bound directly to the imported module."
 msgstr ""
-"ਜੇ ਮੌਡਿਊਲ ਦੇ ਨਾਮ ਤੋਂ ਬਾਅਦ :keyword:`!as` ਲਿਖਿਆ ਹੋਵੇ, ਤਾਂ :keyword:`!as` ਤੋਂ ਬਾਅਦ ਦਿੱਤਾ "
-"ਗਿਆ ਨਾਮ ਸਿੱਧੇ import ਕੀਤੇ ਮੌਡਿਊਲ ਨਾਲ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ।"
 
 msgid ""
 "If no other name is specified, and the module being imported is a top level "
@@ -776,7 +774,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples::"
-msgstr "ਉਦਾਹਰਨਾਂ::"
+msgstr ""
 
 msgid ""
 "import foo                 # foo imported and bound locally\n"
@@ -871,7 +869,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "ਉਦਾਹਰਨ::"
+msgstr ""
 
 msgid ""
 "lazy import json\n"
@@ -1177,28 +1175,28 @@ msgid "simple"
 msgstr ""
 
 msgid "statement"
-msgstr "ਸਟੇਟਮੈਂਟ"
+msgstr ""
 
 msgid "expression"
-msgstr "ਐਕਸਪ੍ਰੈਸ਼ਨ"
+msgstr ""
 
 msgid "list"
-msgstr "ਸੂਚੀ"
+msgstr ""
 
 msgid "built-in function"
-msgstr "ਬਿਲਟ-ਇਨ ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid "repr"
 msgstr ""
 
 msgid "object"
-msgstr "ਆਬਜੈਕਟ"
+msgstr ""
 
 msgid "None"
 msgstr ""
 
 msgid "string"
-msgstr "ਸਟ੍ਰਿੰਗ"
+msgstr ""
 
 msgid "conversion"
 msgstr ""
@@ -1213,7 +1211,7 @@ msgid "writing"
 msgstr ""
 
 msgid "values"
-msgstr "ਮੁੱਲ"
+msgstr ""
 
 msgid "procedure"
 msgstr ""
@@ -1222,28 +1220,28 @@ msgid "call"
 msgstr ""
 
 msgid "= (equals)"
-msgstr "= (ਬਰਾਬਰ)"
+msgstr ""
 
 msgid "assignment statement"
 msgstr ""
 
 msgid "assignment"
-msgstr "ਅਸਾਈਨਮੈਂਟ"
+msgstr ""
 
 msgid "binding"
 msgstr ""
 
 msgid "name"
-msgstr "ਨਾਮ"
+msgstr ""
 
 msgid "rebinding"
 msgstr ""
 
 msgid "mutable"
-msgstr "ਪਰਿਵਰਤਨਯੋਗ"
+msgstr ""
 
 msgid "attribute"
-msgstr "ਐਟ੍ਰਿਬਿਊਟ"
+msgstr ""
 
 msgid "target"
 msgstr ""
@@ -1255,7 +1253,7 @@ msgid "in target list"
 msgstr ""
 
 msgid "* (asterisk)"
-msgstr "* (ਐਸਟਰਿਸਕ)"
+msgstr ""
 
 msgid "in assignment target list"
 msgstr ""
@@ -1264,7 +1262,7 @@ msgid "[] (square brackets)"
 msgstr ""
 
 msgid "() (parentheses)"
-msgstr "() (ਕੌਂਠੇ)"
+msgstr ""
 
 msgid "destructor"
 msgstr ""
@@ -1273,13 +1271,13 @@ msgid "subscription"
 msgstr ""
 
 msgid "sequence"
-msgstr "ਕ੍ਰਮ"
+msgstr ""
 
 msgid "mapping"
-msgstr "ਮੈਪਿੰਗ"
+msgstr ""
 
 msgid "dictionary"
-msgstr "ਡਿਕਸ਼ਨਰੀ"
+msgstr ""
 
 msgid "slicing"
 msgstr ""
@@ -1336,13 +1334,13 @@ msgid "assignment, annotated"
 msgstr ""
 
 msgid ": (colon)"
-msgstr ": (ਕੋਲਨ)"
+msgstr ""
 
 msgid "annotated variable"
 msgstr ""
 
 msgid "assert"
-msgstr "assert"
+msgstr ""
 
 msgid "debugging"
 msgstr ""
@@ -1357,7 +1355,7 @@ msgid "__debug__"
 msgstr ""
 
 msgid "exception"
-msgstr "exception"
+msgstr ""
 
 msgid "AssertionError"
 msgstr ""
@@ -1369,10 +1367,10 @@ msgid "null"
 msgstr ""
 
 msgid "operation"
-msgstr "ਕਾਰਵਾਈ"
+msgstr ""
 
 msgid "del"
-msgstr "del"
+msgstr ""
 
 msgid "deletion"
 msgstr ""
@@ -1387,13 +1385,13 @@ msgid "return"
 msgstr ""
 
 msgid "function"
-msgstr "ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid "definition"
 msgstr ""
 
 msgid "class"
-msgstr "ਕਲਾਸ"
+msgstr ""
 
 msgid "keyword"
 msgstr ""
@@ -1405,16 +1403,16 @@ msgid "yield"
 msgstr ""
 
 msgid "generator"
-msgstr "ਜਨਰੇਟਰ"
+msgstr ""
 
 msgid "iterator"
-msgstr "ਇਟਰੇਟਰ"
+msgstr ""
 
 msgid "StopIteration"
 msgstr ""
 
 msgid "raise"
-msgstr "raise"
+msgstr ""
 
 msgid "raising"
 msgstr ""
@@ -1426,25 +1424,25 @@ msgid "traceback"
 msgstr ""
 
 msgid "chaining"
-msgstr "ਚੇਨਿੰਗ"
+msgstr ""
 
 msgid "__cause__ (exception attribute)"
-msgstr "__cause__ (exception attribute)"
+msgstr ""
 
 msgid "__context__ (exception attribute)"
-msgstr "__context__ (exception attribute)"
+msgstr ""
 
 msgid "break"
 msgstr ""
 
 msgid "for"
-msgstr "for"
+msgstr ""
 
 msgid "while"
-msgstr "while"
+msgstr ""
 
 msgid "loop"
-msgstr "ਲੂਪ"
+msgstr ""
 
 msgid "else"
 msgstr ""
@@ -1456,13 +1454,13 @@ msgid "continue"
 msgstr ""
 
 msgid "import"
-msgstr "import"
+msgstr ""
 
 msgid "module"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid "importing"
-msgstr "ਇੰਪੋਰਟ ਕਰਨਾ"
+msgstr ""
 
 msgid "from"
 msgstr ""
@@ -1495,7 +1493,7 @@ msgid "future"
 msgstr ""
 
 msgid "__future__"
-msgstr "__future__"
+msgstr ""
 
 msgid "future statement"
 msgstr ""
@@ -1504,16 +1502,16 @@ msgid "identifier list"
 msgstr ""
 
 msgid "exec"
-msgstr "exec"
+msgstr ""
 
 msgid "eval"
-msgstr "eval"
+msgstr ""
 
 msgid "compile"
-msgstr "compile"
+msgstr ""
 
 msgid "nonlocal"
 msgstr ""
 
 msgid "type"
-msgstr "ਕਿਸਮ"
+msgstr ""

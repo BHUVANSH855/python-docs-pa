@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-11 14:46+0000\n"
+"POT-Creation-Date: 2026-07-29 15:50+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -29,10 +29,10 @@ msgid "**Source code:** :source:`Lib/string/__init__.py`"
 msgstr ""
 
 msgid ":ref:`textseq`"
-msgstr ":ref:`textseq`"
+msgstr ""
 
 msgid ":ref:`string-methods`"
-msgstr ":ref:`string-methods`"
+msgstr ""
 
 msgid "String constants"
 msgstr ""
@@ -297,7 +297,7 @@ msgid ""
 msgstr ""
 
 msgid "Some examples::"
-msgstr "ਕੁਝ ਉਦਾਹਰਨਾਂ::"
+msgstr ""
 
 msgid ""
 "\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n"
@@ -373,7 +373,7 @@ msgid "Option"
 msgstr ""
 
 msgid "Meaning"
-msgstr "ਅਰਥ"
+msgstr ""
 
 msgid "``'<'``"
 msgstr ""
@@ -420,7 +420,7 @@ msgid ""
 msgstr ""
 
 msgid "``'+'``"
-msgstr "``'+'``"
+msgstr ""
 
 msgid ""
 "Indicates that a sign should be used for both positive as well as negative "
@@ -428,7 +428,7 @@ msgid ""
 msgstr ""
 
 msgid "``'-'``"
-msgstr "``'-'``"
+msgstr ""
 
 msgid ""
 "Indicates that a sign should be used only for negative numbers (this is the "
@@ -436,7 +436,7 @@ msgid ""
 msgstr ""
 
 msgid "space"
-msgstr "ਖਾਲੀ ਥਾਂ"
+msgstr ""
 
 msgid ""
 "Indicates that a leading space should be used on positive numbers, and a "
@@ -544,7 +544,7 @@ msgid "Type"
 msgstr ""
 
 msgid "``'s'``"
-msgstr "``'s'``"
+msgstr ""
 
 msgid "String format. This is the default type for strings and may be omitted."
 msgstr ""
@@ -559,13 +559,13 @@ msgid "The available integer presentation types are:"
 msgstr ""
 
 msgid "``'b'``"
-msgstr "``'b'``"
+msgstr ""
 
 msgid "Binary format. Outputs the number in base 2."
 msgstr ""
 
 msgid "``'c'``"
-msgstr "``'c'``"
+msgstr ""
 
 msgid ""
 "Character. Converts the integer to the corresponding unicode character "
@@ -573,19 +573,19 @@ msgid ""
 msgstr ""
 
 msgid "``'d'``"
-msgstr "``'d'``"
+msgstr ""
 
 msgid "Decimal Integer. Outputs the number in base 10."
 msgstr ""
 
 msgid "``'o'``"
-msgstr "``'o'``"
+msgstr ""
 
 msgid "Octal format. Outputs the number in base 8."
 msgstr ""
 
 msgid "``'x'``"
-msgstr "``'x'``"
+msgstr ""
 
 msgid ""
 "Hex format. Outputs the number in base 16, using lower-case letters for the "
@@ -593,7 +593,7 @@ msgid ""
 msgstr ""
 
 msgid "``'X'``"
-msgstr "``'X'``"
+msgstr ""
 
 msgid ""
 "Hex format. Outputs the number in base 16, using upper-case letters for the "
@@ -628,7 +628,7 @@ msgid ""
 msgstr ""
 
 msgid "``'e'``"
-msgstr "``'e'``"
+msgstr ""
 
 msgid ""
 "Scientific notation. For a given precision ``p``, formats the number in "
@@ -647,7 +647,7 @@ msgid ""
 msgstr ""
 
 msgid "``'E'``"
-msgstr "``'E'``"
+msgstr ""
 
 msgid ""
 "Scientific notation. Same as ``'e'`` except it uses an upper case 'E' as the "
@@ -655,7 +655,7 @@ msgid ""
 msgstr ""
 
 msgid "``'f'``"
-msgstr "``'f'``"
+msgstr ""
 
 msgid ""
 "Fixed-point notation. For a given precision ``p``, formats the number as a "
@@ -667,7 +667,7 @@ msgid ""
 msgstr ""
 
 msgid "``'F'``"
-msgstr "``'F'``"
+msgstr ""
 
 msgid ""
 "Fixed-point notation. Same as ``'f'``, but converts ``nan`` to  ``NAN`` and "
@@ -675,7 +675,7 @@ msgid ""
 msgstr ""
 
 msgid "``'g'``"
-msgstr "``'g'``"
+msgstr ""
 
 msgid ""
 "General format.  For a given precision ``p >= 1``, this rounds the number to "
@@ -712,7 +712,7 @@ msgid ""
 msgstr ""
 
 msgid "``'G'``"
-msgstr "``'G'``"
+msgstr ""
 
 msgid ""
 "General format. Same as ``'g'`` except switches to ``'E'`` if the number "
@@ -728,7 +728,7 @@ msgid ""
 msgstr ""
 
 msgid "``'%'``"
-msgstr "``'%'``"
+msgstr ""
 
 msgid ""
 "Percentage. Multiplies the number by 100 and displays in fixed (``'f'``) "
@@ -1190,13 +1190,13 @@ msgid ""
 msgstr ""
 
 msgid "{} (curly brackets)"
-msgstr "{} (ਕਰਲੀ ਬ੍ਰੈਕਟ)"
+msgstr ""
 
 msgid "in string formatting"
 msgstr ""
 
 msgid ". (dot)"
-msgstr ". (ਡਾਟ)"
+msgstr ""
 
 msgid "[] (square brackets)"
 msgstr ""
@@ -1205,31 +1205,31 @@ msgid "! (exclamation)"
 msgstr ""
 
 msgid ": (colon)"
-msgstr ": (ਕੋਲਨ)"
+msgstr ""
 
 msgid "< (less)"
-msgstr "< (ਘੱਟ)"
+msgstr ""
 
 msgid "> (greater)"
-msgstr "> (ਵੱਧ)"
+msgstr ""
 
 msgid "= (equals)"
-msgstr "= (ਬਰਾਬਰ)"
+msgstr ""
 
 msgid "^ (caret)"
-msgstr "^ (ਕੈਰਟ)"
+msgstr ""
 
 msgid "+ (plus)"
-msgstr "+ (ਪਲੱਸ)"
+msgstr ""
 
 msgid "- (minus)"
-msgstr "- (ਮਾਈਨਸ)"
+msgstr ""
 
 msgid "z"
 msgstr ""
 
 msgid "# (hash)"
-msgstr "# (ਹੈਸ਼)"
+msgstr ""
 
 msgid ", (comma)"
 msgstr ""

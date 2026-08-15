@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-11 14:46+0000\n"
+"POT-Creation-Date: 2026-07-31 15:58+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -377,7 +377,7 @@ msgid ""
 msgstr ""
 
 msgid "Tuples"
-msgstr "Tuple"
+msgstr ""
 
 msgid ""
 "The items of a :class:`tuple` are arbitrary Python objects. Tuples of two or "
@@ -417,7 +417,7 @@ msgid "There are currently two intrinsic mutable sequence types:"
 msgstr ""
 
 msgid "Lists"
-msgstr "ਸੂਚੀਆਂ"
+msgstr ""
 
 msgid ""
 "The items of a list are arbitrary Python objects.  Lists are formed by "
@@ -458,7 +458,7 @@ msgid "There are currently two intrinsic set types:"
 msgstr ""
 
 msgid "Sets"
-msgstr "ਸੈੱਟ"
+msgstr ""
 
 msgid ""
 "These represent a mutable set. They are created by the built-in :func:`set` "
@@ -490,7 +490,7 @@ msgid "There are two intrinsic mapping types:"
 msgstr ""
 
 msgid "Dictionaries"
-msgstr "ਡਿਕਸ਼ਨਰੀਆਂ"
+msgstr ""
 
 msgid ""
 "These represent finite sets of objects indexed by nearly arbitrary values.  "
@@ -527,7 +527,7 @@ msgid ""
 msgstr ""
 
 msgid "Frozen dictionaries"
-msgstr "Frozen dictionaries"
+msgstr ""
 
 msgid ""
 "These represent an immutable dictionary.  They are created by the built-in :"
@@ -561,7 +561,7 @@ msgid "Attribute"
 msgstr ""
 
 msgid "Meaning"
-msgstr "ਅਰਥ"
+msgstr ""
 
 msgid ""
 "A reference to the :class:`dictionary <dict>` that holds the function's "
@@ -842,7 +842,7 @@ msgid ""
 msgstr ""
 
 msgid "Classes"
-msgstr "ਕਲਾਸਾਂ"
+msgstr ""
 
 msgid ""
 "Classes are callable.  These objects normally act as factories for new "
@@ -861,7 +861,7 @@ msgid ""
 msgstr ""
 
 msgid "Modules"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid ""
 "Modules are a basic organizational unit of Python code, and are created by "
@@ -2059,7 +2059,7 @@ msgid ""
 "are no other implied relationships among the comparison operators or default "
 "implementations; for example, the truth of ``(x<y or x==y)`` does not imply "
 "``x<=y``. To automatically generate ordering operations from a single root "
-"operation, see :func:`functools.total_ordering`."
+"operation, see :deco:`functools.total_ordering`."
 msgstr ""
 
 msgid ""
@@ -2496,12 +2496,12 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The :func:`property` function is implemented as a data descriptor. "
+"The :deco:`property` decorator is implemented as a data descriptor. "
 "Accordingly, instances cannot override the behavior of a property."
 msgstr ""
 
 msgid "__slots__"
-msgstr "__slots__"
+msgstr ""
 
 msgid ""
 "*__slots__* allow us to explicitly declare data members (like properties) "
@@ -2979,7 +2979,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`484` - Type Hints"
-msgstr ":pep:`484` - Type Hints"
+msgstr ""
 
 msgid "Introducing Python's framework for type annotations"
 msgstr ""
@@ -2999,8 +2999,6 @@ msgid ""
 "Documentation on how to implement generic classes that can be parameterized "
 "at runtime and understood by static type-checkers."
 msgstr ""
-"ਉਹ generic classes ਕਿਵੇਂ ਲਾਗੂ ਕੀਤੀਆਂ ਜਾਣ ਜੋ runtime 'ਤੇ parameterize ਕੀਤੀਆਂ ਜਾ ਸਕਣ "
-"ਅਤੇ static type-checkers ਦੁਆਰਾ ਸਮਝੀਆਂ ਜਾ ਸਕਣ।"
 
 msgid ""
 "A class can *generally* only be parameterized if it defines the special "
@@ -3454,7 +3452,7 @@ msgstr ""
 
 msgid ""
 ":func:`int` no longer delegates to the :meth:`~object.__trunc__` method."
-msgstr ":func:`int` ਹੁਣ :meth:`~object.__trunc__` ਵਿਧੀ ਨੂੰ delegate ਨਹੀਂ ਕਰਦਾ।"
+msgstr ""
 
 msgid "With Statement Context Managers"
 msgstr ""
@@ -3945,7 +3943,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr "ਫੁੱਟਨੋਟ"
+msgstr ""
 
 msgid ""
 "It *is* possible in some cases to change an object's type, under certain "
@@ -3981,19 +3979,19 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr "ਆਬਜੈਕਟ"
+msgstr ""
 
 msgid "data"
 msgstr ""
 
 msgid "built-in function"
-msgstr "ਬਿਲਟ-ਇਨ ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid "id"
 msgstr ""
 
 msgid "type"
-msgstr "ਕਿਸਮ"
+msgstr ""
 
 msgid "identity of an object"
 msgstr ""
@@ -4011,7 +4009,7 @@ msgid "immutable object"
 msgstr ""
 
 msgid "garbage collection"
-msgstr "ਗਾਰਬੇਜ ਕਲੇਕਸ਼ਨ"
+msgstr ""
 
 msgid "reference counting"
 msgstr ""
@@ -4020,7 +4018,7 @@ msgid "unreachable object"
 msgstr ""
 
 msgid "container"
-msgstr "ਕੰਟੇਨਰ"
+msgstr ""
 
 msgid "hierarchy"
 msgstr ""
@@ -4029,49 +4027,49 @@ msgid "extension"
 msgstr ""
 
 msgid "module"
-msgstr "ਮੌਡਿਊਲ"
+msgstr ""
 
 msgid "C"
-msgstr "C"
+msgstr ""
 
 msgid "language"
-msgstr "ਭਾਸ਼ਾ"
+msgstr ""
 
 msgid "attribute"
-msgstr "ਐਟ੍ਰਿਬਿਊਟ"
+msgstr ""
 
 msgid "special"
-msgstr "ਵਿਸ਼ੇਸ਼"
+msgstr ""
 
 msgid "generic"
 msgstr ""
 
 msgid "..."
-msgstr "..."
+msgstr ""
 
 msgid "ellipsis literal"
-msgstr "ellipsis literal"
+msgstr ""
 
 msgid "numeric"
-msgstr "ਸੰਖਿਆਤਮਕ"
+msgstr ""
 
 msgid "integer"
-msgstr "ਪੂਰਨ ਅੰਕ"
+msgstr ""
 
 msgid "representation"
 msgstr ""
 
 msgid "Boolean"
-msgstr "ਬੂਲੀਅਨ"
+msgstr ""
 
 msgid "False"
-msgstr "False"
+msgstr ""
 
 msgid "True"
-msgstr "True"
+msgstr ""
 
 msgid "floating-point"
-msgstr "ਫਲੋਟਿੰਗ-ਪੁਆਇੰਟ"
+msgstr ""
 
 msgid "number"
 msgstr ""
@@ -4080,13 +4078,13 @@ msgid "Java"
 msgstr ""
 
 msgid "complex"
-msgstr "complex"
+msgstr ""
 
 msgid "len"
-msgstr "len"
+msgstr ""
 
 msgid "sequence"
-msgstr "ਕ੍ਰਮ"
+msgstr ""
 
 msgid "index operation"
 msgstr ""
@@ -4113,10 +4111,10 @@ msgid "immutable sequence"
 msgstr ""
 
 msgid "immutable"
-msgstr "ਅਪਰਿਵਰਤਨਯੋਗ"
+msgstr ""
 
 msgid "string"
-msgstr "ਸਟ੍ਰਿੰਗ"
+msgstr ""
 
 msgid "immutable sequences"
 msgstr ""
@@ -4137,7 +4135,7 @@ msgid "Unicode"
 msgstr ""
 
 msgid "tuple"
-msgstr "ਟਿਊਪਲ"
+msgstr ""
 
 msgid "singleton"
 msgstr ""
@@ -4146,49 +4144,49 @@ msgid "empty"
 msgstr ""
 
 msgid "bytes"
-msgstr "bytes"
+msgstr ""
 
 msgid "byte"
 msgstr ""
 
 msgid "mutable sequence"
-msgstr "ਬਦਲਣਯੋਗ ਕ੍ਰਮ"
+msgstr ""
 
 msgid "mutable"
-msgstr "ਪਰਿਵਰਤਨਯੋਗ"
+msgstr ""
 
 msgid "assignment"
-msgstr "ਅਸਾਈਨਮੈਂਟ"
+msgstr ""
 
 msgid "statement"
-msgstr "ਸਟੇਟਮੈਂਟ"
+msgstr ""
 
 msgid "array"
-msgstr "ਐਰੇ"
+msgstr ""
 
 msgid "collections"
 msgstr ""
 
 msgid "list"
-msgstr "ਸੂਚੀ"
+msgstr ""
 
 msgid "bytearray"
-msgstr "bytearray"
+msgstr ""
 
 msgid "set type"
 msgstr ""
 
 msgid "set"
-msgstr "ਸੈੱਟ"
+msgstr ""
 
 msgid "frozenset"
 msgstr ""
 
 msgid "mapping"
-msgstr "ਮੈਪਿੰਗ"
+msgstr ""
 
 msgid "dictionary"
-msgstr "ਡਿਕਸ਼ਨਰੀ"
+msgstr ""
 
 msgid "dbm.ndbm"
 msgstr ""
@@ -4200,10 +4198,10 @@ msgid "frozendict"
 msgstr ""
 
 msgid "callable"
-msgstr "ਕਾਲਯੋਗ"
+msgstr ""
 
 msgid "function"
-msgstr "ਫੰਕਸ਼ਨ"
+msgstr ""
 
 msgid "call"
 msgstr ""
@@ -4212,7 +4210,7 @@ msgid "invocation"
 msgstr ""
 
 msgid "argument"
-msgstr "ਆਰਗਿਊਮੈਂਟ"
+msgstr ""
 
 msgid "user-defined"
 msgstr ""
@@ -4233,7 +4231,7 @@ msgid "global"
 msgstr ""
 
 msgid "namespace"
-msgstr "ਨੇਮਸਪੇਸ"
+msgstr ""
 
 msgid "__doc__ (function attribute)"
 msgstr ""
@@ -4266,7 +4264,7 @@ msgid "__type_params__ (function attribute)"
 msgstr ""
 
 msgid "method"
-msgstr "ਵਿਧੀ"
+msgstr ""
 
 msgid "user-defined method"
 msgstr ""
@@ -4287,28 +4285,28 @@ msgid "__module__ (method attribute)"
 msgstr ""
 
 msgid "generator"
-msgstr "ਜਨਰੇਟਰ"
+msgstr ""
 
 msgid "iterator"
-msgstr "ਇਟਰੇਟਰ"
+msgstr ""
 
 msgid "coroutine"
-msgstr "ਕੋਰੂਟੀਨ"
+msgstr ""
 
 msgid "asynchronous generator"
-msgstr "ਅਸਿੰਕ੍ਰੋਨਸ ਜਨਰੇਟਰ"
+msgstr ""
 
 msgid "asynchronous iterator"
-msgstr "ਅਸਿੰਕ੍ਰੋਨਸ ਇਟਰੇਟਰ"
+msgstr ""
 
 msgid "built-in method"
 msgstr ""
 
 msgid "built-in"
-msgstr "ਬਿਲਟ-ਇਨ"
+msgstr ""
 
 msgid "import"
-msgstr "import"
+msgstr ""
 
 msgid "__name__ (module attribute)"
 msgstr ""
@@ -4344,7 +4342,7 @@ msgid "__dict__ (module attribute)"
 msgstr ""
 
 msgid "class"
-msgstr "ਕਲਾਸ"
+msgstr ""
 
 msgid "class instance"
 msgstr ""
@@ -4395,7 +4393,7 @@ msgid "__class__ (instance attribute)"
 msgstr ""
 
 msgid "open"
-msgstr "open"
+msgstr ""
 
 msgid "io"
 msgstr ""
@@ -4434,13 +4432,13 @@ msgid "types, internal"
 msgstr ""
 
 msgid "bytecode"
-msgstr "ਬਾਈਟਕੋਡ"
+msgstr ""
 
 msgid "code"
-msgstr "ਕੋਡ"
+msgstr ""
 
 msgid "code object"
-msgstr "ਕੋਡ ਆਬਜੈਕਟ"
+msgstr ""
 
 msgid "co_argcount (code object attribute)"
 msgstr ""
@@ -4539,7 +4537,7 @@ msgid "trace"
 msgstr ""
 
 msgid "exception"
-msgstr "exception"
+msgstr ""
 
 msgid "handler"
 msgstr ""
@@ -4572,16 +4570,16 @@ msgid "tb_lasti (traceback attribute)"
 msgstr ""
 
 msgid "try"
-msgstr "try"
+msgstr ""
 
 msgid "tb_next (traceback attribute)"
 msgstr ""
 
 msgid "slice"
-msgstr "ਸਲਾਈਸ"
+msgstr ""
 
 msgid "operator"
-msgstr "ਓਪਰੇਟਰ"
+msgstr ""
 
 msgid "overloading"
 msgstr ""
@@ -4605,7 +4603,7 @@ msgid "finalizer"
 msgstr ""
 
 msgid "del"
-msgstr "del"
+msgstr ""
 
 msgid "repr() (built-in function)"
 msgstr ""
@@ -4617,7 +4615,7 @@ msgid "__str__() (object method)"
 msgstr ""
 
 msgid "format() (built-in function)"
-msgstr "format() (ਬਿਲਟ-ਇਨ ਫੰਕਸ਼ਨ)"
+msgstr ""
 
 msgid "print() (built-in function)"
 msgstr ""
@@ -4632,10 +4630,10 @@ msgid "print"
 msgstr ""
 
 msgid "comparisons"
-msgstr "ਤੁਲਨਾਵਾਂ"
+msgstr ""
 
 msgid "hash"
-msgstr "ਹੈਸ਼"
+msgstr ""
 
 msgid "__len__() (mapping object method)"
 msgstr ""
@@ -4650,10 +4648,10 @@ msgid "__class__ (module attribute)"
 msgstr ""
 
 msgid "metaclass"
-msgstr "ਮੈਟਾਕਲਾਸ"
+msgstr ""
 
 msgid "= (equals)"
-msgstr "= (ਬਰਾਬਰ)"
+msgstr ""
 
 msgid "class definition"
 msgstr ""
@@ -4686,10 +4684,10 @@ msgid "abs"
 msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "float"
-msgstr "float"
+msgstr ""
 
 msgid "round"
 msgstr ""
@@ -4698,4 +4696,4 @@ msgid "with"
 msgstr ""
 
 msgid "context manager"
-msgstr "ਕੰਟੈਕਸਟ ਮੈਨੇਜਰ"
+msgstr ""
