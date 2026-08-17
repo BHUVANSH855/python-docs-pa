@@ -5,6 +5,7 @@
 #
 # Translators:
 # Bhuvansh Kataria, 2026
+# Mohit Yadav, 2026
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-15 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: Bhuvansh Kataria, 2026\n"
+"Last-Translator: Mohit Yadav, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
 "teams/5390/pa/)\n"
 "MIME-Version: 1.0\n"
@@ -1448,8 +1449,8 @@ msgid ""
 "See also the :term:`single dispatch` glossary entry, the :deco:`functools."
 "singledispatch` decorator, and :pep:`443`."
 msgstr ""
-"ਇਹ ਵੀ ਵੇਖੋ: :term:`single dispatch` ਸ਼ਬਦਾਵਲੀ ਐਂਟਰੀ, ` :deco:`functools."
-"singledispatch` ` ਸਜਾਵਟੀ ਫੰਕਸ਼ਨ, ਅਤੇ ` :pep:`443``।"
+"ਇਹ ਵੀ ਵੇਖੋ: :term:`single dispatch` ਸ਼ਬਦਾਵਲੀ ਐਂਟਰੀ, :deco:`functools."
+"singledispatch` ਸਜਾਵਟੀ ਫੰਕਸ਼ਨ, ਅਤੇ  :pep:`443`।"
 
 msgid "generic type"
 msgstr "ਜੈਨੇਰਿਕ ਕਿਸਮ"
@@ -3485,8 +3486,8 @@ msgid ""
 "Type hints of global variables, class attributes, and functions, but not "
 "local variables, can be accessed using :func:`typing.get_type_hints`."
 msgstr ""
-"Global variables, class attributes ਅਤੇ functions ਦੇ type hints (ਪਰ local "
-"variables ਦੇ ਨਹੀਂ) ਨੂੰ :func:`typing.get_type_hints` ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾ "
+"Global variables, class attributes ਅਤੇ functions ਦੇ type hints ਪਰ local "
+"variables ਦੇ ਨਹੀਂ ਨੂੰ :func:`typing.get_type_hints` ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾ "
 "ਸਕਦਾ ਹੈ।"
 
 msgid "universal newlines"
