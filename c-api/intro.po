@@ -5,15 +5,16 @@
 #
 # Translators:
 # Bhuvansh Kataria, 2026
+# DARSHAN RAJPUT, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-31 15:58+0000\n"
+"POT-Creation-Date: 2026-08-17 14:20+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: Bhuvansh Kataria, 2026\n"
+"Last-Translator: DARSHAN RAJPUT, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
 "teams/5390/pa/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Introduction"
-msgstr ""
+msgstr "ਜਾਣ-ਪਛਾਣ"
 
 msgid ""
 "The Application Programmer's Interface to Python gives C and C++ programmers "
@@ -241,7 +242,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr ""
+msgstr "ਉਦਾਹਰਨ::"
 
 msgid ""
 "PyDoc_STRVAR(pop_doc, \"Remove and return the rightmost element.\");\n"
@@ -275,7 +276,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr ""
+msgstr "ਉਦਾਹਰਨ ਵਜੋਂ::"
 
 msgid ""
 "PyDoc_VAR(python_doc) = PyDoc_STR(\n"
@@ -1008,7 +1009,7 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr ""
+msgstr "ਐਕਸੈਪਸ਼ਨਾਂ"
 
 msgid ""
 "The Python programmer only needs to deal with exceptions if specific  error "
@@ -1157,7 +1158,7 @@ msgid ""
 msgstr ""
 
 msgid "Embedding Python"
-msgstr ""
+msgstr "Python ਨੂੰ ਇੰਬੈੱਡ ਕਰਨਾ"
 
 msgid ""
 "The one important task that only embedders (as opposed to extension writers) "
@@ -1339,10 +1340,10 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "ਆਬਜੈਕਟ"
 
 msgid "type"
-msgstr ""
+msgstr "ਕਿਸਮ"
 
 msgid "Py_INCREF (C function)"
 msgstr ""
@@ -1396,22 +1397,22 @@ msgid "Py_Initialize (C function)"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "ਮੌਡਿਊਲ"
 
 msgid "builtins"
-msgstr ""
+msgstr "builtins"
 
 msgid "__main__"
 msgstr ""
 
 msgid "sys"
-msgstr ""
+msgstr "sys"
 
 msgid "search"
-msgstr ""
+msgstr "ਖੋਜ"
 
 msgid "path"
-msgstr ""
+msgstr "ਮਾਰਗ"
 
 msgid "path (in module sys)"
 msgstr ""
