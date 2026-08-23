@@ -5,15 +5,16 @@
 #
 # Translators:
 # Bhuvansh Kataria, 2026
+# Lakshdeep Kashyap, 2026
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-15 14:15+0000\n"
+"POT-Creation-Date: 2026-08-21 14:26+0000\n"
 "PO-Revision-Date: 2026-05-08 18:37+0000\n"
-"Last-Translator: Bhuvansh Kataria, 2026\n"
+"Last-Translator: Lakshdeep Kashyap, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
 "teams/5390/pa/)\n"
 "MIME-Version: 1.0\n"
