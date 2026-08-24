@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-19 14:25+0000\n"
+"POT-Creation-Date: 2026-08-23 14:16+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: Bhuvansh Kataria, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
@@ -38,7 +38,7 @@ msgid "Constant Identifier"
 msgstr ""
 
 msgid "Value"
-msgstr ""
+msgstr "ਮੁੱਲ"
 
 msgid "Returned object"
 msgstr ""
@@ -875,7 +875,7 @@ msgid ""
 msgstr ""
 
 msgid "built-in function"
-msgstr ""
+msgstr "ਬਿਲਟ-ਇਨ ਫੰਕਸ਼ਨ"
 
 msgid "repr"
 msgstr ""
@@ -884,19 +884,19 @@ msgid "ascii"
 msgstr ""
 
 msgid "string"
-msgstr ""
+msgstr "ਸਟ੍ਰਿੰਗ"
 
 msgid "PyObject_Str (C function)"
 msgstr ""
 
 msgid "bytes"
-msgstr ""
+msgstr "bytes"
 
 msgid "hash"
-msgstr ""
+msgstr "ਹੈਸ਼"
 
 msgid "type"
-msgstr ""
+msgstr "ਕਿਸਮ"
 
 msgid "len"
 msgstr ""
