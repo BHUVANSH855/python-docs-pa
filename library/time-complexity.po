@@ -116,84 +116,89 @@ msgid ""
 "*O*\\ (*j* - *i*) if len(*t*) == *j* - *i*, otherwise *O*\\ (*n* - *i* + "
 "len(*t*))"
 msgstr ""
+"*O*\\ (*j* - *i*) ਜੇ len(*t*) == *j* - *i*, ਨਹੀਂ ਤਾਂ *O*\\ (*n* - *i* + "
+"len(*t*))"
 
 msgid "Delete slice (``del l[i:j]``)"
-msgstr ""
+msgstr "ਸਲਾਈਸ ਮਿਟਾਓ (``del l[i:j]``)"
 
 msgid "*O*\\ (*n* - *i*)"
-msgstr ""
+msgstr "ਓ/ਐਨ-ਆਈ"
 
 msgid "Extend (``l.extend(t)``) [1]_ [3]_"
-msgstr ""
+msgstr "ਵਿਸਥਾਰ (``l.extend(t)``) [1]_ [3]_"
 
 msgid "*O*\\ (len(*t*))"
-msgstr ""
+msgstr "*O*\\ (len(*t*))"
 
 msgid "Sort (``l.sort()``) [4]_"
-msgstr ""
+msgstr "ਕ੍ਰਮਬੱਧ ਕਰੋ (``l.sort()``) [4]_"
 
 msgid "*O*\\ (*n* log *n*)"
-msgstr ""
+msgstr "ਓ ਘਾਤ ਨ (ਲੌਗ ਨ)"
 
 msgid "Concatenate (``l1 + l2``)"
-msgstr ""
+msgstr "ਜੋੜਨਾ (``l1 + l2``)"
 
 msgid "*O*\\ (len(*l1*) + len(*l2*))"
-msgstr ""
+msgstr "*O*\\ (len(*l1*) + len(*l2*))"
 
 msgid "Multiply (``l * k``)"
-msgstr ""
+msgstr "ਗੁਣਾ ਕਰੋ (``l * k``)"
 
 msgid "*O*\\ (*nk*)"
-msgstr ""
+msgstr "ਓ/ਐਨਕੇ"
 
 msgid "``x in l``"
-msgstr ""
+msgstr "``x in l``"
 
 msgid "``min(l)``, ``max(l)``"
-msgstr ""
+msgstr "``min(l)``, ``max(l)``"
 
 msgid "Get length (``len(l)``) [5]_"
-msgstr ""
+msgstr "ਲੰਬਾਈ ਪ੍ਰਾਪਤ ਕਰੋ (``len(l)``) [5]_"
 
 msgid ":class:`!tuple`"
-msgstr ""
+msgstr ":class:`!tuple`"
 
 msgid ""
 "A :class:`tuple` is an :term:`immutable` sequence. Because a tuple can never "
 "change, there are no insertion or deletion costs, and making a copy simply "
 "returns the same object, so is constant time (*O*\\ (1))."
 msgstr ""
+":class:`tuple` ਇੱਕ `immutable` sequence ਹੈ। ਕਿਉਂਕਿ ਇੱਕ tuple ਕਦੇ ਵੀ ਬਦਲ ਨਹੀਂ ਸਕਦਾ, "
+"ਇਸ ਲਈ insertion ਜਾਂ deletion ਦੀ ਕੋਈ ਲਾਗਤ ਨਹੀਂ ਹੁੰਦੀ, ਅਤੇ copy ਬਣਾਉਣ 'ਤੇ ਸਿਰਫ਼ ਉਹੀ "
+"ਓਬਜੈਕਟ ਵਾਪਸ ਮਿਲਦਾ ਹੈ, ਇਸ ਲਈ ਇਹ constant time (*O*(1)) ਹੈ।"
 
 msgid "Copy (``tuple(t)``)"
-msgstr ""
+msgstr "ਨਕਲ (``tuple(t)``)"
 
 msgid "Get item (``t[k]``)"
-msgstr ""
+msgstr "ਆਈਟਮ ਪ੍ਰਾਪਤ ਕਰੋ (``t[k]``)"
 
 msgid "Get slice (``t[i:j]``)"
-msgstr ""
+msgstr "ਸਲਾਈਸ ਪ੍ਰਾਪਤ ਕਰੋ (``t[i:j]``)"
 
 msgid "Concatenate (``t1 + t2``)"
-msgstr ""
+msgstr "ਜੋੜਨਾ (``t1 + t2``)"
 
 msgid "*O*\\ (len(*t1*) + len(*t2*))"
-msgstr ""
+msgstr "*O*\\ (len(*t1*) + len(*t2*))"
 
 msgid "Multiply (``t * k``)"
-msgstr ""
+msgstr "ਗੁਣਾ ਕਰੋ (``t * k``)"
 
 msgid "``x in t``"
-msgstr ""
+msgstr "``x in t``"
 
 msgid "``min(t)``, ``max(t)``"
-msgstr ""
+msgstr "``min(t)``, ``max(t)``"
 
 msgid "Get length (``len(t)``) [5]_"
-msgstr ""
+msgstr "ਲੰਬਾਈ ਪ੍ਰਾਪਤ ਕਰੋ (``len(t)``) [5]_"
 
 msgid ":class:`!dict`, :class:`!frozendict`"
-msgstr ""
+msgstr ":class:`!dict`, :class:`!frozendict`"
 
 msgid ""
 "The times listed for dict objects are average-case times, as they assume the "
@@ -204,39 +209,47 @@ msgid ""
 "also assume that hashing and comparing a key is *O*\\ (1). For more detail "
 "on the implementation, see :ref:`how-are-dictionaries-implemented`."
 msgstr ""
+"dict ਆਬਜੈਕਟਾਂ ਲਈ ਦਿੱਤੇ ਗਏ ਸਮੇਂ ਔਸਤ-ਕੇਸ ਸਮੇਂ ਹਨ, ਕਿਉਂਕਿ ਇਹ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਆਬਜੈਕਟਾਂ ਲਈ ਹੈਸ਼ "
+"ਫੰਕਸ਼ਨ ਕਾਫ਼ੀ ਮਜ਼ਬੂਤ ਹੈ, ਜਿਸ ਨਾਲ ਟਕਰਾਅ (ਕੋਲੀਜ਼ਨ) ਘੱਟ ਹੁੰਦੇ ਹਨ। ਇਹ ਇਹ ਵੀ ਮੰਨਦੇ ਹਨ ਕਿ ਸੰਭਾਵਿਤ "
+"ਕੀਆਂ ਦਾ ਸੈੱਟ ਵਿੱਚ ਕੀਆਂ ਚੰਗੀ ਤਰ੍ਹਾਂ ਵੰਡੀਆਂ ਹੋਈਆਂ ਹਨ। ਸਭ ਤੋਂ ਬੁਰੇ ਮਾਮਲੇ ਵਿੱਚ, ਜਦੋਂ ਹਰ ਕੁੰਜੀ ਇੱਕੋ ਮੁੱਲ 'ਤੇ "
+"ਹੈਸ਼ ਹੁੰਦੀ ਹੈ, ਤਾਂ ਹੇਠਾਂ ਦਿੱਤੇ ਹਰੇਕ *O*(1) ਓਪਰੇਸ਼ਨ ਦੀ ਬਜਾਏ *O*(n) ਸਮਾਂ ਲੱਗਦਾ ਹੈ। ਉਹ ਇਹ ਵੀ "
+"ਮੰਨਦੇ ਹਨ ਕਿ ਇੱਕ ਕੁੰਜੀ ਨੂੰ ਹੈਸ਼ ਕਰਨਾ ਅਤੇ ਤੁਲਨਾ ਕਰਨਾ *O*(1) ਹੈ। ਲਾਗੂਕਰਨ ਬਾਰੇ ਵਧੇਰੇ ਵੇਰਵਿਆਂ ਲਈ, :"
+"ref:`how-are-dictionaries-implemented` ਵੇਖੋ।"
 
 msgid ""
 "A :class:`frozendict` is immutable, so it does not support setting, "
 "deleting, or updating items. The other operations below apply to it at the "
 "same costs."
 msgstr ""
+":class:`frozendict` ਅਟੱਲ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ ਇਹ ਆਈਟਮਾਂ ਨੂੰ ਸੈੱਟ ਕਰਨ, ਮਿਟਾਉਣ ਜਾਂ ਅਪਡੇਟ ਕਰਨ "
+"ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ। ਹੇਠਾਂ ਦਿੱਤੀਆਂ ਹੋਰ ਕਾਰਵਾਈਆਂ ਇਸ 'ਤੇ ਵੀ ਉਹੀ ਲਾਗਤ ਨਾਲ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ।"
 
 msgid "``key in d``"
-msgstr ""
+msgstr "``key in d``"
 
 msgid "Copy (``d.copy()``) [6]_ [7]_"
-msgstr ""
+msgstr "ਕਾਪੀ (``d.copy()``) [6]_ [7]_"
 
 msgid "Get item (``d[key]``, ``d.get(key)``)"
-msgstr ""
+msgstr "ਆਈਟਮ ਪ੍ਰਾਪਤ ਕਰੋ (``d[key]``, ``d.get(key)``)"
 
 msgid "Set item (``d[key] = value``) [1]_"
-msgstr ""
+msgstr "ਸੈੱਟ ਆਈਟਮ (``d[key] = value``) [1]_"
 
 msgid "Delete item (``del d[key]``, ``d.pop(key)``)"
-msgstr ""
+msgstr "ਆਈਟਮ ਮਿਟਾਓ (``del d[key]``, ``d.pop(key)``)"
 
 msgid "Update (``d.update(t)``, ``d |= t``) [1]_ [3]_ [7]_"
-msgstr ""
+msgstr "ਅੱਪਡੇਟ (``d.update(t)``, ``d |= t``) [1]_ [3]_ [7]_"
 
 msgid "Iteration [7]_"
-msgstr ""
+msgstr "ਦੁਹਰਾਅ [7]_"
 
 msgid "Get length (``len(d)``) [5]_"
-msgstr ""
+msgstr "ਲੰਬਾਈ ਪ੍ਰਾਪਤ ਕਰੋ (``len(d)``) [5]_"
 
 msgid ":class:`!set`, :class:`!frozenset`"
-msgstr ""
+msgstr ":class:`!set`, :class:`!frozenset`"
 
 msgid ""
 "See :class:`dict` as the :class:`set` and :class:`frozenset` implementations "
@@ -244,6 +257,10 @@ msgid ""
 "operations instead take *O*\\ (*n*) time, and operations that look up every "
 "element degrade accordingly."
 msgstr ""
+":class:`dict` ਨੂੰ ਵੇਖੋ ਕਿਉਂਕਿ :class:`set` ਅਤੇ :class:`frozenset` ਦੀਆਂ ਲਾਗੂਆਂ ਇੱਕੋ "
+"ਜਿਹੀਆਂ ਹਨ, ਅਤੇ ਉਹੀ ਚੇਤਾਵਨੀਆਂ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ। ਸਭ ਤੋਂ ਬੁਰੇ ਹਾਲਤ ਵਿੱਚ, *O*\\ (1) ਕਾਰਵਾਈਆਂ ਦੀ "
+"ਬਜਾਏ *O*\\ (*n*) ਸਮਾਂ ਲੈਂਦੀਆਂ ਹਨ, ਅਤੇ ਹਰ ਤੱਤ ਦੀ ਖੋਜ ਕਰਨ ਵਾਲੀਆਂ ਕਾਰਵਾਈਆਂ ਉਸੇ ਅਨੁਸਾਰ ਹੌਲੀ "
+"ਹੋ ਜਾਂਦੀਆਂ ਹਨ।"
 
 msgid ""
 "A :class:`frozenset` is :term:`immutable`, so it does not support adding, "
