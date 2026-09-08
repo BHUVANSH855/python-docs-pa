@@ -301,7 +301,7 @@ msgstr ""
 msgid ""
 "The ``'rU'`` and ``'U'`` modes and the :meth:`!__getitem__` method have been "
 "removed."
-msgstr "``'rU'`` ਅਤੇ ``'U'`` ਮੋਡ ਅਤੇ :meth:`!__getitem__`ਵਿਧੀ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।"
+msgstr "``'rU'`` ਅਤੇ ``'U'`` ਮੋਡ ਅਤੇ :meth:`!__getitem__` ਵਿਧੀ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।"
 
 msgid ""
 "**Optional in-place filtering:** if the keyword argument ``inplace=True`` is "

@@ -63,7 +63,7 @@ msgid ""
 "<TRANSLATION_REPO_>`_ instead."
 msgstr ""
 "ਜੇ ਬੱਗ ਜਾਂ ਸੁਝਾਇਆ ਗਿਆ ਸੁਧਾਰ ਇਸ ਦਸਤਾਵੇਜ਼ੀਕਰਨ ਦੇ ਅਨੁਵਾਦ ਨਾਲ ਸੰਬੰਧਿਤ ਹੈ, ਤਾਂ ਰਿਪੋਰਟ ਨੂੰ "
-"`translation’s repository <TRANSLATION_REPO_>`_ ਵਿੱਚ ਜਮ੍ਹਾਂ ਕਰੋ।"
+"`ਅਨੁਵਾਦ ਰਿਪੋਜ਼ਟਰੀ <TRANSLATION_REPO_>`_ ਵਿੱਚ ਜਮ੍ਹਾਂ ਕਰੋ।"
 
 msgid ""
 "You can also open a discussion item on our `Documentation Discourse forum "
