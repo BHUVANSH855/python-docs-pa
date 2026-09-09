@@ -33,7 +33,7 @@ msgstr ""
 "ਵਿਸ਼ਾਵਾਰ ਦਸਤਾਵੇਜ਼ੀ ਵਿੱਚ ਭੇਜ ਦਿੱਤਾ ਗਿਆ ਹੈ।"
 
 msgid ":mod:`cmd` — :doc:`Command Line Interface Libraries <./cmdlinelibs>`"
-msgstr ":mod:`cmd` --- :doc:`ਕਮਾਂਡ ਲਾਈਨ ਇੰਟਰਫੇਸ ਲਾਇਬ੍ਰੇਰੀਆਂ <./cmdlinelibs>`"
+msgstr ":mod:`cmd` --- :doc:` ਕਮਾਂਡ ਲਾਈਨ ਇੰਟਰਫੇਸ ਲਾਇਬ੍ਰੇਰੀਆਂ <./cmdlinelibs>`"
 
 msgid ":mod:`shlex` — :doc:`Unix Specific Services <./unix>`"
 msgstr ":mod:`shlex` ---   :doc:`ਯੂਨਿਕਸ-ਵਿਸ਼ੇਸ਼ ਸੇਵਾਵਾਂ <./unix>`"

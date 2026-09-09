@@ -74,19 +74,19 @@ msgid "Copy (``l.copy()``)"
 msgstr "ਨਕਲ (``l.copy()``)"
 
 msgid "*O*\\ (*n*)"
-msgstr "*O*\\ (*n*)"
+msgstr "ਓ/ਐਨ"
 
 msgid "Append (``l.append(x)``) [1]_"
 msgstr "ਜੋੜੋ (``l.append(x)``) [1]_"
 
 msgid "*O*\\ (1)"
-msgstr "*O*\\ (1)"
+msgstr "ਓ/ (ਇੱਕ)"
 
 msgid "Pop (``l.pop(k)``) [1]_ [2]_"
 msgstr "ਪੌਪ (``l.pop(k)``) [1]_ [2]_"
 
 msgid "*O*\\ (*n* - *k*)"
-msgstr "*O*\\ (*n* - *k*)"
+msgstr "ਓ/ਐਨ-ਕੇ"
 
 msgid "Insert (``l.insert(k, x)``) [1]_ [2]_"
 msgstr "ਦਾਖਲ ਕਰੋ (``l.insert(k, x)``) [1]_ [2]_"
@@ -107,7 +107,7 @@ msgid "Get slice (``l[i:j]``)"
 msgstr "ਸਲਾਈਸ ਪ੍ਰਾਪਤ ਕਰੋ (``l[i:j]``)"
 
 msgid "*O*\\ (*j* - *i*)"
-msgstr "*O*\\ (*j* - *i*)"
+msgstr "ਓ/ ਜੇ - ਆਈ"
 
 msgid "Set slice (``l[i:j] = t``) [1]_"
 msgstr "ਸੈੱਟ ਸਲਾਈਸ (``l[i:j] = t``) [1]_"
@@ -147,7 +147,7 @@ msgid "Multiply (``l * k``)"
 msgstr "ਗੁਣਾ ਕਰੋ (``l * k``)"
 
 msgid "*O*\\ (*nk*)"
-msgstr "*O*\\ (*nk*)"
+msgstr "ਓ/ਐਨਕੇ"
 
 msgid "``x in l``"
 msgstr "``x in l``"
@@ -166,9 +166,9 @@ msgid ""
 "change, there are no insertion or deletion costs, and making a copy simply "
 "returns the same object, so is constant time (*O*\\ (1))."
 msgstr ""
-":class:`tuple` ਇੱਕ :term:`immutable` sequence ਹੈ। ਕਿਉਂਕਿ ਇੱਕ tuple ਕਦੇ ਵੀ ਬਦਲ ਨਹੀਂ "
-"ਸਕਦਾ, ਇਸ ਲਈ insertion ਜਾਂ deletion ਦੀ ਕੋਈ ਲਾਗਤ ਨਹੀਂ ਹੁੰਦੀ, ਅਤੇ copy ਬਣਾਉਣ 'ਤੇ ਸਿਰਫ਼ "
-"ਉਹੀ ਓਬਜੈਕਟ ਵਾਪਸ ਮਿਲਦਾ ਹੈ, ਇਸ ਲਈ ਇਹ constant time (*O*\\ (1)) ਹੈ।"
+":class:`tuple` ਇੱਕ `immutable` sequence ਹੈ। ਕਿਉਂਕਿ ਇੱਕ tuple ਕਦੇ ਵੀ ਬਦਲ ਨਹੀਂ ਸਕਦਾ, "
+"ਇਸ ਲਈ insertion ਜਾਂ deletion ਦੀ ਕੋਈ ਲਾਗਤ ਨਹੀਂ ਹੁੰਦੀ, ਅਤੇ copy ਬਣਾਉਣ 'ਤੇ ਸਿਰਫ਼ ਉਹੀ "
+"ਓਬਜੈਕਟ ਵਾਪਸ ਮਿਲਦਾ ਹੈ, ਇਸ ਲਈ ਇਹ constant time (*O*(1)) ਹੈ।"
 
 msgid "Copy (``tuple(t)``)"
 msgstr "ਨਕਲ (``tuple(t)``)"

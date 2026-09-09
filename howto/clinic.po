@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Argument Clinic How-To"
-msgstr "Argument Clinic ਕਿਵੇਂ-ਕਰੀਏ"
+msgstr "Argument Clinic ਕਿਵੇਂ-ਕਰੀਏ "
 
 msgid ""
 "The Argument Clinic How-TO has been moved to the `Python Developer's Guide "
