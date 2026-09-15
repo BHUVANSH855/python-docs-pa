@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-25 14:37+0000\n"
-"PO-Revision-Date: 2026-08-25 14:39+0000\n"
+"POT-Creation-Date: 2026-09-13 17:08+0000\n"
+"PO-Revision-Date: 2026-09-13 17:09+0000\n"
 "Last-Translator: Lakshdeep Kashyap, 2026\n"
 "Language-Team: Panjabi (Punjabi) (https://app.transifex.com/python-doc/"
 "teams/5390/pa/)\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Time complexity of operations on built-in types"
-msgstr "ਬਿਲਟ-ਇਨ ਕਿਸਮਾਂ 'ਤੇ ਕਾਰਵਾਈਆਂ ਦੀ ਸਮੇਂ ਦੀ ਜਟਿਲਤਾ"
+msgstr ""
 
 msgid ""
 "This page documents the time complexity of various operations on built-in "
@@ -32,9 +32,6 @@ msgid ""
 "performance characteristics. Additionally, the listed costs assume exact "
 "built-in types, as instances of subclasses may have different costs."
 msgstr ""
-"ਇਹ ਪੰਨਾ CPython ਵਿੱਚ ਬਿਲਟ-ਇਨ ਕਿਸਮਾਂ 'ਤੇ ਵੱਖ-ਵੱਖ ਕਾਰਵਾਈਆਂ ਦੀ ਸਮੇਂ ਦੀ ਜਟਿਲਤਾ ਦਰਸਾਉਂਦਾ ਹੈ। "
-"ਹੋਰ Python ਲਾਗੂਕਰਨਾਂ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਵੱਖਰੀ ਹੋ ਸਕਦੀ ਹੈ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਸੂਚੀਬੱਧ ਲਾਗਤਾਂ ਸਹੀ "
-"ਬਿਲਟ-ਇਨ ਕਿਸਮਾਂ ਲਈ ਮੰਨੀਆਂ ਗਈਆਂ ਹਨ, ਕਿਉਂਕਿ ਉਪ-ਕਲਾਸਾਂ ਦੇ ਉਦਾਹਰਣਾਂ ਦੀ ਲਾਗਤ ਵੱਖਰੀ ਹੋ ਸਕਦੀ ਹੈ।"
 
 msgid ""
 "We use |big O notation|_ to describe how the running time of an operation "
@@ -42,13 +39,9 @@ msgid ""
 "number of elements currently in the container, and *k* is the value of a "
 "numeric parameter, such as an index or a repeat count."
 msgstr ""
-"ਅਸੀਂ |big O notation|_ ਦੀ ਵਰਤੋਂ ਇਹ ਦਰਸਾਉਣ ਲਈ ਕਰਦੇ ਹਾਂ ਕਿ ਕਿਸੇ ਓਪਰੇਸ਼ਨ ਦਾ ਚੱਲਣ ਦਾ ਸਮਾਂ "
-"ਇਸਦੇ ਇਨਪੁੱਟਾਂ ਦੇ ਆਕਾਰ ਦੇ ਨਾਲ ਕਿਵੇਂ ਵਧਦਾ ਹੈ। ਜੇਕਰ ਹੋਰ ਕੋਈ ਦੱਸਿਆ ਨਾ ਗਿਆ ਹੋਵੇ, ਤਾਂ *n* ਉਸ ਸਮੇਂ "
-"ਕੰਟੇਨਰ ਵਿੱਚ ਮੌਜੂਦ ਤੱਤਾਂ ਦੀ ਗਿਣਤੀ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ, ਅਤੇ *k* ਕਿਸੇ ਸੰਖਿਆਤਮਕ ਪੈਰਾਮੀਟਰ, ਜਿਵੇਂ ਕਿ "
-"ਇੰਡੈਕਸ ਜਾਂ ਰੀਪੀਟ ਕਾਊਂਟ, ਦਾ ਮੁੱਲ ਹੈ।"
 
 msgid ":class:`!list`"
-msgstr ":class:`!list`"
+msgstr ""
 
 msgid ""
 "Lists are mutable sequences; for more detail on the implementation see :ref:"
@@ -58,147 +51,137 @@ msgid ""
 "move). If you need to add or remove at both ends, consider using a :class:"
 "`collections.deque` instead."
 msgstr ""
-"ਲਿਸਟਾਂ ਬਦਲਣਯੋਗ ਕ੍ਰਮ ਹੁੰਦੀਆਂ ਹਨ; ਲਾਗੂ ਕਰਨ ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ ਵੇਖੋ :ref:`how-are-lists-"
-"implemented` । ਸਭ ਤੋਂ ਵੱਡੇ ਖਰਚੇ ਮੌਜੂਦਾ ਅਲਾਟ ਕੀਤੀ ਗਈ ਆਕਾਰ ਤੋਂ ਵੱਧ ਵਧਣ (ਕਿਉਂਕਿ ਸਾਰੀਆਂ ਚੀਜ਼ਾਂ "
-"ਨੂੰ ਹਿਲਾਉਣਾ ਪੈਂਦਾ ਹੈ), ਜਾਂ ਸ਼ੁਰੂਆਤ ਦੇ ਨੇੜੇ ਕਿਸੇ ਥਾਂ 'ਤੇ ਜੋੜਨ ਜਾਂ ਮਿਟਾਉਣ (ਕਿਉਂਕਿ ਉਸ ਤੋਂ ਬਾਅਦ "
-"ਸਾਰੀਆਂ ਚੀਜ਼ਾਂ ਨੂੰ ਹਿਲਾਉਣਾ ਪੈਂਦਾ ਹੈ) ਨਾਲ ਹੁੰਦੇ ਹਨ। ਜੇ ਤੁਹਾਨੂੰ ਦੋਹਾਂ ਪਾਸਿਆਂ 'ਤੇ ਜੋੜਨਾ ਜਾਂ ਹਟਾਉਣਾ "
-"ਪੈਂਦਾ ਹੈ, ਤਾਂ ਇਸ ਦੀ ਬਜਾਏ :class:`collections.deque` ਦੀ ਵਰਤੋਂ ਕਰਨ ਬਾਰੇ ਸੋਚੋ।"
 
 msgid "Operation"
-msgstr "ਕਾਰਵਾਈ"
+msgstr ""
 
 msgid "Complexity"
-msgstr "ਜਟਿਲਤਾ"
+msgstr ""
 
 msgid "Copy (``l.copy()``)"
-msgstr "ਨਕਲ (``l.copy()``)"
+msgstr ""
 
 msgid "*O*\\ (*n*)"
-msgstr "ਓ/ਐਨ"
+msgstr ""
 
 msgid "Append (``l.append(x)``) [1]_"
-msgstr "ਜੋੜੋ (``l.append(x)``) [1]_"
+msgstr ""
 
 msgid "*O*\\ (1)"
-msgstr "ਓ/ (ਇੱਕ)"
+msgstr ""
 
 msgid "Pop (``l.pop(k)``) [1]_ [2]_"
-msgstr "ਪੌਪ (``l.pop(k)``) [1]_ [2]_"
+msgstr ""
 
 msgid "*O*\\ (*n* - *k*)"
-msgstr "ਓ/ਐਨ-ਕੇ"
+msgstr ""
 
 msgid "Insert (``l.insert(k, x)``) [1]_ [2]_"
-msgstr "ਦਾਖਲ ਕਰੋ (``l.insert(k, x)``) [1]_ [2]_"
+msgstr ""
 
 msgid "Get item (``l[k]``)"
-msgstr "ਆਈਟਮ ਪ੍ਰਾਪਤ ਕਰੋ (``l[k]``)"
+msgstr ""
 
 msgid "Set item (``l[k] = x``)"
-msgstr "ਸੈੱਟ ਆਈਟਮ (``l[k] = x``)"
+msgstr ""
 
 msgid "Delete item (``del l[k]``) [2]_"
-msgstr "ਆਈਟਮ ਮਿਟਾਓ (``del l[k]``) [2]_"
+msgstr ""
 
 msgid "Iteration"
-msgstr "ਦੁਹਰਾਅ"
+msgstr ""
 
 msgid "Get slice (``l[i:j]``)"
-msgstr "ਸਲਾਈਸ ਪ੍ਰਾਪਤ ਕਰੋ (``l[i:j]``)"
+msgstr ""
 
 msgid "*O*\\ (*j* - *i*)"
-msgstr "ਓ/ ਜੇ - ਆਈ"
+msgstr ""
 
 msgid "Set slice (``l[i:j] = t``) [1]_"
-msgstr "ਸੈੱਟ ਸਲਾਈਸ (``l[i:j] = t``) [1]_"
+msgstr ""
 
 msgid ""
 "*O*\\ (*j* - *i*) if len(*t*) == *j* - *i*, otherwise *O*\\ (*n* - *i* + "
 "len(*t*))"
 msgstr ""
-"*O*\\ (*j* - *i*) ਜੇ len(*t*) == *j* - *i*, ਨਹੀਂ ਤਾਂ *O*\\ (*n* - *i* + "
-"len(*t*))"
 
 msgid "Delete slice (``del l[i:j]``)"
-msgstr "ਸਲਾਈਸ ਮਿਟਾਓ (``del l[i:j]``)"
+msgstr ""
 
 msgid "*O*\\ (*n* - *i*)"
-msgstr "ਓ/ਐਨ-ਆਈ"
+msgstr ""
 
 msgid "Extend (``l.extend(t)``) [1]_ [3]_"
-msgstr "ਵਿਸਥਾਰ (``l.extend(t)``) [1]_ [3]_"
+msgstr ""
 
 msgid "*O*\\ (len(*t*))"
-msgstr "*O*\\ (len(*t*))"
+msgstr ""
 
 msgid "Sort (``l.sort()``) [4]_"
-msgstr "ਕ੍ਰਮਬੱਧ ਕਰੋ (``l.sort()``) [4]_"
+msgstr ""
 
 msgid "*O*\\ (*n* log *n*)"
-msgstr "ਓ ਘਾਤ ਨ (ਲੌਗ ਨ)"
+msgstr ""
 
 msgid "Concatenate (``l1 + l2``)"
-msgstr "ਜੋੜਨਾ (``l1 + l2``)"
+msgstr ""
 
 msgid "*O*\\ (len(*l1*) + len(*l2*))"
-msgstr "*O*\\ (len(*l1*) + len(*l2*))"
+msgstr ""
 
 msgid "Multiply (``l * k``)"
-msgstr "ਗੁਣਾ ਕਰੋ (``l * k``)"
+msgstr ""
 
 msgid "*O*\\ (*nk*)"
-msgstr "ਓ/ਐਨਕੇ"
+msgstr ""
 
 msgid "``x in l``"
-msgstr "``x in l``"
+msgstr ""
 
 msgid "``min(l)``, ``max(l)``"
-msgstr "``min(l)``, ``max(l)``"
+msgstr ""
 
 msgid "Get length (``len(l)``) [5]_"
-msgstr "ਲੰਬਾਈ ਪ੍ਰਾਪਤ ਕਰੋ (``len(l)``) [5]_"
+msgstr ""
 
 msgid ":class:`!tuple`"
-msgstr ":class:`!tuple`"
+msgstr ""
 
 msgid ""
 "A :class:`tuple` is an :term:`immutable` sequence. Because a tuple can never "
 "change, there are no insertion or deletion costs, and making a copy simply "
 "returns the same object, so is constant time (*O*\\ (1))."
 msgstr ""
-":class:`tuple` ਇੱਕ `immutable` sequence ਹੈ। ਕਿਉਂਕਿ ਇੱਕ tuple ਕਦੇ ਵੀ ਬਦਲ ਨਹੀਂ ਸਕਦਾ, "
-"ਇਸ ਲਈ insertion ਜਾਂ deletion ਦੀ ਕੋਈ ਲਾਗਤ ਨਹੀਂ ਹੁੰਦੀ, ਅਤੇ copy ਬਣਾਉਣ 'ਤੇ ਸਿਰਫ਼ ਉਹੀ "
-"ਓਬਜੈਕਟ ਵਾਪਸ ਮਿਲਦਾ ਹੈ, ਇਸ ਲਈ ਇਹ constant time (*O*(1)) ਹੈ।"
 
 msgid "Copy (``tuple(t)``)"
-msgstr "ਨਕਲ (``tuple(t)``)"
+msgstr ""
 
 msgid "Get item (``t[k]``)"
-msgstr "ਆਈਟਮ ਪ੍ਰਾਪਤ ਕਰੋ (``t[k]``)"
+msgstr ""
 
 msgid "Get slice (``t[i:j]``)"
-msgstr "ਸਲਾਈਸ ਪ੍ਰਾਪਤ ਕਰੋ (``t[i:j]``)"
+msgstr ""
 
 msgid "Concatenate (``t1 + t2``)"
-msgstr "ਜੋੜਨਾ (``t1 + t2``)"
+msgstr ""
 
 msgid "*O*\\ (len(*t1*) + len(*t2*))"
-msgstr "*O*\\ (len(*t1*) + len(*t2*))"
+msgstr ""
 
 msgid "Multiply (``t * k``)"
-msgstr "ਗੁਣਾ ਕਰੋ (``t * k``)"
+msgstr ""
 
 msgid "``x in t``"
-msgstr "``x in t``"
+msgstr ""
 
 msgid "``min(t)``, ``max(t)``"
-msgstr "``min(t)``, ``max(t)``"
+msgstr ""
 
 msgid "Get length (``len(t)``) [5]_"
-msgstr "ਲੰਬਾਈ ਪ੍ਰਾਪਤ ਕਰੋ (``len(t)``) [5]_"
+msgstr ""
 
 msgid ":class:`!dict`, :class:`!frozendict`"
-msgstr ":class:`!dict`, :class:`!frozendict`"
+msgstr ""
 
 msgid ""
 "The times listed for dict objects are average-case times, as they assume the "
@@ -209,47 +192,39 @@ msgid ""
 "also assume that hashing and comparing a key is *O*\\ (1). For more detail "
 "on the implementation, see :ref:`how-are-dictionaries-implemented`."
 msgstr ""
-"dict ਆਬਜੈਕਟਾਂ ਲਈ ਦਿੱਤੇ ਗਏ ਸਮੇਂ ਔਸਤ-ਕੇਸ ਸਮੇਂ ਹਨ, ਕਿਉਂਕਿ ਇਹ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਆਬਜੈਕਟਾਂ ਲਈ ਹੈਸ਼ "
-"ਫੰਕਸ਼ਨ ਕਾਫ਼ੀ ਮਜ਼ਬੂਤ ਹੈ, ਜਿਸ ਨਾਲ ਟਕਰਾਅ (ਕੋਲੀਜ਼ਨ) ਘੱਟ ਹੁੰਦੇ ਹਨ। ਇਹ ਇਹ ਵੀ ਮੰਨਦੇ ਹਨ ਕਿ ਸੰਭਾਵਿਤ "
-"ਕੀਆਂ ਦਾ ਸੈੱਟ ਵਿੱਚ ਕੀਆਂ ਚੰਗੀ ਤਰ੍ਹਾਂ ਵੰਡੀਆਂ ਹੋਈਆਂ ਹਨ। ਸਭ ਤੋਂ ਬੁਰੇ ਮਾਮਲੇ ਵਿੱਚ, ਜਦੋਂ ਹਰ ਕੁੰਜੀ ਇੱਕੋ ਮੁੱਲ 'ਤੇ "
-"ਹੈਸ਼ ਹੁੰਦੀ ਹੈ, ਤਾਂ ਹੇਠਾਂ ਦਿੱਤੇ ਹਰੇਕ *O*(1) ਓਪਰੇਸ਼ਨ ਦੀ ਬਜਾਏ *O*(n) ਸਮਾਂ ਲੱਗਦਾ ਹੈ। ਉਹ ਇਹ ਵੀ "
-"ਮੰਨਦੇ ਹਨ ਕਿ ਇੱਕ ਕੁੰਜੀ ਨੂੰ ਹੈਸ਼ ਕਰਨਾ ਅਤੇ ਤੁਲਨਾ ਕਰਨਾ *O*(1) ਹੈ। ਲਾਗੂਕਰਨ ਬਾਰੇ ਵਧੇਰੇ ਵੇਰਵਿਆਂ ਲਈ, :"
-"ref:`how-are-dictionaries-implemented` ਵੇਖੋ।"
 
 msgid ""
 "A :class:`frozendict` is immutable, so it does not support setting, "
 "deleting, or updating items. The other operations below apply to it at the "
 "same costs."
 msgstr ""
-":class:`frozendict` ਅਟੱਲ ਹੁੰਦਾ ਹੈ, ਇਸ ਲਈ ਇਹ ਆਈਟਮਾਂ ਨੂੰ ਸੈੱਟ ਕਰਨ, ਮਿਟਾਉਣ ਜਾਂ ਅਪਡੇਟ ਕਰਨ "
-"ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ। ਹੇਠਾਂ ਦਿੱਤੀਆਂ ਹੋਰ ਕਾਰਵਾਈਆਂ ਇਸ 'ਤੇ ਵੀ ਉਹੀ ਲਾਗਤ ਨਾਲ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ।"
 
 msgid "``key in d``"
-msgstr "``key in d``"
+msgstr ""
 
 msgid "Copy (``d.copy()``) [6]_ [7]_"
-msgstr "ਕਾਪੀ (``d.copy()``) [6]_ [7]_"
+msgstr ""
 
 msgid "Get item (``d[key]``, ``d.get(key)``)"
-msgstr "ਆਈਟਮ ਪ੍ਰਾਪਤ ਕਰੋ (``d[key]``, ``d.get(key)``)"
+msgstr ""
 
 msgid "Set item (``d[key] = value``) [1]_"
-msgstr "ਸੈੱਟ ਆਈਟਮ (``d[key] = value``) [1]_"
+msgstr ""
 
 msgid "Delete item (``del d[key]``, ``d.pop(key)``)"
-msgstr "ਆਈਟਮ ਮਿਟਾਓ (``del d[key]``, ``d.pop(key)``)"
+msgstr ""
 
 msgid "Update (``d.update(t)``, ``d |= t``) [1]_ [3]_ [7]_"
-msgstr "ਅੱਪਡੇਟ (``d.update(t)``, ``d |= t``) [1]_ [3]_ [7]_"
+msgstr ""
 
 msgid "Iteration [7]_"
-msgstr "ਦੁਹਰਾਅ [7]_"
+msgstr ""
 
 msgid "Get length (``len(d)``) [5]_"
-msgstr "ਲੰਬਾਈ ਪ੍ਰਾਪਤ ਕਰੋ (``len(d)``) [5]_"
+msgstr ""
 
 msgid ":class:`!set`, :class:`!frozenset`"
-msgstr ":class:`!set`, :class:`!frozenset`"
+msgstr ""
 
 msgid ""
 "See :class:`dict` as the :class:`set` and :class:`frozenset` implementations "
@@ -257,10 +232,6 @@ msgid ""
 "operations instead take *O*\\ (*n*) time, and operations that look up every "
 "element degrade accordingly."
 msgstr ""
-":class:`dict` ਨੂੰ ਵੇਖੋ ਕਿਉਂਕਿ :class:`set` ਅਤੇ :class:`frozenset` ਦੀਆਂ ਲਾਗੂਆਂ ਇੱਕੋ "
-"ਜਿਹੀਆਂ ਹਨ, ਅਤੇ ਉਹੀ ਚੇਤਾਵਨੀਆਂ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ। ਸਭ ਤੋਂ ਬੁਰੇ ਹਾਲਤ ਵਿੱਚ, *O*\\ (1) ਕਾਰਵਾਈਆਂ ਦੀ "
-"ਬਜਾਏ *O*\\ (*n*) ਸਮਾਂ ਲੈਂਦੀਆਂ ਹਨ, ਅਤੇ ਹਰ ਤੱਤ ਦੀ ਖੋਜ ਕਰਨ ਵਾਲੀਆਂ ਕਾਰਵਾਈਆਂ ਉਸੇ ਅਨੁਸਾਰ ਹੌਲੀ "
-"ਹੋ ਜਾਂਦੀਆਂ ਹਨ।"
 
 msgid ""
 "A :class:`frozenset` is :term:`immutable`, so it does not support adding, "
@@ -269,7 +240,7 @@ msgid ""
 msgstr ""
 
 msgid "``x in s``"
-msgstr "``x in s``"
+msgstr ""
 
 msgid "Copy (``s.copy()``) [6]_ [7]_"
 msgstr ""
@@ -424,7 +395,7 @@ msgid "Get length (``len(r)``) [5]_"
 msgstr ""
 
 msgid "Notes"
-msgstr "ਨੋਟ"
+msgstr ""
 
 msgid ""
 "Amortized. An individual operation may occasionally be *O*\\ (*n*) when the "
