@@ -126,7 +126,7 @@ msgstr ""
 "ਵਧੀਆ ਪ੍ਰਥਾਵਾਂ ਲਈ :ref:`annotations-howto` ਵੀ ਵੇਖੋ।"
 
 msgid "argument"
-msgstr "ਆਰਗਿਊਮੈਂਟ"
+msgstr "ਆਰਗੂਮੈਂਟ"
 
 msgid ""
 "A value passed to a :term:`function` (or :term:`method`) when calling the "
@@ -2144,7 +2144,7 @@ msgid "More information can be found in :ref:`metaclasses`."
 msgstr "ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ :ref:`metaclasses` ਵੇਖੋ।"
 
 msgid "method"
-msgstr "ਮੈਥਡ"
+msgstr "ਵਿਧੀ"
 
 msgid ""
 "A function which is defined inside a class body.  If called as an attribute "
