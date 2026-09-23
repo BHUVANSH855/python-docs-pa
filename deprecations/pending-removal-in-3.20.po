@@ -78,7 +78,7 @@ msgid ":mod:`json`"
 msgstr ":mod:`json`"
 
 msgid ":mod:`logging` (``__date__`` also deprecated)"
-msgstr ""
+msgstr ":mod:`logging` (``__date__`` ਵੀ ਡਿਪ੍ਰੀਕੇਟ ਕੀਤਾ ਗਿਆ ਹੈ)"
 
 msgid ":mod:`optparse`"
 msgstr ":mod:`optparse`"
