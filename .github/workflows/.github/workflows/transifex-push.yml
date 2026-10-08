@@ -1,0 +1,55 @@
+name: Push Translations to Transifex
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Python documentation version"
+        required: true
+        type: choice
+        options:
+          - "3.13"
+          - "3.14"
+          - "3.15"
+        default: "3.15"
+
+permissions:
+  contents: read
+
+jobs:
+  push-translations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.version }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gettext
+          pip install requests cogapp polib transifex-python sphinx-intl blurb six
+          curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
+        working-directory: /usr/local/bin
+
+      - name: Recreate Transifex configuration
+        run: |
+          curl -O https://raw.githubusercontent.com/python-docs-translations/transifex-automations/master/sample-workflows/transifex-util.py
+          chmod +x transifex-util.py
+          ./transifex-util.py recreate_tx_config \
+            --language pa \
+            --project-slug python-newest \
+            --version ${{ inputs.version }}
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+
+      - name: Push translations to Transifex
+        run: tx push -t
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
