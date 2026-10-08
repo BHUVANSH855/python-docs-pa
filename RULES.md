@@ -1,4 +1,4 @@
-**# Punjabi Python Documentation Translation Rules**
+# Punjabi Python Documentation Translation Rules
 
 This document defines the rules contributors must follow before translating
 
@@ -22,9 +22,9 @@ references for translation methodology and terminology.
 
 ---
 
-**## 1. Core Translation Principles
+## 1. Core Translation Principles
 
-**### 1.1 Translate meaning, not words**
+### 1.1 Translate meaning, not words
 
 Translate the meaning of the English documentation into natural Punjabi.
 
@@ -36,7 +36,7 @@ The final translation should communicate the same technical meaning as the
 
 English source.
 
-**### 1.2 Preserve technical accuracy**
+### 1.2 Preserve technical accuracy
 
 Never simplify, generalize, reinterpret, or alter a technical statement merely
 
@@ -46,7 +46,7 @@ Technical behavior described by the English documentation must remain
 
 technically equivalent in Punjabi.
 
-**### 1.3 Punjabi should be natural**
+### 1.3 Punjabi should be natural
 
 Use Punjabi that a Punjabi-speaking programmer can read naturally.
 
@@ -66,7 +66,7 @@ Avoid:
 
   know in English
 
-**### 1.4 Do not translate every technical word automatically**
+### 1.4 Do not translate every technical word automatically
 
 Technical terminology must be decided using context.
 
@@ -100,9 +100,9 @@ a possible translation.
 
 ---
 
-**## 2. Technical Terminology Policy
+## 2. Technical Terminology Policy
 
-**### 2.1 Use the glossary consistently**
+### 2.1 Use the glossary consistently
 
 `GLOSSARY.md` is the project's terminology record.
 
@@ -112,7 +112,7 @@ consistently unless there is a strong technical or contextual reason not to.
 
 Do not introduce competing translations for the same technical concept.
 
-**### 2.2 Glossary entries require review**
+### 2.2 Glossary entries require review
 
 A new terminology choice must not be added to `GLOSSARY.md` merely because
 
@@ -132,7 +132,7 @@ Before adding a new term:
 
 6\. Use the same term throughout the project after approval.
 
-**### 2.3 Context takes priority**
+### 2.3 Context takes priority
 
 The same English word may require different Punjabi wording in different
 
@@ -156,7 +156,7 @@ For example, an English word may be:
 
 Do not translate based only on string matching.
 
-**### 2.4 Do not perform blind global replacements**
+### 2.4 Do not perform blind global replacements
 
 Never run a repository-wide replacement such as:
 
@@ -178,7 +178,7 @@ other structures where changing it would be incorrect.
 
 ---
 
-**## 3. Python Names and Identifiers
+## 3. Python Names and Identifiers
 
 The following must remain unchanged unless the English source itself changes:
 
@@ -260,9 +260,9 @@ must not be translated.
 
 ---
 
-**## 4. Code Examples
+## 4. Code Examples
 
-**### 4.1 Preserve executable code**
+### 4.1 Preserve executable code
 
 Do not alter executable Python code unless the English source itself has
 
@@ -294,7 +294,7 @@ Preserve:
 
 - strings that are required for program behavior
 
-**### 4.2 Comments may be translated**
+### 4.2 Comments may be translated
 
 Comments inside code examples may be translated when doing so does not change
 
@@ -318,7 +318,7 @@ items = []
 
 must remain unchanged.
 
-**### 4.3 String literals require context**
+### 4.3 String literals require context
 
 Do not automatically translate every string literal.
 
@@ -344,13 +344,13 @@ to be translated.
 
 ---
 
-**## 5. reStructuredText and Sphinx Markup
+## 5. reStructuredText and Sphinx Markup
 
 Python documentation uses reStructuredText and Sphinx extensively.
 
 Translation must preserve documentation markup.
 
-**### 5.1 Preserve Sphinx roles**
+### 5.1 Preserve Sphinx roles
 
 Do not modify the role itself.
 
@@ -378,7 +378,7 @@ Examples:
 
 must retain their role syntax.
 
-**### 5.2 Preserve role targets**
+### 5.2 Preserve role targets
 
 The target of a Sphinx role is normally an internal documentation identifier
 
@@ -402,7 +402,7 @@ must not become:
 
 when `function` is the reference target.
 
-**### 5.3 Explicit display text may be translated**
+### 5.3 Explicit display text may be translated
 
 When a Sphinx role contains separate display text and target, the display
 
@@ -424,7 +424,7 @@ may translate the visible label while preserving:
 
 ```
 
-**### 5.4 Preserve directives**
+### 5.4 Preserve directives
 
 Do not translate directive names or their technical arguments.
 
@@ -446,7 +446,7 @@ Examples:
 
 ```
 
-**### 5.5 Preserve links**
+### 5.5 Preserve links
 
 Do not change:
 
@@ -462,7 +462,7 @@ Only translate visible link text where appropriate.
 
 ---
 
-**## 6. Placeholders and Formatting
+## 6. Placeholders and Formatting
 
 Placeholders must remain unchanged.
 
@@ -508,12 +508,12 @@ Preserve:
 
 ---
 
-**## 7. PO File Rules
+## 7. PO File Rules
 
 ### 7.1 English source strings are read-only
 
-**Never intentionally modify the English source strings in `msgid` during
-translation, review, cleanup, or terminology work.**
+Never intentionally modify the English source strings in `msgid` during
+translation, review, cleanup, or terminology work.
 
 The `msgid` is the upstream English source and must be treated as read-only.
 
@@ -535,7 +535,7 @@ Python documentation changes the English source, the PO files may receive the
 new `msgid` through the normal source/template synchronization process. That
 is not a translation edit.
 
-**A translation-quality change must contain no intentional `msgid` changes.**
+A translation-quality change must contain no intentional `msgid` changes.
 
 ### 7.2 `msgstr` is the translation side
 
@@ -603,37 +603,37 @@ In particular, do not use a translation cleanup as an excuse to modify English
 
 Every translated entry should be checked for:
 
-**### Meaning**
+### Meaning
 
 Does the Punjabi text communicate the same information?
 
-**### Terminology**
+### Terminology
 
 Does it use the project's approved term where one exists?
 
-**### Naturalness**
+### Naturalness
 
 Would a Punjabi-speaking programmer naturally understand the sentence?
 
-**### Grammar**
+### Grammar
 
 Is the Punjabi grammatically and stylistically acceptable?
 
-**### Technical precision**
+### Technical precision
 
 Could the wording cause a reader to misunderstand Python behavior?
 
-**### Consistency**
+### Consistency
 
 Is the same concept translated consistently elsewhere?
 
-**### Markup**
+### Markup
 
 Are all roles, references, links, placeholders, and formatting intact?
 
 ---
 
-**## 9. Technical English and Hybrid Forms
+## 9. Technical English and Hybrid Forms
 
 English technical terminology is allowed and sometimes preferred.
 
@@ -675,7 +675,7 @@ every word translated.
 
 ---
 
-**## 10. Consistency Policy
+## 10. Consistency Policy
 
 Once a technical term has been approved:
 
@@ -707,23 +707,23 @@ Consistency applies to:
 
 ---
 
-**## 11. Terminology Review Procedure
+## 11. Terminology Review Procedure
 
 When encountering a technical term without an approved project translation:
 
-**### Step 1**
+### Step 1
 
 Check `GLOSSARY.md`.
 
-**### Step 2**
+### Step 2
 
 Search completed Punjabi translations in this repository.
 
-**### Step 3**
+### Step 3
 
 Check Punjabi programming resources and established usage.
 
-**### Step 4**
+### Step 4
 
 Consult mature Python translation projects such as:
 
@@ -741,11 +741,11 @@ These are references for terminology methodology and translation practice,
 
 not sources to copy literally.
 
-**### Step 5**
+### Step 5
 
 Check the meaning in the official Python documentation or CPython glossary.
 
-**### Step 6**
+### Step 6
 
 Choose the form that is:
 
@@ -759,13 +759,13 @@ Choose the form that is:
 
 - consistent with existing project terminology
 
-**### Step 7**
+### Step 7
 
 Record the approved terminology in `GLOSSARY.md`.
 
 ---
 
-**## 12. Do Not Copy Other Languages Literally
+## 12. Do Not Copy Other Languages Literally
 
 Other Python translations are useful references, but their terminology is
 
@@ -791,7 +791,7 @@ The Punjabi translation must follow Punjabi language conventions.
 
 ---
 
-**## 13. Review Existing Translations
+## 13. Review Existing Translations
 
 A previously translated entry is not automatically considered correct.
 
@@ -821,7 +821,7 @@ change.
 
 ---
 
-**## 14. Avoid Machine-Translation Artifacts
+## 14. Avoid Machine-Translation Artifacts
 
 Do not submit translations that appear to have been copied directly from an
 
@@ -851,7 +851,7 @@ must be reviewed by a human.
 
 ---
 
-**## 15. Do Not Translate Names
+## 15. Do Not Translate Names
 
 The following should normally remain unchanged:
 
@@ -905,7 +905,7 @@ and does not alter the actual technical name.
 
 ---
 
-**## 16. Version and Release Information
+## 16. Version and Release Information
 
 Never alter technical version information.
 
@@ -929,7 +929,7 @@ Do not translate version identifiers.
 
 ---
 
-**## 17. Punctuation and Formatting
+## 17. Punctuation and Formatting
 
 Punjabi prose should use consistent punctuation.
 
@@ -959,7 +959,7 @@ Do not introduce formatting changes that are unrelated to translation.
 
 ---
 
-**## 18. Source Meaning Has Priority Over Style Preference
+## 18. Source Meaning Has Priority Over Style Preference
 
 When choosing between two valid Punjabi formulations:
 
@@ -975,7 +975,7 @@ When choosing between two valid Punjabi formulations:
 
 ---
 
-**## 19. Core Switcher Files
+## 19. Core Switcher Files
 
 The following files are especially important for the Python documentation
 
@@ -1001,7 +1001,7 @@ percentages.
 
 ---
 
-**## 20. Validation Before Commit
+## 20. Validation Before Commit
 
 At minimum, run:
 
@@ -1049,7 +1049,7 @@ Where available, also run the repository's documentation and linting checks.
 
 ---
 
-**## 21. Commit Discipline
+## 21. Commit Discipline
 
 Keep commits focused.
 
@@ -1073,7 +1073,7 @@ Avoid mixing unrelated changes into a translation-quality commit.
 
 ---
 
-**## 22. Review Checklist
+## 22. Review Checklist
 
 Before submitting a translation change, confirm:
 
@@ -1113,7 +1113,7 @@ Before submitting a translation change, confirm:
 
 ---
 
-**## 23. Golden Rule
+## 23. Golden Rule
 
 > Translate the documentation, not the program.
 
@@ -1133,7 +1133,7 @@ priority.
 
 ---
 
-**## 24. References
+## 24. References
 
 Primary guidance:
 
