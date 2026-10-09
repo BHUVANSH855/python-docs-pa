@@ -50,6 +50,6 @@ jobs:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
 
       - name: Push translations to Transifex
-        run: tx push -t
+        run: tx push --translation --languages pa --use-git-timestamps
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
