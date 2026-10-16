@@ -70,6 +70,7 @@ jobs:
           tar -xzf "$RUNNER_TEMP/txcli/tx.tar.gz" -C "$RUNNER_TEMP/txcli"
 
           TX_BINARY="$(find "$RUNNER_TEMP/txcli" -type f -name tx -print -quit)"
+
           if [ -z "$TX_BINARY" ]; then
             echo "ERROR: Transifex CLI binary was not found in the archive."
             find "$RUNNER_TEMP/txcli" -maxdepth 3 -type f -print
@@ -98,7 +99,7 @@ jobs:
           from pathlib import Path
 
           path = Path(".tx/config")
-          config = configparser.ConfigParser()
+          config = configparser.ConfigParser(interpolation=None)
 
           if not path.is_file() or not config.read(path):
               raise SystemExit("ERROR: .tx/config was not generated")
@@ -120,6 +121,7 @@ jobs:
           }
 
           missing = expected - resources.keys()
+
           if missing:
               raise SystemExit(
                   "ERROR: missing builtins resources: "
@@ -128,15 +130,23 @@ jobs:
 
           for resource in sorted(expected):
               section = resources[resource]
-              source = config.get(section, "source_file", fallback="").strip()
-              expected_source = f"gettext/{resource.replace('--', '/')}.pot"
+              source = config.get(
+                  section, "source_file", fallback=""
+              ).strip()
+
+              expected_source = (
+                  f"gettext/{resource.replace('--', '/')}.pot"
+              )
 
               if source != expected_source:
                   raise SystemExit(
-                      f"ERROR: unexpected source_file for {resource}: {source}"
+                      f"ERROR: unexpected source_file for {resource}: "
+                      f"{source}"
                   )
 
-          print("Transifex configuration and all seven builtins mappings validated.")
+          print(
+              "Transifex configuration and all seven builtins mappings validated."
+          )
           PY
 
       - name: Diagnose builtins index resource
@@ -146,22 +156,37 @@ jobs:
           import configparser
           from pathlib import Path
 
-          config = configparser.ConfigParser()
-          config.read(".tx/config")
+          config = configparser.ConfigParser(interpolation=None)
+
+          if not config.read(".tx/config"):
+              raise SystemExit("ERROR: Could not read .tx/config")
 
           section = "o:python-doc:p:python-newest:r:builtins--index"
 
           if not config.has_section(section):
-              raise SystemExit(f"ERROR: missing Transifex resource: {section}")
+              raise SystemExit(
+                  f"ERROR: missing Transifex resource: {section}"
+              )
 
           print("=== Generated Transifex mapping ===")
-          for key in ("file_filter", "source_file", "type", "resource_name"):
-              print(f"{key} = {config.get(section, key, fallback='<missing>')}")
+
+          for key in (
+              "file_filter",
+              "source_file",
+              "type",
+              "resource_name",
+          ):
+              print(
+                  f"{key} = "
+                  f"{config.get(section, key, fallback='<missing>')}"
+              )
 
           po_path = Path("builtins/index.po")
 
           if not po_path.is_file():
-              raise SystemExit(f"ERROR: translation file not found: {po_path}")
+              raise SystemExit(
+                  f"ERROR: translation file not found: {po_path}"
+              )
 
           print(f"\nTranslation file exists: {po_path}")
 
@@ -170,10 +195,13 @@ jobs:
           msgstr = ""
           field = None
 
-          for line in po_path.read_text(encoding="utf-8").splitlines() + [""]:
+          for line in (
+              po_path.read_text(encoding="utf-8").splitlines() + [""]
+          ):
               if line.startswith("msgid "):
                   if msgid is not None:
                       entries.append((msgid, msgstr))
+
                   msgid = ast.literal_eval(line[6:])
                   msgstr = ""
                   field = "msgid"
@@ -184,6 +212,7 @@ jobs:
 
               elif line.startswith('"') and field:
                   value = ast.literal_eval(line)
+
                   if field == "msgid":
                       msgid += value
                   else:
@@ -192,6 +221,7 @@ jobs:
               elif not line.strip():
                   if msgid is not None:
                       entries.append((msgid, msgstr))
+
                   msgid = None
                   msgstr = ""
                   field = None
@@ -205,14 +235,74 @@ jobs:
           print(f"Non-empty translated entries: {len(translated)}")
 
           for source, target in translated:
-              print(f"  {source[:100]!r} -> {target[:100]!r}")
+              print(
+                  f"  {source[:100]!r} -> {target[:100]!r}"
+              )
 
           if len(translated) < 5:
               raise SystemExit(
-                  "ERROR: expected at least five translated entries in builtins/index.po"
+                  "ERROR: expected at least five translated entries "
+                  "in builtins/index.po"
               )
 
           print("Builtins index diagnostic passed.")
+          PY
+
+      - name: Stage builtins index translation for Transifex
+        run: |
+          python - <<'PY'
+          import configparser
+          import shutil
+          from pathlib import Path
+
+          config_path = Path(".tx/config")
+          config = configparser.ConfigParser(interpolation=None)
+
+          if not config.read(config_path):
+              raise SystemExit("ERROR: Could not read .tx/config")
+
+          section = "o:python-doc:p:python-newest:r:builtins--index"
+
+          if not config.has_section(section):
+              raise SystemExit(
+                  f"ERROR: Missing Transifex resource: {section}"
+              )
+
+          source = Path("builtins/index.po")
+          staged = Path("builtins/pa/index.po")
+
+          if not source.is_file():
+              raise SystemExit(
+                  f"ERROR: Missing translation file: {source}"
+              )
+
+          staged.parent.mkdir(parents=True, exist_ok=True)
+          shutil.copy2(source, staged)
+
+          config.set(
+              section,
+              "file_filter",
+              "builtins/<lang>/index.po",
+          )
+
+          with config_path.open("w", encoding="utf-8") as file:
+              config.write(file)
+
+          print(f"Staged Punjabi translation: {staged}")
+          print(
+              "Updated file_filter:",
+              config.get(section, "file_filter"),
+          )
+
+          if not staged.is_file():
+              raise SystemExit("ERROR: Staged translation was not created")
+
+          if staged.read_bytes() != source.read_bytes():
+              raise SystemExit(
+                  "ERROR: Staged translation differs from the original"
+              )
+
+          print("Staged translation validated successfully.")
           PY
 
       - name: Push Punjabi translations
@@ -224,14 +314,12 @@ jobs:
             --languages "$TX_LANGUAGE" \
             --use-git-timestamps
 
-      - name: Verify Transifex index resource status
+      - name: Report Transifex push status
         if: always()
-        env:
-          TX_TOKEN: ${{ secrets.TX_TOKEN }}
         run: |
-          echo "The push command has finished."
-          echo "Inspect the preceding Transifex CLI logs for builtins--index."
-          echo "This step does not independently verify remote translation contents."
+          echo "Review the preceding Transifex CLI logs."
+          echo "Confirm that builtins--index was processed successfully."
+          echo "A successful command alone does not prove that remote translations changed."
 
   push-sources:
     name: Generate and push source templates
@@ -279,6 +367,7 @@ jobs:
           tar -xzf "$RUNNER_TEMP/txcli/tx.tar.gz" -C "$RUNNER_TEMP/txcli"
 
           TX_BINARY="$(find "$RUNNER_TEMP/txcli" -type f -name tx -print -quit)"
+
           if [ -z "$TX_BINARY" ]; then
             echo "ERROR: Transifex CLI binary was not found in the archive."
             find "$RUNNER_TEMP/txcli" -maxdepth 3 -type f -print
@@ -314,7 +403,7 @@ jobs:
           from pathlib import Path
 
           path = Path(".tx/config")
-          config = configparser.ConfigParser()
+          config = configparser.ConfigParser(interpolation=None)
 
           if not path.is_file() or not config.read(path):
               raise SystemExit("ERROR: .tx/config was not generated")
@@ -322,7 +411,10 @@ jobs:
           missing = []
 
           for section in config.sections():
-              source = config.get(section, "source_file", fallback="").strip()
+              source = config.get(
+                  section, "source_file", fallback=""
+              ).strip()
+
               if source and not Path(source).is_file():
                   missing.append(f"{section}: {source}")
 
