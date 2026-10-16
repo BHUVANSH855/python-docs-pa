@@ -28,6 +28,12 @@ concurrency:
   group: transifex-push-${{ github.ref }}
   cancel-in-progress: false
 
+env:
+  TX_CLI_VERSION: "1.6.16"
+  TX_PROJECT: python-newest
+  TX_LANGUAGE: pa
+  CPYTHON_VERSION: "3.15"
+
 jobs:
   push-translations:
     name: Push Punjabi translations
@@ -40,16 +46,75 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install configuration dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gettext
+          python -m pip install requests cogapp polib transifex-python sphinx-intl blurb six
+
+      - name: Generate Transifex configuration
+        run: |
+          curl -fsSLO https://raw.githubusercontent.com/python-docs-translations/transifex-automations/main/sample-workflows/transifex-util.py
+          chmod +x transifex-util.py
+          ./transifex-util.py recreate_tx_config \
+            --language "$TX_LANGUAGE" \
+            --project-slug "$TX_PROJECT" \
+            --version "$CPYTHON_VERSION"
+
+      - name: Validate custom builtins resource mappings
+        run: |
+          python - <<'PY'
+          import configparser
+          from pathlib import Path
+
+          path = Path(".tx/config")
+          if not path.is_file():
+              raise SystemExit("ERROR: .tx/config was not generated")
+
+          config = configparser.ConfigParser()
+          config.read(path)
+
+          expected = {
+              "builtins--constants",
+              "builtins--exceptions",
+              "builtins--functions",
+              "builtins--index",
+              "builtins--stdtypes",
+              "builtins--threadsafety",
+              "builtins--time-complexity",
+          }
+
+          resources = {
+              section.rsplit(":r:", 1)[-1]
+              for section in config.sections()
+              if ":r:" in section
+          }
+          missing = expected - resources
+
+          if missing:
+              raise SystemExit(
+                  "ERROR: generated config is missing custom builtins resources: "
+                  + ", ".join(sorted(missing))
+              )
+
+          print("All seven custom builtins resource mappings are present.")
+          PY
+
       - name: Install Transifex CLI
         working-directory: /usr/local/bin
         run: |
-          curl -fsSL https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash -s -- v1.6.16
+          curl -fsSL https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash -s -- "v${TX_CLI_VERSION}"
 
       - name: Push Punjabi translations
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
         run: |
-          tx push --translation --languages pa --use-git-timestamps
+          tx push --translation --languages "$TX_LANGUAGE" --use-git-timestamps
 
   push-sources:
     name: Generate and push source templates
@@ -63,7 +128,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Checkout CPython 3.15
+      - name: Checkout CPython source
         uses: actions/checkout@v4
         with:
           repository: python/cpython
@@ -81,6 +146,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y gettext
           python -m pip install -r cpython/Doc/requirements.txt
+          python -m pip install requests cogapp polib transifex-python sphinx-intl blurb six
 
       - name: Generate gettext source templates
         run: |
@@ -89,15 +155,27 @@ jobs:
           mkdir -p gettext
           cp -a cpython/Doc/build/gettext/. gettext/
 
+      - name: Generate Transifex configuration
+        run: |
+          curl -fsSLO https://raw.githubusercontent.com/python-docs-translations/transifex-automations/main/sample-workflows/transifex-util.py
+          chmod +x transifex-util.py
+          ./transifex-util.py recreate_tx_config \
+            --language "$TX_LANGUAGE" \
+            --project-slug "$TX_PROJECT" \
+            --version "$CPYTHON_VERSION"
+
       - name: Validate configured source templates
         run: |
           python - <<'PY'
           import configparser
           from pathlib import Path
 
+          path = Path(".tx/config")
+          if not path.is_file():
+              raise SystemExit("ERROR: .tx/config was not generated")
+
           config = configparser.ConfigParser()
-          if not config.read(".tx/config"):
-              raise SystemExit("ERROR: .tx/config could not be read")
+          config.read(path)
 
           missing = []
           for section in config.sections():
@@ -116,7 +194,7 @@ jobs:
       - name: Install Transifex CLI
         working-directory: /usr/local/bin
         run: |
-          curl -fsSL https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash -s -- v1.6.16
+          curl -fsSL https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash -s -- "v${TX_CLI_VERSION}"
 
       - name: Push source templates
         env:
