@@ -42,7 +42,7 @@ jobs:
   push-translations:
     name: Push Punjabi translations
     if: github.actor != 'github-actions[bot]' && (github.event_name == 'push' || inputs.push_translations)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout translation repository
@@ -292,7 +292,7 @@ jobs:
     name: Generate and push source templates
     needs: push-translations
     if: ${{ always() && github.event_name == 'workflow_dispatch' && inputs.push_sources && (needs.push-translations.result == 'success' || needs.push-translations.result == 'skipped') }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout translation repository
