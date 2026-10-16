@@ -57,6 +57,13 @@ jobs:
           sudo apt-get install -y gettext
           python -m pip install requests cogapp polib transifex-python sphinx-intl blurb six
 
+      - name: Install Transifex CLI
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/transifex/cli/master/install.sh \
+            | bash -s -- "v${TX_CLI_VERSION}"
+          command -v tx
+          tx --version
+
       - name: Generate Transifex configuration
         run: |
           curl -fsSLO https://raw.githubusercontent.com/python-docs-translations/transifex-automations/main/sample-workflows/transifex-util.py
@@ -66,18 +73,17 @@ jobs:
             --project-slug "$TX_PROJECT" \
             --version "$CPYTHON_VERSION"
 
-      - name: Validate custom builtins resource mappings
+      - name: Validate Transifex configuration
         run: |
           python - <<'PY'
           import configparser
           from pathlib import Path
 
           path = Path(".tx/config")
-          if not path.is_file():
-              raise SystemExit("ERROR: .tx/config was not generated")
-
           config = configparser.ConfigParser()
-          config.read(path)
+
+          if not path.is_file() or not config.read(path):
+              raise SystemExit("ERROR: .tx/config was not generated")
 
           expected = {
               "builtins--constants",
@@ -90,25 +96,28 @@ jobs:
           }
 
           resources = {
-              section.rsplit(":r:", 1)[-1]
+              section.rsplit(":r:", 1)[-1]: section
               for section in config.sections()
               if ":r:" in section
           }
-          missing = expected - resources
 
+          missing = expected - resources.keys()
           if missing:
               raise SystemExit(
-                  "ERROR: generated config is missing custom builtins resources: "
+                  "ERROR: missing builtins resources: "
                   + ", ".join(sorted(missing))
               )
 
-          print("All seven custom builtins resource mappings are present.")
-          PY
+          for resource in sorted(expected):
+              section = resources[resource]
+              source = config.get(section, "source_file", fallback="").strip()
+              if source != f"gettext/{resource.replace('--', '/')}.pot":
+                  raise SystemExit(
+                      f"ERROR: unexpected source_file for {resource}: {source}"
+                  )
 
-      - name: Install Transifex CLI
-        working-directory: /usr/local/bin
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash -s -- "v${TX_CLI_VERSION}"
+          print("Transifex configuration and all seven builtins mappings validated.")
+          PY
 
       - name: Push Punjabi translations
         env:
@@ -148,6 +157,13 @@ jobs:
           python -m pip install -r cpython/Doc/requirements.txt
           python -m pip install requests cogapp polib transifex-python sphinx-intl blurb six
 
+      - name: Install Transifex CLI
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/transifex/cli/master/install.sh \
+            | bash -s -- "v${TX_CLI_VERSION}"
+          command -v tx
+          tx --version
+
       - name: Generate gettext source templates
         run: |
           make -C cpython/Doc gettext
@@ -171,11 +187,10 @@ jobs:
           from pathlib import Path
 
           path = Path(".tx/config")
-          if not path.is_file():
-              raise SystemExit("ERROR: .tx/config was not generated")
-
           config = configparser.ConfigParser()
-          config.read(path)
+
+          if not path.is_file() or not config.read(path):
+              raise SystemExit("ERROR: .tx/config was not generated")
 
           missing = []
           for section in config.sections():
@@ -190,11 +205,6 @@ jobs:
 
           print("All configured source templates exist.")
           PY
-
-      - name: Install Transifex CLI
-        working-directory: /usr/local/bin
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash -s -- "v${TX_CLI_VERSION}"
 
       - name: Push source templates
         env:
