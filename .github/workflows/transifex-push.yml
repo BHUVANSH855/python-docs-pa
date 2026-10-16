@@ -158,11 +158,25 @@ jobs:
           python -m pip install requests cogapp polib transifex-python sphinx-intl blurb six
 
       - name: Install Transifex CLI
+        env:
+          TX_CLI_VERSION: ${{ env.TX_CLI_VERSION }}
         run: |
-          curl -fsSL https://raw.githubusercontent.com/transifex/cli/master/install.sh \
-            | bash -s -- "v${TX_CLI_VERSION}"
-          command -v tx
-          tx --version
+          set -euo pipefail
+
+          mkdir -p "$RUNNER_TEMP/txcli"
+          curl -fsSL \
+            "https://github.com/transifex/cli/releases/download/v${TX_CLI_VERSION}/tx-linux-amd64.tar.gz" \
+            -o "$RUNNER_TEMP/txcli/tx.tar.gz"
+
+          tar -xzf "$RUNNER_TEMP/txcli/tx.tar.gz" -C "$RUNNER_TEMP/txcli"
+
+          TX_BINARY="$(find "$RUNNER_TEMP/txcli" -type f -name tx -print -quit)"
+          test -n "$TX_BINARY"
+
+          sudo install -m 0755 "$TX_BINARY" /usr/local/bin/tx
+          echo "/usr/local/bin" >> "$GITHUB_PATH"
+
+          /usr/local/bin/tx --version
 
       - name: Generate gettext source templates
         run: |
