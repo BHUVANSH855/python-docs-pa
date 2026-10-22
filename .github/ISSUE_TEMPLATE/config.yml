@@ -1,18 +1,18 @@
 blank_issues_enabled: true
 
 contact_links:
-  - name: Python Documentation Translation Project
+  - name: Python documentation translations (Developer's Guide)
     url: https://devguide.python.org/documentation/translations/
-    about: Learn about the official Python Documentation Translation project and its workflow.
+    about: How Python documentation translations work.
 
-  - name: Python Documentation Translation on Transifex
+  - name: Translate on Transifex
     url: https://explore.transifex.com/python-doc/python-newest/
-    about: Access the official Python Documentation translation platform.
+    about: Translate and review the Punjabi (pa) strings.
 
-  - name: Project Documentation
-    url: https://github.com/BHUVANSH855/python-docs-pa#readme
-    about: Read the README, contribution guidelines, style guide, and glossary before opening an issue.
+  - name: README
+    url: https://github.com/python/python-docs-pa#readme
+    about: Start here to learn how this project works.
 
-  - name: Contribution Guidelines
-    url: https://github.com/BHUVANSH855/python-docs-pa/blob/3.15/CONTRIBUTING.md
-    about: Learn how to contribute translations, reviews, and repository improvements.
+  - name: Contributing guide
+    url: https://github.com/python/python-docs-pa/blob/3.15/CONTRIBUTING.md
+    about: How to contribute translations, reviews and repository improvements.
