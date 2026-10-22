@@ -1,53 +1,48 @@
 # Style Guide
 
-This guide explains how we write the Punjabi (`pa`) translation of the Python documentation. Rules for markup, code, placeholders and `.po` files are in [RULES.md](RULES.md). Approved terms are in [GLOSSARY.md](GLOSSARY.md).
+This guide is about how we write the Punjabi. The rules for code and markup are in [RULES.md](RULES.md), and the agreed terms are in [GLOSSARY.md](GLOSSARY.md).
 
-## Principles
+## The basics
 
-- We translate the meaning, not the words. The Punjabi must say exactly what the English says.
-- Technical accuracy comes first, then consistency, then style.
-- We write clear, natural Punjabi (Gurmukhi) that a Punjabi-speaking programmer can read easily.
-- We never change the meaning of a technical term.
+Translate the meaning, not the words. The Punjabi should say what the English says, no more and no less. If two goals clash, accuracy wins over consistency, and consistency wins over style.
 
-## Tone
+Write simple, natural Gurmukhi that a Punjabi-speaking programmer can read without effort. Keep the formal, teaching tone of the English documentation. Avoid slang and regional dialect, and don't translate word for word when the result sounds odd.
 
-- Formal, educational and clear, like the English documentation.
-- No slang, no regional dialect, and no word-for-word translation that sounds unnatural.
-- When in doubt: clarity over literal wording, consistency over personal preference, accuracy over style.
+Never change the meaning of a technical term to make a sentence read better.
 
-## Terminology
+## Technical terms
 
-For every technical term we follow this order:
+For each term, go through these steps in order:
 
-1. Use the term from [GLOSSARY.md](GLOSSARY.md). Do not create an alternative, and do not switch wording between files.
-2. If the term is not listed, use a Punjabi word only when it has exactly the same technical meaning.
-3. If there is no such Punjabi word, write the English word in Gurmukhi (transliteration).
-4. Proper names, code and UI button labels stay in Latin script. So do the terms listed under "Terms Commonly Left Untranslated" in the glossary.
+1. Use the term from the [glossary](GLOSSARY.md). Don't make up another one, and don't use two wordings in different files.
+2. If the glossary doesn't have it, use a Punjabi word only if it means exactly the same thing.
+3. If there is no such word, write the English word in Gurmukhi, for example ਰਿਪੋਜ਼ਟਰੀ.
+4. Names, code and button labels stay in Latin script. So do the terms in the glossary's "Terms Commonly Left Untranslated" list.
 
-Then add the new term to the glossary, as described under "Adding or Changing a Term" there.
+After that, add the new term to the glossary. The steps are under "Adding or Changing a Term" there.
 
-Please also:
+A few more things to watch:
 
-- Check the context. The same English word can be a technical term, an ordinary word or part of code. Never run a find-and-replace for a term over many files.
-- Look at other Python translations (for example Chinese, Japanese or Korean) to see how they handle a term, but do not copy their wording.
-- Do not rewrite an existing translation only because you prefer another wording. Change it only for a clear language, technical or consistency reason.
+- Look at the context first. The same English word can be a technical term, an everyday word or part of code. For the same reason, never run a find and replace for a term across many files.
+- Other Python translations (Chinese, Japanese, Korean and so on) show how they dealt with a term. Use them for ideas, but don't copy their wording.
+- An existing translation isn't wrong just because you would write it differently. Change it only when it is unclear, technically wrong or inconsistent.
 
 ## Machine translation
 
-We use machine translation only as a first draft. A person must read and correct every string. Watch for unnatural word order, wrong technical meanings, inconsistent terms and unexplained switching between English and Punjabi.
+You can use it for a first draft, but a person has to read and fix every string. Typical problems are odd word order, wrong technical meaning, terms that don't match the glossary, and random jumps between English and Punjabi.
 
 ## Review
 
-Reviewers in Transifex check each string for:
+Before you approve a string in Transifex, check that:
 
-- **Meaning:** it says the same as the English.
-- **Terminology:** it uses the glossary term.
-- **Punjabi:** it is natural, with correct grammar and spelling.
-- **Markup:** roles, links, placeholders and code are intact (see [RULES.md](RULES.md)).
+- the meaning is the same as the English,
+- it uses the glossary term,
+- the Punjabi is natural, with correct grammar and spelling,
+- roles, links, placeholders and code are untouched (see [RULES.md](RULES.md)).
 
-Only reviewed strings reach this repository, so approve a string only when it passes all four.
+Only reviewed strings reach this repository, so approve a string only when all four are true.
 
-## References
+## Useful links
 
 - [Python Developer's Guide: Translating](https://devguide.python.org/documentation/translations/translating/)
 - [Python Developer's Guide: Style guide](https://devguide.python.org/documentation/style-guide/)
