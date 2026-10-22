@@ -1,11 +1,11 @@
 # Punjabi (pa) Python Docs Glossary
 
-Preferred Punjabi terms for translating the Python documentation. Use them so translations stay consistent. For writing style, see `STYLE_GUIDE.md`.
+These are the Punjabi terms we use when translating the Python documentation, so that the translation stays consistent. For how we write, see `STYLE_GUIDE.md`.
 
 # How to Use This Glossary
 
-- Use the listed term whenever one exists. Do not introduce variants.
-- For a term that is not listed, reuse the wording from existing translations. If there is none, use one wording consistently in the file and propose it as described under "Adding or Changing a Term".
+- If a term is listed here, use it. Don't use a variant.
+- If it isn't listed, reuse the wording from existing translations. If there is none, follow the steps under "Technical terms" in `STYLE_GUIDE.md` and propose the term as described under "Adding or Changing a Term" below.
 - Never translate function, module, class and exception names, directives, roles, placeholders or code.
 
 ---
