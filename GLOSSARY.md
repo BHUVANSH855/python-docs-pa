@@ -1,102 +1,12 @@
 # Punjabi (pa) Python Docs Glossary
 
-This glossary defines the preferred Punjabi terminology for translating the official Python documentation into Punjabi (`pa`).
-
-It complements `README.md`, `CONTRIBUTING.md`, and `STYLE_GUIDE.md` by providing standardized translations for technical terms used throughout the project.
-
-All contributors should use the terminology defined in this glossary to ensure consistency, technical accuracy, and long-term maintainability across all translated documentation.
-
----
-
-## Contents
-
-- [Project Status](#project-status)
-- [How to Use This Glossary](#how-to-use-this-glossary)
-- [Core Python Terms](#core-python-terms)
-- [Data Types](#data-types)
-- [Mutability](#mutability)
-- [Operators and Operations](#operators-and-operations)
-- [Collections and Iteration](#collections-and-iteration)
-- [Exceptions and Errors](#exceptions-and-errors)
-- [Modules and Libraries](#modules-and-libraries)
-- [String and Formatting Terms](#string-and-formatting-terms)
-- [Numeric Terms](#numeric-terms)
-- [Standard Library Terms](#standard-library-terms)
-- [Documentation Terms](#documentation-terms)
-- [Documentation Workflow Terms](#documentation-workflow-terms)
-- [Terms Commonly Left Untranslated](#terms-commonly-left-untranslated)
-- [Common Python Keywords](#common-python-keywords)
-- [Language Tag](#language-tag)
-- [Consistency Rules](#consistency-rules)
-- [Glossary Maintenance](#glossary-maintenance)
-- [References](#references)
-- [Final Notes](#final-notes)
-
----
-
-# Project Status
-
-The Punjabi (`pa`) translation project is actively maintained as part of the official Python Documentation Translation initiative.
-
-### Current Highlights
-
-- ✅ Officially listed in the Python Developer Guide Translation Coordinators (PR #1843)
-- ✅ Active translation branch: `3.15`
-- ✅ Automated synchronization with the official Python Documentation Transifex project
-- ✅ GitHub Actions validation passing
-- ✅ GNU gettext (`msgfmt`) validation passing
-- ✅ `sphinx-lint` validation passing
-- ✅ CPython HTML documentation build passing
-- ✅ Nitpicky (`-n`) documentation build passing
-
-### Completed Translation Areas
-
-| Area | Status |
-|------|--------|
-| Tutorial Documentation (17/17 files) | ✅ Complete |
-| Using Python Documentation (9/9 files) | ✅ Complete |
-| `library/stdtypes.po` | ✅ Complete |
-| `library/functions.po` | ✅ Complete |
-| `library/exceptions.po` | ✅ Complete |
-| `library/functools.po` | ✅ Complete |
-| `library/string.po` | ✅ Complete |
-| `howto/regex.po` | ✅ Complete |
-| `howto/sorting.po` | ✅ Complete |
-| `glossary.po` | ✅ Complete |
-| `bugs.po` | ✅ Complete |
-
-### Translation Statistics
-
-| Metric | Value |
-|--------|------:|
-| Verified Translated Strings | **7,668** |
-| Tutorial Files | 17 |
-| Using Python Files | 9 |
-| Completed Core Library Files | 5 |
-| Completed HOWTO Files | 2 |
-| Root Translation Files | 2 |
-
-The terminology defined in this glossary reflects the vocabulary established throughout the completed translations and should be treated as the project's preferred terminology for all future documentation.
-
----
+Preferred Punjabi terms for translating the Python documentation. Use them so translations stay consistent. For writing style, see `STYLE_GUIDE.md`.
 
 # How to Use This Glossary
 
-This glossary establishes the standard terminology for the Punjabi (`pa`) translation of the Python documentation.
-
-When translating documentation:
-
-- Always use glossary-approved terminology whenever a term already exists.
-- Do not introduce alternative translations for established technical terms.
-- Reuse terminology from previously completed translations whenever possible.
-- Follow the writing conventions described in `STYLE_GUIDE.md`.
-- Preserve technical accuracy while producing natural and readable Punjabi.
-
-If a required technical term is not yet included in this glossary:
-
-1. Check previously completed translation files for an established translation.
-2. Use consistent terminology throughout the document.
-3. Add the new term to this glossary only after it has been reviewed and adopted as the project's preferred translation.
+- Use the listed term whenever one exists. Do not introduce variants.
+- For a term that is not listed, reuse the wording from existing translations. If there is none, use one wording consistently in the file and propose it as described under "Adding or Changing a Term".
+- Never translate function, module, class and exception names, directives, roles, placeholders or code.
 
 ---
 
@@ -208,10 +118,7 @@ If a required technical term is not yet included in this glossary:
 
 | English | Preferred Punjabi |
 |---------|-------------------|
-| iterable | ਇਟਰੇਬਲ |
-| iterator | ਇਟਰੇਟਰ |
 | loop | ਲੂਪ |
-| iteration | ਇਟਰੇਸ਼ਨ |
 | membership test | ਮੈਂਬਰਸ਼ਿਪ ਜਾਂਚ |
 | sequence operations | ਕ੍ਰਮ ਕਾਰਵਾਈਆਂ |
 | mapping operations | ਮੈਪਿੰਗ ਕਾਰਵਾਈਆਂ |
@@ -277,7 +184,6 @@ If a required technical term is not yet included in this glossary:
 | rounding | ਗੋਲਾਈਕਰਨ |
 | conversion | ਰੂਪਾਂਤਰਨ |
 | approximation | ਅਨੁਮਾਨ |
-| floating-point | ਫਲੋਟਿੰਗ-ਪੌਇੰਟ |
 | binary fraction | ਬਾਈਨਰੀ ਭਿੰਨ |
 | decimal fraction | ਦਸ਼ਮਲਵ ਭਿੰਨ |
 | representation | ਪ੍ਰਤਿਨਿਧਿਤਾ |
@@ -351,145 +257,19 @@ If a required technical term is not yet included in this glossary:
 
 # Terms Commonly Left Untranslated
 
-The following terms are widely recognized within the Python ecosystem and should normally remain in English unless there is a strong project-wide reason to translate them.
-
-```text
-Python
-API
-JSON
-XML
-HTML
-HTTP
-HTTPS
-URL
-Unicode
-UTF-8
-ASCII
-Git
-GitHub
-Transifex
-Linux
-Windows
-macOS
-POSIX
-CPython
-PyPI
-pip
-venv
-IDLE
-REPL
-```
+These widely used terms normally stay in English: Python, API, JSON, XML, HTML, HTTP, HTTPS, URL, Unicode, UTF-8, ASCII, Git, GitHub, Transifex, Linux, Windows, macOS, POSIX, CPython, PyPI, pip, venv, IDLE, REPL.
 
 ---
 
-# Common Python Keywords
+# Python Keywords
 
-Python language keywords must never be translated.
-
-```text
-if
-else
-elif
-for
-while
-class
-def
-return
-import
-from
-try
-except
-finally
-raise
-pass
-with
-yield
-lambda
-and
-or
-not
-global
-nonlocal
-async
-await
-match
-case
-```
+Python keywords (`if`, `else`, `for`, `class`, `def`, `async`, `await`, `match` and so on) are never translated.
 
 ---
 
-# Language Tag
+# Adding or Changing a Term
 
-The project uses the following IETF language tag for Punjabi:
-
-```text
-pa
-```
-
-This language tag is used throughout the repository, GitHub workflows, Transifex configuration, and CPython documentation builds.
-
----
-
-# Consistency Rules
-
-To maintain a consistent translation across the project:
-
-- Always use glossary-approved terminology whenever an established translation exists.
-- Do not introduce alternative translations for existing technical terms.
-- Reuse terminology from previously completed translation files whenever possible.
-- Function names, module names, class names, exception names, directives, roles, placeholders, and code identifiers must remain unchanged.
-- When uncertain, prefer the terminology already used in completed translations rather than creating new variants.
-- Follow the conventions described in `STYLE_GUIDE.md` for formatting, punctuation, and writing style.
-
-Consistency across the entire documentation is more important than individual translation preferences.
-
----
-
-# Glossary Maintenance
-
-This glossary is a living document and should evolve as the Punjabi translation project continues to grow.
-
-New terminology should be added only when:
-
-- A previously untranslated technical term appears in the documentation.
-- Contributors agree on a preferred translation.
-- The terminology has been reviewed for consistency with existing translations.
-- The term is expected to be reused across multiple documentation files.
-
-When updating the glossary:
-
-1. Verify that the term does not already exist under a different translation.
-2. Use the same wording consistently across all translated files.
-3. Update existing translations if a project-wide terminology change is adopted.
-4. Review the glossary after major translation milestones to keep terminology current.
-
----
-
-# References
-
-Useful resources for contributors:
-
-- **Python Developer Guide – Documentation Translations**  
-  <https://devguide.python.org/documentation/translations/>
-
-- **Python Documentation**  
-  <https://docs.python.org/>
-
-- **Python Documentation Style Guide**  
-  <https://devguide.python.org/documentation/style-guide/>
-
-- **Python Documentation on Transifex**  
-  <https://app.transifex.com/python-doc/python-newest/>
-
-- **reStructuredText Primer (Sphinx)**  
-  <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>
-
----
-
-# Final Notes
-
-This glossary defines the preferred terminology for the Punjabi (`pa`) translation of the Python documentation.
-
-All contributors are encouraged to consult this glossary before translating new documentation and to update it whenever new project-approved terminology is established.
-
-Using consistent terminology across the repository improves readability, simplifies reviews, reduces translation inconsistencies, and provides a high-quality documentation experience for Punjabi-speaking Python users.
+1. Check that the term is not already listed under a different translation.
+2. Agree on the wording with the other contributors in the pull request or an issue, and check it against existing translations.
+3. Add the term to the right table here and use it consistently in all translated files.
+4. If you change an existing term, update the translations that use it.
