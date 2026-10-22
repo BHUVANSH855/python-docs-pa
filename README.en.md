@@ -1,37 +1,36 @@
-# Python Documentation Translation — Punjabi (ਪੰਜਾਬੀ)
+# Punjabi translation of the Python documentation
 
 [ਪੰਜਾਬੀ](README.md)
 
-Punjabi (Gurmukhi, `pa`) translation of the [Python documentation](https://docs.python.org/).
+This is the Punjabi (Gurmukhi, `pa`) translation of the [Python documentation](https://docs.python.org/).
 
-- **Read it:** <https://docs.python.org/pa/>
-- **Progress:** <https://translations.python.org/> (updated automatically)
-- **Translate and review:** [Transifex](https://explore.transifex.com/python-doc/python-newest/), language Punjabi (`pa`)
-- **Contribute:** see [CONTRIBUTING.md](CONTRIBUTING.md)
+- Read it: <https://docs.python.org/pa/>
+- See how much is translated: <https://translations.python.org/>
+- Translate and review: [Transifex](https://explore.transifex.com/python-doc/python-newest/), language Punjabi (`pa`)
+- Contribute: [CONTRIBUTING.md](CONTRIBUTING.md)
 
-## How do we translate?
+## How to translate
 
-1. Open the [Python Documentation project](https://explore.transifex.com/python-doc/python-newest/) on Transifex.
-2. Click "Join this project". Create a Transifex account if you don't have one.
-3. Select Punjabi (`pa`) on the project page.
-4. After a coordinator approves your request, pick a resource and follow [Transifex_Setup.md](Transifex_Setup.md).
-5. A reviewer approves your translations, and the daily sync brings them to this repository. You don't need to open a pull request for translations.
+1. Open the [Python Documentation project](https://explore.transifex.com/python-doc/python-newest/) on Transifex and click "Join this project". You need a Transifex account, so create one if you don't have it yet.
+2. Choose Punjabi (`pa`) on the project page. A coordinator will approve your request.
+3. Pick a resource and start translating. [Transifex_Setup.md](Transifex_Setup.md) explains the steps.
+4. A reviewer checks your translation. Once it's approved, it reaches this repository by itself, so you don't need a pull request.
 
-## How does it work?
+## How it works
 
-Translations are written and reviewed in Transifex. A GitHub Actions workflow pulls the **reviewed** translations into this repository every day, into the `3.13`, `3.14` and `3.15` branches. Strings that are translated but not yet reviewed stay in Transifex until they are reviewed, so they are not in the repository yet.
+We translate and review in Transifex. Every day a GitHub Actions workflow copies the reviewed translations into the `3.13`, `3.14` and `3.15` branches of this repository. Strings that are translated but not yet reviewed stay in Transifex.
 
-Every push and pull request runs `msgfmt --check` on all `.po` files. The Python documentation build uses this repository to publish the Punjabi site.
+Each push and pull request runs `msgfmt --check` on all `.po` files. The Python documentation build then uses this repository to publish the Punjabi site.
 
-## Guides
+## Other files
 
-| File | Contents |
-|------|----------|
-| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute, validate and submit changes |
+| File | What's in it |
+|------|--------------|
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
 | [Transifex_Setup.md](Transifex_Setup.md) | First steps in Transifex |
-| [STYLE_GUIDE.md](STYLE_GUIDE.md) | Translation style and conventions |
-| [RULES.md](RULES.md) | Detailed rules for markup, placeholders and `.po` files |
-| [GLOSSARY.md](GLOSSARY.md) | Preferred Punjabi terminology |
+| [STYLE_GUIDE.md](STYLE_GUIDE.md) | Language and style of the translation |
+| [RULES.md](RULES.md) | Rules for code, markup and `.po` files |
+| [GLOSSARY.md](GLOSSARY.md) | The agreed Punjabi technical terms |
 
 ## Coordinators
 
